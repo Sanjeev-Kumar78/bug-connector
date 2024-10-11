@@ -8932,6 +8932,15 @@ V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-22060
 CVE-2024-22061|A Heap Overflow vulnerability in WLInfoRailService component of Ivanti Avalanche before 6.4.3 allows a remote unauthenticated attacker to execute arbitrary commands |April 18, 2024; 10:15:06 PM -0400|"V3.x:(not available) 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-22061
+CVE-2024-22068|Improper Privilege Management vulnerability in ZTE ZXR10 1800-2S series ,ZXR10 2800-4,ZXR10 3800-8,ZXR10 160 series on 64 bit allows Functionality Bypass.This issue affects ZXR10 1800-2S series ,ZXR10 2800-4,ZXR10 3800-8,ZXR10 160 series: V4.00.10 and earlier.|October 10, 2024; 5:15:03 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-22068
 CVE-2024-22069|There is a permission and access control vulnerability of ZTE's ZXV10 XT802/ET301 product.Attackers with common permissions can log in the terminal web and change the password of the administrator illegally by intercepting requests to change the passwords.|August 08, 2024; 4:15:05 AM -0400|"V4.0:(not available)
 
 
@@ -39280,6 +39289,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-35200
+CVE-2024-35202|Bitcoin Core before 25.0 allows remote attackers to cause a denial of service (blocktxn message-handling assertion and node exit) by including transactions in a blocktxn message that are not committed to in a block's merkle root. FillBlock can be called twice for one PartiallyDownloadedBlock instance.|October 10, 2024; 9:15:14 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-35202
 CVE-2024-3521|A vulnerability was found in Byzoro Smart S80 Management Platform up to 20240317. It has been rated as critical. Affected by this issue is some unknown functionality of the file /useratte/userattestation.php. The manipulation of the argument web_img leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-259892. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.|April 09, 2024; 7:15:25 PM -0400|"V3.x:(not available) 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-3521
@@ -43949,6 +43967,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-36050
+CVE-2024-36051|In btcd before 0.24.2, removeOpcodeByData mishandles the consensus rules for legacy signature verification. There can be a standard transaction that would be considered valid by Bitcoin Core but invalid by btcd.|October 10, 2024; 9:15:14 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-36051
 CVE-2024-36052|RARLAB WinRAR before 7.00, on Windows, allows attackers to spoof the screen output via ANSI escape sequences, a different issue than CVE-2024-33899.|May 21, 2024; 1:15:09 PM -0400|"V4.0:(not available)
 
 
@@ -83906,6 +83933,224 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45113&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45113
+CVE-2024-45115|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Authentication vulnerability that could result in privilege escalation. An attacker could exploit this vulnerability to gain unauthorized access or elevated privileges within the application. Exploitation of this issue does not require user interaction.|October 10, 2024; 6:15:03 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+9.8 CRITICAL
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45115&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45115
+CVE-2024-45116|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by a Cross-Site Scripting (XSS) vulnerability that could be exploited to execute arbitrary code. If an admin attacker can trick a user into clicking a specially crafted link or submitting a form, malicious scripts may be executed within the context of the victim's browser and have high impact on confidentiality and integrity. Exploitation of this issue requires user interaction.|October 10, 2024; 6:15:03 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45116&vector=AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45116
+CVE-2024-45117|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Input Validation vulnerability that could lead to arbitrary file system read. An admin attacker could exploit this vulnerability to read files from the system outside of the intended directories via PHP filter chain and also can have a low-availability impact on the service. Exploitation of this issue does not require user interaction and scope is changed.|October 10, 2024; 6:15:04 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+7.6 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45117&vector=AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:L&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45117
+CVE-2024-45118|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measures and have high impact on integrity. Exploitation of this issue does not require user interaction.|October 10, 2024; 6:15:04 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.5 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45118&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45118
+CVE-2024-45119|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by a Server-Side Request Forgery (SSRF) vulnerability that could lead to arbitrary file system read. A low-privilege authenticated attacker can force the application to make arbitrary requests via injection of arbitrary URLs and have a low impact on both confidentiality and integrity. Exploitation of this issue does not require user interaction and scope is changed.|October 10, 2024; 6:15:04 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.4 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45119&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=NIST)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45119
+CVE-2024-45120|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by a Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability that could lead to a security feature bypass. An attacker could exploit this vulnerability to alter a condition between the check and the use of a resource, having a low impact on integrity. Exploitation of this issue requires user interaction.|October 10, 2024; 6:15:04 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+3.1 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45120&vector=AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N&version=3.1&source=NIST)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45120
+CVE-2024-45121|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measures and have a low impact on integrity. Exploitation of this issue does not require user interaction.|October 10, 2024; 6:15:04 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45121&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=NIST)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45121
+CVE-2024-45122|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measures and have a low impact on confidentiality. Exploitation of this issue does not require user interaction.|October 10, 2024; 6:15:05 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45122&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45122
+CVE-2024-45123|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by a reflected Cross-Site Scripting (XSS) vulnerability. If an attacker is able to convince a victim to visit a URL referencing a vulnerable page, malicious JavaScript content may be executed within the context of the victim's browser.|October 10, 2024; 6:15:05 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.1 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45123&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45123
+CVE-2024-45124|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. An attacker could leverage this vulnerability to bypass security measures and have a low impact on integrity. Exploitation of this issue does not require user interaction.|October 10, 2024; 6:15:05 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+5.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45124&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45124
+CVE-2024-45125|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Incorrect Authorization vulnerability that could result in a security feature bypass. A low-privileged attacker could exploit this vulnerability to have a low impact on integrity. Exploitation of this issue does not require user interaction.|October 10, 2024; 6:15:05 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45125&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45125
+CVE-2024-45127|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an admin attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim’s browser when they browse to the page containing the vulnerable field.|October 10, 2024; 6:15:06 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.8 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45127&vector=AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45127
+CVE-2024-45128|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Authorization vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measures and have a low impact on integrity and availability. Exploitation of this issue does not require user interaction.|October 10, 2024; 6:15:06 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+5.4 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45128&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45128
+CVE-2024-45129|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Access Control vulnerability that could result in Privilege escalation. A low-privileged attacker could leverage this vulnerability to bypass security measures and have a low impact on integrity. Exploitation of this issue does not require user interaction.|October 10, 2024; 6:15:06 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45129&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45129
+CVE-2024-45130|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measures and have a low impact on integrity. Exploitation of this issue does not require user interaction.|October 10, 2024; 6:15:06 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45130&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45130
+CVE-2024-45131|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Authorization vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measures and have a low impact on confidentiality and integrity. Exploitation of this issue does not require user interaction.|October 10, 2024; 6:15:06 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+5.4 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45131&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45131
+CVE-2024-45132|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Authorization vulnerability that could result in Privilege escalation. A low-privileged attacker could leverage this vulnerability to bypass security measures and affect confidentiality. Exploitation of this issue does not require user interaction.|October 10, 2024; 6:15:07 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45132
+CVE-2024-45133|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Information Exposure vulnerability that could result in a security feature bypass. An admin attacker could leverage this vulnerability to have a low impact on confidentiality which may aid in further attacks. Exploitation of this issue does not require user interaction.|October 10, 2024; 6:15:07 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+2.7 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45133&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45133
+CVE-2024-45134|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Information Exposure vulnerability that could result in a security feature bypass. An admin attacker could leverage this vulnerability to have a low impact on confidentiality which may aid in further attacks. Exploitation of this issue does not require user interaction.|October 10, 2024; 6:15:07 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+2.7 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45134&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45134
+CVE-2024-45135|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. An admin attacker could leverage this vulnerability to bypass security measures and have a low impact on integrity. Exploitation of this issue does not require user interaction.|October 10, 2024; 6:15:07 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+2.7 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45135&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45135
 CVE-2024-45136|InCopy versions 19.4, 18.5.3 and earlier are affected by an Unrestricted Upload of File with Dangerous Type vulnerability that could result in arbitrary code execution by an attacker. An attacker could exploit this vulnerability by uploading a malicious file which can then be executed on the server. Exploitation of this issue requires user interaction.|October 09, 2024; 11:15:13 AM -0400|"V4.0:(not available)
 
 
@@ -84025,6 +84270,28 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45146&vector=AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45146
+CVE-2024-45148|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Authentication vulnerability that could result in a security feature bypass. A low-privileged attacker could leverage this vulnerability to gain unauthorized access without proper credentials. Exploitation of this issue does not require user interaction.|October 10, 2024; 6:15:07 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.8 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45148&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45148
+CVE-2024-45149|Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measures and have a low impact on confidentiality. Exploitation of this issue does not require user interaction.|October 10, 2024; 6:15:08 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+2.7 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45149&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45149
 CVE-2024-45150|Dimension versions 4.0.3 and earlier are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.|October 09, 2024; 5:15:06 AM -0400|"V4.0:(not available)
 
 
@@ -87813,6 +88080,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-46571
+CVE-2024-4658|SQL Injection: Hibernate vulnerability in TE Informatics Nova CMS allows SQL Injection.This issue affects Nova CMS: before 5.0.|October 10, 2024; 10:15:05 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-4658
 CVE-2024-46580|Draytek Vigor 3910 v4.3.2.6 was discovered to contain a buffer overflow in the fid parameter at v2x00.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted input.|September 18, 2024; 11:15:17 AM -0400|"V4.0:(not available)
 
 
@@ -89437,6 +89713,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47083
+CVE-2024-47084|Gradio is an open-source Python package designed for quick prototyping. This vulnerability is related to **CORS origin validation**, where the Gradio server fails to validate the request origin when a cookie is present. This allows an attacker’s website to make unauthorized requests to a local Gradio server. Potentially, attackers can upload files, steal authentication tokens, and access user data if the victim visits a malicious website while logged into Gradio. This impacts users who have deployed Gradio locally and use basic authentication. Users are advised to upgrade to `gradio>4.44` to address this issue. As a workaround, users can manually enforce stricter CORS origin validation by modifying the `CustomCORSMiddleware` class in their local Gradio server code. Specifically, they can bypass the condition that skips CORS validation for requests containing cookies to prevent potential exploitation.|October 10, 2024; 6:15:10 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47084
 CVE-2024-47085|This vulnerability exists in Apex Softcell LD DP Back Office due to improper validation of certain parameters “cCdslClicentcode” and “cLdClientCode” in the API endpoint. An authenticated remote attacker could exploit this vulnerability by manipulating parameters in the API request body leading to exposure of sensitive information belonging to other users.|September 19, 2024; 2:15:02 AM -0400|"V4.0:(not available)
 
 
@@ -89659,6 +89944,51 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47162
+CVE-2024-47164|Gradio is an open-source Python package designed for quick prototyping. This vulnerability relates to the **bypass of directory traversal checks** within the `is_in_or_equal` function. This function, intended to check if a file resides within a given directory, can be bypassed with certain payloads that manipulate file paths using `..` (parent directory) sequences. Attackers could potentially access restricted files if they are able to exploit this flaw, although the difficulty is high. This primarily impacts users relying on Gradio’s blocklist or directory access validation, particularly when handling file uploads. Users are advised to upgrade to `gradio>=5.0` to address this issue. As a workaround, users can manually sanitize and normalize file paths in their Gradio deployment before passing them to the `is_in_or_equal` function. Ensuring that all file paths are properly resolved and absolute can help mitigate the bypass vulnerabilities caused by the improper handling of `..` sequences or malformed paths.|October 10, 2024; 6:15:10 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47164
+CVE-2024-47165|"Gradio is an open-source Python package designed for quick prototyping. This vulnerability relates to **CORS origin validation accepting a null origin**. When a Gradio server is deployed locally, the `localhost_aliases` variable includes ""null"" as a valid origin. This allows attackers to make unauthorized requests from sandboxed iframes or other sources with a null origin, potentially leading to data theft, such as user authentication tokens or uploaded files. This impacts users running Gradio locally, especially those using basic authentication. Users are advised to upgrade to `gradio>=5.0` to address this issue. As a workaround, users can manually modify the `localhost_aliases` list in their local Gradio deployment to exclude ""null"" as a valid origin. By removing this value, the Gradio server will no longer accept requests from sandboxed iframes or sources with a null origin, mitigating the potential for exploitation."|October 10, 2024; 6:15:10 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47165
+CVE-2024-47166|Gradio is an open-source Python package designed for quick prototyping. This vulnerability involves a **one-level read path traversal** in the `/custom_component` endpoint. Attackers can exploit this flaw to access and leak source code from custom Gradio components by manipulating the file path in the request. Although the traversal is limited to a single directory level, it could expose proprietary or sensitive code that developers intended to keep private. This impacts users who have developed custom Gradio components and are hosting them on publicly accessible servers. Users are advised to upgrade to `gradio>=4.44` to address this issue. As a workaround, developers can sanitize the file paths and ensure that components are not stored in publicly accessible directories.|October 10, 2024; 6:15:10 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47166
+CVE-2024-47167|Gradio is an open-source Python package designed for quick prototyping. This vulnerability relates to **Server-Side Request Forgery (SSRF)** in the `/queue/join` endpoint. Gradio’s `async_save_url_to_cache` function allows attackers to force the Gradio server to send HTTP requests to user-controlled URLs. This could enable attackers to target internal servers or services within a local network and possibly exfiltrate data or cause unwanted internal requests. Additionally, the content from these URLs is stored locally, making it easier for attackers to upload potentially malicious files to the server. This impacts users deploying Gradio servers that use components like the Video component which involve URL fetching. Users are advised to upgrade to `gradio>=5` to address this issue.  As a workaround, users can disable or heavily restrict URL-based inputs in their Gradio applications to trusted domains only. Additionally, implementing stricter URL validation (such as allowinglist-based validation) and ensuring that local or internal network addresses cannot be requested via the `/queue/join` endpoint can help mitigate the risk of SSRF attacks.|October 10, 2024; 6:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47167
+CVE-2024-47168|Gradio is an open-source Python package designed for quick prototyping. This vulnerability involves data exposure due to the enable_monitoring flag not properly disabling monitoring when set to False. Even when monitoring is supposedly disabled, an attacker or unauthorized user can still access the monitoring dashboard by directly requesting the /monitoring endpoint. This means that sensitive application analytics may still be exposed, particularly in environments where monitoring is expected to be disabled. Users who set enable_monitoring=False to prevent unauthorized access to monitoring data are impacted. Users are advised to upgrade to gradio>=4.44 to address this issue. There are no known workarounds for this vulnerability.|October 10, 2024; 6:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47168
 CVE-2024-47169|Agnai is an artificial-intelligence-agnostic multi-user, mult-bot roleplaying chat system. A vulnerability in versions prior to 1.0.330 permits attackers to upload arbitrary files to attacker-chosen locations on the server, including JavaScript, enabling the execution of commands within those files. This issue could result in unauthorized access, full server compromise, data leakage, and other critical security threats. This does not affect `agnai.chat`, installations using S3-compatible storage, or self-hosting that is not publicly exposed. This does affect publicly hosted installs without S3-compatible storage. Version 1.0.330 fixes this vulnerability.|September 26, 2024; 2:15:10 PM -0400|"V4.0:(not available)
 
 
@@ -90291,6 +90621,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47352
+CVE-2024-47354|URL Redirection to Untrusted Site ('Open Redirect') vulnerability in smp7, wp.Insider Simple Membership After Login Redirection.This issue affects Simple Membership After Login Redirection: from n/a through 1.6.|October 10, 2024; 3:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47354
 CVE-2024-47355|Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in CozyThemes Cozy Blocks allows Stored XSS.This issue affects Cozy Blocks: from n/a through 2.0.11.|October 06, 2024; 7:15:14 AM -0400|"V4.0:(not available)
 
 
@@ -91317,6 +91656,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47635
+CVE-2024-47636|Deserialization of Untrusted Data vulnerability in Eyecix JobSearch allows Object Injection.This issue affects JobSearch: from n/a through 2.5.9.|October 10, 2024; 2:15:07 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47636
 CVE-2024-47638|Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in vCita Online Booking & Scheduling Calendar for WordPress by vcita allows Reflected XSS.This issue affects Online Booking & Scheduling Calendar for WordPress by vcita: from n/a through 4.4.6.|October 05, 2024; 9:15:15 AM -0400|"V4.0:(not available)
 
 
@@ -91398,6 +91746,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47647
+CVE-2024-47648|URL Redirection to Untrusted Site ('Open Redirect') vulnerability in EventPrime Events EventPrime.This issue affects EventPrime: from n/a through 4.0.4.5.|October 10, 2024; 3:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47648
 CVE-2024-4765|Web application manifests were stored by using an insecure MD5 hash which allowed for a hash collision to overwrite another application's manifest. This could have been exploited to run arbitrary code in another application's context. *This issue only affects Firefox for Android. Other versions of Firefox are unaffected.* This vulnerability affects Firefox < 126.|May 14, 2024; 2:15:13 PM -0400|"V4.0:(not available)
 
 
@@ -92173,6 +92530,60 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-4786&vector=AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L&version=3.1&source=Lenovo%20Group%20Ltd.)"|https://nvd.nist.gov/vuln/detail/CVE-2024-4786
+CVE-2024-47867|Gradio is an open-source Python package designed for quick prototyping. This vulnerability is a **lack of integrity check** on the downloaded FRP client, which could potentially allow attackers to introduce malicious code. If an attacker gains access to the remote URL from which the FRP client is downloaded, they could modify the binary without detection, as the Gradio server does not verify the file's checksum or signature.  Any users utilizing the Gradio server's sharing mechanism that downloads the FRP client could be affected by this vulnerability, especially those relying on the executable binary for secure data tunneling. There is no direct workaround for this issue without upgrading. However, users can manually validate the integrity of the downloaded FRP client by implementing checksum or signature verification in their own environment to ensure the binary hasn't been tampered with.|October 10, 2024; 7:15:02 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47867
+CVE-2024-47868|Gradio is an open-source Python package designed for quick prototyping. This is a **data validation vulnerability** affecting several Gradio components, which allows arbitrary file leaks through the post-processing step. Attackers can exploit these components by crafting requests that bypass expected input constraints. This issue could lead to sensitive files being exposed to unauthorized users, especially when combined with other vulnerabilities, such as issue TOB-GRADIO-15. The components most at risk are those that return or handle file data. Vulnerable Components: 1. **String to FileData:** DownloadButton, Audio, ImageEditor, Video, Model3D, File, UploadButton. 2. **Complex data to FileData:** Chatbot, MultimodalTextbox. 3. **Direct file read in preprocess:** Code. 4. **Dictionary converted to FileData:** ParamViewer, Dataset. Exploit Scenarios: 1. A developer creates a Dropdown list that passes values to a DownloadButton. An attacker bypasses the allowed inputs, sends an arbitrary file path (like `/etc/passwd`), and downloads sensitive files. 2. An attacker crafts a malicious payload in a ParamViewer component, leaking sensitive files from a server through the arbitrary file leak. This issue has been resolved in `gradio>5.0`. Upgrading to the latest version will mitigate this vulnerability. There are no known workarounds for this vulnerability.|October 10, 2024; 7:15:02 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47868
+CVE-2024-47869|Gradio is an open-source Python package designed for quick prototyping. This vulnerability involves a **timing attack** in the way Gradio compares hashes for the `analytics_dashboard` function. Since the comparison is not done in constant time, an attacker could exploit this by measuring the response time of different requests to infer the correct hash byte-by-byte. This can lead to unauthorized access to the analytics dashboard, especially if the attacker can repeatedly query the system with different keys. Users are advised to upgrade to `gradio>4.44` to mitigate this issue. To mitigate the risk before applying the patch, developers can manually patch the `analytics_dashboard` dashboard to use a **constant-time comparison** function for comparing sensitive values, such as hashes. Alternatively, access to the analytics dashboard can be disabled.|October 10, 2024; 7:15:02 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47869
+CVE-2024-47870|Gradio is an open-source Python package designed for quick prototyping. This vulnerability involves a **race condition** in the `update_root_in_config` function, allowing an attacker to modify the `root` URL used by the Gradio frontend to communicate with the backend. By exploiting this flaw, an attacker can redirect user traffic to a malicious server. This could lead to the interception of sensitive data such as authentication credentials or uploaded files. This impacts all users who connect to a Gradio server, especially those exposed to the internet, where malicious actors could exploit this race condition. Users are advised to upgrade to `gradio>=5` to address this issue. There are no known workarounds for this issue.|October 10, 2024; 7:15:03 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47870
+CVE-2024-47871|Gradio is an open-source Python package designed for quick prototyping. This vulnerability involves **insecure communication** between the FRP (Fast Reverse Proxy) client and server when Gradio's `share=True` option is used. HTTPS is not enforced on the connection, allowing attackers to intercept and read files uploaded to the Gradio server, as well as modify responses or data sent between the client and server. This impacts users who are sharing Gradio demos publicly over the internet using `share=True` without proper encryption, exposing sensitive data to potential eavesdroppers. Users are advised to upgrade to `gradio>=5` to address this issue. As a workaround, users can avoid using `share=True` in production environments and instead host their Gradio applications on servers with HTTPS enabled to ensure secure communication.|October 10, 2024; 7:15:03 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47871
+CVE-2024-47872|Gradio is an open-source Python package designed for quick prototyping. This vulnerability involves **Cross-Site Scripting (XSS)** on any Gradio server that allows file uploads. Authenticated users can upload files such as HTML, JavaScript, or SVG files containing malicious scripts. When other users download or view these files, the scripts will execute in their browser, allowing attackers to perform unauthorized actions or steal sensitive information from their sessions. This impacts any Gradio server that allows file uploads, particularly those using components that process or display user-uploaded files. Users are advised to upgrade to `gradio>=5` to address this issue. As a workaround, users can restrict the types of files that can be uploaded to the Gradio server by limiting uploads to non-executable file types such as images or text. Additionally, developers can implement server-side validation to sanitize uploaded files, ensuring that HTML, JavaScript, and SVG files are properly handled or rejected before being stored or displayed to users.|October 10, 2024; 7:15:03 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47872
 CVE-2024-47910|An issue was discovered in SonarSource SonarQube before 9.9.5 LTA and 10.x before 10.5. A SonarQube user with the Administrator role can modify an existing configuration of a GitHub integration to exfiltrate a pre-signed JWT.|October 04, 2024; 5:15:13 PM -0400|"V4.0:(not available)
 
 
@@ -92200,6 +92611,51 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47913
+CVE-2024-47962|Delta Electronics CNCSoft-G2 lacks proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can manipulate an insider to visit a malicious page or file to leverage this vulnerability to execute code in the context of the current process.|October 10, 2024; 2:15:08 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47962
+CVE-2024-47963|Delta Electronics CNCSoft-G2 lacks proper validation of user-supplied data, which can result in a write past the end of an allocated object. An attacker can manipulate users to visit a malicious page or file to leverage this vulnerability to execute code in the context of the current process.|October 10, 2024; 2:15:08 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47963
+CVE-2024-47964|Delta Electronics CNCSoft-G2 lacks proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can manipulate users to visit a malicious page or file to leverage this vulnerability to execute code in the context of the current process.|October 10, 2024; 2:15:08 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47964
+CVE-2024-47965|Delta Electronics CNCSoft-G2 lacks proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can manipulate users to visit a malicious page or file to leverage this vulnerability to execute code in the context of the current process.|October 10, 2024; 2:15:08 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47965
+CVE-2024-47966|Delta Electronics CNCSoft-G2 lacks proper initialization of memory prior to accessing it. An attacker can manipulate users to visit a malicious page or file to leverage this vulnerability to execute code in the context of the current process.|October 10, 2024; 2:15:08 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47966
 CVE-2024-47967|Improper resource initialization handling in firmware of some Solidigm DC Products may allow an attacker to potentially enable denial of service.|October 07, 2024; 5:15:18 PM -0400|"V4.0:(not available)
 
 
@@ -92567,6 +93023,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-4890
+CVE-2024-48902|In JetBrains YouTrack before 2024.3.46677 improper access control allowed users with project update permission to delete applications via API|October 10, 2024; 7:15:13 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48902
 CVE-2024-4891|The Essential Blocks – Page Builder Gutenberg Blocks, Patterns & Templates plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘tagName’ parameter in versions up to, and including, 4.5.12 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|May 18, 2024; 1:15:46 AM -0400|"V4.0:(not available)
 
 
@@ -92614,6 +93079,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48942
+CVE-2024-48949|"The verify function in lib/elliptic/eddsa/index.js in the Elliptic package before 6.5.6 for Node.js omits ""sig.S().gte(sig.eddsa.curve.n) || sig.S().isNeg()"" validation."|October 09, 2024; 9:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48949
 CVE-2024-4895|The wpDataTables – WordPress Data Table, Dynamic Tables & Table Charts Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the CSV import functionality in all versions up to, and including, 3.4.2.12 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|May 22, 2024; 11:15:08 PM -0400|"V4.0:(not available)
 
 
@@ -92625,6 +93099,24 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-4895&vector=AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-4895
+CVE-2024-48957|execute_filter_audio in archive_read_support_format_rar.c in libarchive before 3.7.5 allows out-of-bounds access via a crafted archive file because src can move beyond dst.|October 09, 2024; 10:15:02 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48957
+CVE-2024-48958|execute_filter_delta in archive_read_support_format_rar.c in libarchive before 3.7.5 allows out-of-bounds access via a crafted archive file because src can move beyond dst.|October 09, 2024; 10:15:03 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48958
 CVE-2024-4896|The WPB Elementor Addons plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘url’ parameter in all versions up to, and including, 1.0.9 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|May 22, 2024; 5:15:12 AM -0400|"V4.0:(not available)
 
 
@@ -100645,6 +101137,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-6154
+CVE-2024-6157|An attacker who successfully exploited these vulnerabilities could cause the robot to stop.A vulnerability exists in the PROFINET stack included in the RobotWare versions listed below. This vulnerability arises under specific condition when specially crafted message is processed by the system.Below are reported vulnerabilities in the Robot Ware versions. * IRC5- RobotWare 6 < 6.15.06 except 6.10.10, and 6.13.07|October 10, 2024; 9:15:14 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-6157
 CVE-2024-6160|SQL Injection vulnerability in MegaBIP software allows attacker to disclose the contents of the database, obtain session cookies or modify the content of pages. This issue affects MegaBIP software versions through 5.12.1.|June 24, 2024; 6:15:10 AM -0400|"V4.0:(not available)
 
 
@@ -102978,6 +103479,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-6529
+CVE-2024-6530|A cross-site scripting issue has been discovered in GitLab affecting all versions starting from 17.1 prior 17.2.9, starting from 17.3 prior to 17.3.5, and starting from 17.4 prior to 17.4.2. When adding a authorizing an application, it can be made to render as HTML under specific circumstances.|October 10, 2024; 8:15:04 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-6530
 CVE-2024-6531|A vulnerability has been identified in Bootstrap that exposes users to Cross-Site Scripting (XSS) attacks. The issue is present in the carousel component, where the data-slide and data-slide-to attributes can be exploited through the href attribute of an <a> tag due to inadequate sanitization. This vulnerability could potentially enable attackers to execute arbitrary JavaScript within the victim's browser.|July 11, 2024; 2:15:06 PM -0400|"V4.0:(not available)
 
 
@@ -104228,6 +104738,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-6746
+CVE-2024-6747|Information leakage in mknotifyd in Checkmk before 2.3.0p18, 2.2.0p36, 2.1.0p49 and in 2.0.0p39 (EOL) allows attacker to get potentially sensitive data|October 10, 2024; 4:15:03 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-6747
 CVE-2024-6748|Zohocorp ManageEngine OpManager, OpManager Plus, OpManager MSP and RMM versions 128317 and below are vulnerable to authenticated SQL injection in the URL monitoring.|July 29, 2024; 1:15:11 PM -0400|"V4.0:(not available)
 
 
@@ -105961,6 +106480,24 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-7047
+CVE-2024-7048|In version v0.3.8 of open-webui, an improper privilege management vulnerability exists in the API endpoints GET /api/v1/documents/ and POST /rag/api/v1/doc. This vulnerability allows a lower-privileged user to access and overwrite files managed by a higher-privileged admin. By exploiting this vulnerability, an attacker can view metadata of files uploaded by an admin and overwrite these files, compromising the integrity and availability of the RAG models.|October 09, 2024; 10:15:03 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-7048
+CVE-2024-7049|In version v0.3.8 of open-webui/open-webui, a vulnerability exists where a token is returned when a user with a pending role logs in. This allows the user to perform actions without admin confirmation, bypassing the intended approval process.|October 10, 2024; 4:15:03 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-7049
 CVE-2024-7050|Improper Authentication vulnerability in OpenText OpenText Directory Services may allow Multi-factor Authentication Bypass in particular scenarios.This issue affects OpenText Directory Services: 24.2.|July 26, 2024; 12:15:03 PM -0400|"V4.0:(not available)
 
 
@@ -114217,6 +114754,17 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-8476&vector=AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-8476
+CVE-2024-8477|The Newsletter, SMTP, Email marketing and Subscribe forms by Brevo (formely Sendinblue) plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 3.1.87. This is due to missing or incorrect nonce validation on the Init() function. This makes it possible for unauthenticated attackers to log out of a Brevo connection via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.|October 09, 2024; 11:15:02 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-8477&vector=AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-8477
 CVE-2024-8479|The The Simple Spoiler plugin for WordPress is vulnerable to arbitrary shortcode execution in versions 1.2 to 1.3. This is due to the plugin adding the filter add_filter('comment_text', 'do_shortcode'); which will run all shortcodes in comments. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.|September 14, 2024; 12:15:04 AM -0400|"V4.0:(not available)
 
 
@@ -114370,6 +114918,17 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-8509
+CVE-2024-8513|The QA Analytics – Web Analytics Tool with Heatmaps & Session Replay Across All Pages plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the ajax_save_plugin_config() function in all versions up to, and including, 4.1.0.0. This makes it possible for unauthenticated attackers to update the plugin's settings.|October 09, 2024; 10:15:03 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+5.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-8513&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-8513
 CVE-2024-8514|The Prisna GWT – Google Website Translator plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 1.4.11 via deserialization of untrusted input from the 'prisna_import' parameter. This makes it possible for authenticated attackers, with Administrator-level access and above, to inject a PHP Object. No known POP chain is present in the vulnerable software. If a POP chain is present via an additional plugin or theme installed on the target system, it could allow the attacker to delete arbitrary files, retrieve sensitive data, or execute code.|September 25, 2024; 12:15:04 AM -0400|"V4.0:(not available)
 
 
@@ -115591,6 +116150,15 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-8728&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-8728
+CVE-2024-8729|The Easy Social Share Buttons plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 1.4.5. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.|October 09, 2024; 10:15:03 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-8729
 CVE-2024-8730|The Exit Notifier plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 1.9.1. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.|September 13, 2024; 11:15:17 AM -0400|"V4.0:(not available)
 
 
@@ -116465,6 +117033,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-8975
+CVE-2024-8977|An issue has been discovered in GitLab EE affecting all versions starting from 15.10 prior to 17.2.9, from 17.3 prior to 17.3.5, and from 17.4 prior to 17.4.2. Instances with Product Analytics Dashboard configured and enabled could be vulnerable to SSRF attacks.|October 10, 2024; 6:15:08 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-8977
 CVE-2024-8981|The Broken Link Checker plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg in /app/admin-notices/features/class-view.php without appropriate escaping on the URL in all versions up to, and including, 2.4.0. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.|September 30, 2024; 11:15:02 PM -0400|"V4.0:(not available)
 
 
@@ -116485,6 +117062,17 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-8986
+CVE-2024-8987|The Youzify – BuddyPress Community, User Profile, Social Network & Membership Plugin for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's youzify_media shortcode in all versions up to, and including, 1.3.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|October 09, 2024; 10:15:03 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.4 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-8987&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-8987
 CVE-2024-8989|The Free Responsive Testimonials, Social Proof Reviews, and Customer Reviews – Stars Testimonials plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's stars_testimonials shortcode in all versions up to, and including, 3.3.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|October 01, 2024; 4:15:04 AM -0400|"V4.0:(not available)
 
 
@@ -116606,6 +117194,17 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9018&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9018
+CVE-2024-9022|The TS Poll – Survey, Versus Poll, Image Poll, Video Poll plugin for WordPress is vulnerable to SQL Injection via the ‘orderby’ parameter in all versions up to, and including, 2.3.9 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.|October 09, 2024; 11:15:02 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+7.2 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9022&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9022
 CVE-2024-9023|The WP-WebAuthn plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's wwa_login_form shortcode in all versions up to, and including, 1.3.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|September 27, 2024; 10:15:10 PM -0400|"V4.0:(not available)
 
 
@@ -116800,6 +117399,17 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9054
+CVE-2024-9057|The Curator.io: Show all your social media posts in a beautiful feed. plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘feed_id’ attribute in all versions up to, and including, 1.9 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|October 09, 2024; 10:15:03 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.4 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9057&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9057
 CVE-2024-9060|The AVIF & SVG Uploader plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in version 1.1.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.|October 01, 2024; 6:15:03 AM -0400|"V4.0:(not available)
 
 
@@ -116811,6 +117421,50 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9060&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9060
+CVE-2024-9064|The Elementor Inline SVG plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.2.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.|October 09, 2024; 10:15:04 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.4 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9064&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9064
+CVE-2024-9065|The WP Helper Premium plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'whp_smtp_send_mail_test' function in all versions up to, and including, 4.6.1. This makes it possible for unauthenticated attackers to send emails containing any content and originating from the vulnerable WordPress instance to any recipient.|October 09, 2024; 10:15:04 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+5.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9065&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9065
+CVE-2024-9066|The Marketing and SEO Booster plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.9.10 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.|October 09, 2024; 10:15:04 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.4 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9066&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9066
+CVE-2024-9067|The Youzify – BuddyPress Community, User Profile, Social Network & Membership Plugin for WordPress plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'delete_attachment' function in all versions up to, and including, 1.3.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to delete arbitrary attachments.|October 09, 2024; 11:15:02 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9067&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9067
 CVE-2024-9068|The OneElements – Best Elementor Addons plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.3.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.|September 24, 2024; 11:15:06 PM -0400|"V4.0:(not available)
 
 
@@ -116842,6 +117496,17 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9071&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9071
+CVE-2024-9072|The GDPR-Extensions-com – Consent Manager plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.0.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.|October 09, 2024; 10:15:04 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.4 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9072&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9072
 CVE-2024-9073|The GutenGeek Free Gutenberg Blocks for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.1.3 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.|September 24, 2024; 11:15:07 PM -0400|"V4.0:(not available)
 
 
@@ -116853,6 +117518,17 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9073&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9073
+CVE-2024-9074|The Advanced Blocks Pro plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.0.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.|October 09, 2024; 11:15:02 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.4 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9074&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9074
 CVE-2024-9075|A vulnerability was found in Stirling-Tools Stirling-PDF up to 0.28.3. It has been declared as problematic. This vulnerability affects unknown code of the component Markdown-to-PDF. The manipulation leads to cross site scripting. The attack can be initiated remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The vendor was contacted early about this disclosure but did not respond in any way.|September 21, 2024; 7:15:14 PM -0400|"V4.0:(not available)
 
 
@@ -117216,6 +117892,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9155
+CVE-2024-9156|The TI WooCommerce Wishlist WordPress plugin through 2.8.2 is vulnerable to SQL Injection due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.|October 10, 2024; 2:15:11 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9156
 CVE-2024-9158|A stored cross site scripting vulnerability exists in Nessus Network Monitor where an authenticated, privileged local attacker could inject arbitrary code into the NNM UI via the local CLI.|September 30, 2024; 1:15:05 PM -0400|"V4.0:(not available)
 
 
@@ -117305,6 +117990,15 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9177&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9177
+CVE-2024-9180|A privileged Vault operator with write permissions to the root namespace’s identity endpoint could escalate their privileges to Vault’s root policy. Fixed in Vault Community Edition 1.18.0 and Vault Enterprise 1.18.0, 1.17.7, 1.16.11, and 1.15.16.|October 10, 2024; 5:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9180
 CVE-2024-9189|The EU/UK VAT Manager for WooCommerce plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the alg_wc_eu_vat_exempt_vat_from_admin() function in all versions up to, and including, 2.12.12. This makes it possible for unauthenticated attackers to update the VAT status for any order.|September 27, 2024; 10:15:10 PM -0400|"V4.0:(not available)
 
 
@@ -117343,6 +118037,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9199
+CVE-2024-9201|The SEUR plugin, in its versions prior to 2.5.11, is vulnerable to time-based SQL injection through the use of the ‘id_order’ parameter of the ‘/modules/seur/ajax/saveCodFee.php’ endpoint.|October 10, 2024; 7:15:13 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9201
 CVE-2024-9203|A vulnerability, which was classified as problematic, has been found in Enpass Password Manager up to 6.9.5 on Windows. This issue affects some unknown processing. The manipulation leads to cleartext storage of sensitive information in memory. An attack has to be approached locally. The complexity of an attack is rather high. The exploitation is known to be difficult. Upgrading to version 6.10.1 is able to address this issue. It is recommended to upgrade the affected component.|September 26, 2024; 1:15:04 PM -0400|"V4.0:(not available)
 
 
@@ -117363,6 +118066,17 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9204&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9204
+CVE-2024-9205|The Maximum Products per User for WooCommerce plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 4.2.8. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.|October 09, 2024; 10:15:04 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.1 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9205&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9205
 CVE-2024-9209|The WP Search Analytics plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 1.4.10. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.|October 01, 2024; 5:15:06 AM -0400|"V4.0:(not available)
 
 
@@ -117727,6 +118441,15 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9306&vector=AV:N/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9306
+CVE-2024-9312|Authd, through version 0.3.6, did not sufficiently randomize user IDs to prevent collisions. A local attacker who can register user names could spoof another user's ID and gain their privileges.|October 10, 2024; 10:15:05 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9312
 CVE-2024-9313|Authd PAM module before version 0.3.5 can allow broker-managed users to impersonate any other user managed by the same broker and perform any PAM operation with it, including authenticating as them.|October 03, 2024; 7:15:13 AM -0400|"V4.0:(not available)
 
 
@@ -118013,6 +118736,17 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9375&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9375
+CVE-2024-9377|The Products, Order & Customers Export for WooCommerce plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg & remove_query_arg without appropriate escaping on the URL in all versions up to, and including, 2.0.15. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.|October 09, 2024; 10:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.1 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9377&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9377
 CVE-2024-9378|The YML for Yandex Market plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'page' parameter in all versions up to, and including, 4.7.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.|October 02, 2024; 5:15:04 AM -0400|"V4.0:(not available)
 
 
@@ -118321,6 +119055,17 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9455&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9455
+CVE-2024-9457|The WP Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 3.0.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.|October 09, 2024; 10:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.4 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9457&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9457
 CVE-2024-9460|A vulnerability was found in Codezips Online Shopping Portal 1.0. It has been classified as critical. Affected is an unknown function of the file index.php. The manipulation of the argument username leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.|October 03, 2024; 11:15:15 AM -0400|"V4.0:(not available)
 
 
@@ -118456,6 +119201,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9484
+CVE-2024-9487|An improper verification of cryptographic signature vulnerability was identified in GitHub Enterprise Server that allowed SAML SSO authentication to be bypassed resulting in unauthorized provisioning of users and access to the instance. Exploitation required the encrypted assertions feature to be enabled, and the attacker would require direct network access as well as a signed SAML response or metadata document. This vulnerability affected all versions of GitHub Enterprise Server prior to 3.15 and was fixed in versions 3.11.16, 3.12.10, 3.13.5, and 3.14.2. This vulnerability was reported via the GitHub Bug Bounty program.|October 10, 2024; 6:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9487
 CVE-2024-9513|A vulnerability was found in Netadmin Software NetAdmin IAM up to 3.5 and classified as problematic. Affected by this issue is some unknown functionality of the file /controller/api/Answer/ReturnUserQuestionsFilled of the component HTTP POST Request Handler. The manipulation of the argument username leads to information exposure through discrepancy. The attack may be launched remotely. The complexity of an attack is rather high. The exploitation is known to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.|October 04, 2024; 9:15:13 AM -0400|"V4.0:(not available)
 
 
@@ -118483,6 +119237,50 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9515
+CVE-2024-9518|The UserPlus plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 2.0 due to insufficient restriction on the 'form_actions' and 'userplus_update_user_profile' functions. This makes it possible for unauthenticated attackers to specify their user role by supplying the 'role' parameter during a registration.|October 09, 2024; 10:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+9.8 CRITICAL
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9518&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9518
+CVE-2024-9519|The UserPlus plugin for WordPress is vulnerable to unauthorized modification of data due to an improper capability check on the 'save_metabox_form' function in versions up to, and including, 2.0. This makes it possible for authenticated attackers, with editor-level permissions or above, to update the registration form role to administrator, which leads to privilege escalation.|October 09, 2024; 10:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+7.2 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9519&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9519
+CVE-2024-9520|The UserPlus plugin for WordPress is vulnerable to unauthorized access, modification, and loss of data due to a missing capability check on multiple functions in all versions up to, and including, 2.0. This makes it possible for authenticated attackers with subscriber-level permissions or above, to add, modify, or delete user meta and plugin options.|October 09, 2024; 11:15:03 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9520&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9520
+CVE-2024-9522|The WP Users Masquerade plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.0.0. This is due to incorrect authentication and capability checking in the 'ajax_masq_login' function. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to log in as any existing user on the site, such as an administrator.|October 09, 2024; 10:15:06 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.8 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9522&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9522
 CVE-2024-9528|The Contact Form Plugin by Fluent Forms for Quiz, Survey, and Drag & Drop WP Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via form label fields in all versions up to, and including, 5.1.19 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with access to edit forms (administrator by default), to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|October 04, 2024; 11:15:02 PM -0400|"V4.0:(not available)
 
 
@@ -118791,6 +119589,26 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9576
+CVE-2024-9581|The Shortcodes AnyWhere plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 1.0.1. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.|October 09, 2024; 10:15:06 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+7.3 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9581&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9581
+CVE-2024-9596|An issue has been discovered in GitLab EE affecting all versions starting from 16.6 prior to 17.2.9, from 17.3 prior to 17.3.5, and from 17.4 prior to 17.4.2. It was possible for an unauthenticated attacker to determine the GitLab version number for a GitLab instance.|October 10, 2024; 6:15:08 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9596
 CVE-2024-9602|Type Confusion in V8 in Google Chrome prior to 129.0.6668.100 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: High)|October 08, 2024; 7:15:12 PM -0400|"V4.0:(not available)
 
 
@@ -118809,6 +119627,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9603
+CVE-2024-9623|An issue was discovered in GitLab CE/EE affecting all versions starting from 8.16 prior to 17.2.9, starting from 17.3 prior to 17.3.5, and starting from 17.4 prior to 17.4.2, which allows deploy keys to push to an archived repository.|October 10, 2024; 6:15:08 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9623
 CVE-2024-9671|A vulnerability was found in 3Scale. There is no auth mechanism to see a PDF invoice of a Developer user if the URL is known. Anyone can see the invoice if the URL is known or guessed.|October 09, 2024; 11:15:17 AM -0400|"V4.0:(not available)
 
 
@@ -118840,6 +119667,330 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9680
+CVE-2024-9685|The Notification for Telegram plugin for WordPress is vulnerable to unauthorized test message sending due to a missing capability check on the 'nftb_test_action' function in versions up to, and including, 3.3.1. This makes it possible for authenticated attackers, with subscriber-level access and above, to send a test message via the Telegram Bot API to all users configured in the settings.|October 09, 2024; 10:15:06 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9685
+CVE-2024-9780|ITS dissector crash in Wireshark 4.4.0 allows denial of service via packet injection or crafted capture file|October 10, 2024; 3:15:03 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9780
+CVE-2024-9781|AppleTalk and RELOAD Framing dissector crash in Wireshark 4.4.0 and 4.2.0 to 4.2.7 allows denial of service via packet injection or crafted capture file|October 10, 2024; 3:15:04 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9781
+CVE-2024-9782|A vulnerability was found in D-Link DIR-619L B1 2.06. It has been declared as critical. This vulnerability affects the function formEasySetupWWConfig of the file /goform/formEasySetupWWConfig. The manipulation of the argument curTime leads to buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 8:15:04 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9782
+CVE-2024-9783|A vulnerability was found in D-Link DIR-619L B1 2.06. It has been rated as critical. This issue affects the function formLogDnsquery of the file /goform/formLogDnsquery. The manipulation of the argument curTime leads to buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 8:15:05 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9783
+CVE-2024-9784|A vulnerability classified as critical has been found in D-Link DIR-619L B1 2.06. Affected is the function formResetStatistic of the file /goform/formResetStatistic. The manipulation of the argument curTime leads to buffer overflow. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 8:15:05 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9784
+CVE-2024-9785|A vulnerability classified as critical was found in D-Link DIR-619L B1 2.06. Affected by this vulnerability is the function formSetDDNS of the file /goform/formSetDDNS. The manipulation of the argument curTime leads to buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 9:15:14 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9785
+CVE-2024-9786|A vulnerability, which was classified as critical, has been found in D-Link DIR-619L B1 2.06. Affected by this issue is the function formSetLog of the file /goform/formSetLog. The manipulation of the argument curTime leads to buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 9:15:14 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9786
+CVE-2024-9787|A vulnerability, which was classified as problematic, was found in Contemporary Control System BASrouter BACnet BASRT-B 2.7.2. This affects an unknown part of the component UDP Packet Handler. The manipulation leads to denial of service. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.|October 10, 2024; 10:15:06 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9787
+CVE-2024-9788|A vulnerability has been found in LyLme_spage 1.9.5 and classified as critical. This vulnerability affects unknown code of the file /admin/tag.php. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.|October 10, 2024; 10:15:06 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9788
+CVE-2024-9789|A vulnerability was found in LyLme_spage 1.9.5 and classified as critical. This issue affects some unknown processing of the file /admin/apply.php. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.|October 10, 2024; 10:15:06 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9789
+CVE-2024-9790|A vulnerability was found in LyLme_spage 1.9.5. It has been classified as critical. Affected is an unknown function of the file /admin/sou.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.|October 10, 2024; 11:15:15 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9790
+CVE-2024-9792|A vulnerability classified as problematic has been found in D-Link DSL-2750U R5B017. This affects an unknown part of the component Port Forwarding Page. The manipulation of the argument PortMappingDescription leads to cross site scripting. It is possible to initiate the attack remotely.|October 10, 2024; 11:15:15 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9792
+CVE-2024-9793|A vulnerability classified as critical was found in Tenda AC1206 up to 15.03.06.23. This vulnerability affects the function ate_iwpriv_set/ate_ifconfig_set of the file /goform/ate. The manipulation leads to command injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.|October 10, 2024; 12:15:09 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9793
+CVE-2024-9794|A vulnerability, which was classified as critical, has been found in Codezips Online Shopping Portal 1.0. This issue affects some unknown processing of the file /update-image1.php. The manipulation of the argument productimage1 leads to unrestricted upload. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 12:15:09 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9794
+CVE-2024-9796|The WP-Advanced-Search WordPress plugin before 3.3.9.2 does not sanitize and escape the t parameter before using it in a SQL statement, allowing unauthenticated users to perform SQL injection attacks|October 10, 2024; 4:15:04 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9796
+CVE-2024-9797|A vulnerability, which was classified as critical, was found in code-projects Blood Bank System 1.0. Affected is an unknown function of the file register.php. The manipulation of the argument user leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 1:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9797
+CVE-2024-9798|The health endpoint is public so everybody can see a list of all services. It is potentially valuable information for attackers.|October 10, 2024; 4:15:04 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9798
+CVE-2024-9799|A vulnerability has been found in SourceCodester Profile Registration without Reload Refresh 1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file add.php. The manipulation of the argument email_address/address/company_name/job_title/jobDescriptionparameter leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 1:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9799
+CVE-2024-9802|The conformance validation endpoint is public so everybody can verify the conformance of onboarded services. The response could contain specific information about the service, including available endpoints, and swagger. It could advise about the running version of a service to an attacker. The attacker could also check if a service is running.|October 10, 2024; 4:15:04 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9802
+CVE-2024-9803|A vulnerability was found in code-projects Blood Bank Management System 1.0. It has been classified as problematic. This affects an unknown part of the file blooddetails.php. The manipulation of the argument Availibility leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.|October 10, 2024; 1:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9803
+CVE-2024-9804|A vulnerability was found in code-projects Blood Bank System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /admin/campsdetails.php. The manipulation of the argument hospital leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.|October 10, 2024; 2:15:09 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9804
+CVE-2024-9805|"A vulnerability was found in code-projects Blood Bank System 1.0. It has been rated as problematic. This issue affects some unknown processing of the file /admin/campsdetails.php. The manipulation of the argument hospital/address/city/contact leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory only mentions the parameter ""hospital""."|October 10, 2024; 2:15:09 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9805
+CVE-2024-9806|A vulnerability has been found in Craig Rodway Classroombookings up to 2.8.6 and classified as problematic. This vulnerability affects unknown code of the file /rooms/fields of the component Room Page. The manipulation of the argument Name leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 2.8.7 is able to address this issue. It is recommended to upgrade the affected component. The project maintainer was contacted early about the disclosure. He responded very quickly, friendly, and professional.|October 10, 2024; 3:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9806
+CVE-2024-9807|A vulnerability was found in Craig Rodway Classroombookings 2.8.7 and classified as problematic. This issue affects some unknown processing of the file /sessions of the component Session Page. The manipulation of the argument Name leads to cross site scripting. The attack may be initiated remotely. Upgrading to version 2.8.8 is able to address this issue. It is recommended to upgrade the affected component. The project maintainer was contacted early about the disclosure. He responded very quickly, friendly, and professional.|October 10, 2024; 3:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9807
+CVE-2024-9808|A vulnerability was found in SourceCodester Online Eyewear Shop 1.0. It has been classified as critical. Affected is an unknown function of the file /admin/?page=products/view_product. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 4:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9808
+CVE-2024-9809|A vulnerability was found in SourceCodester Online Eyewear Shop 1.0. It has been declared as critical. Affected by this vulnerability is the function delete_product of the file /classes/Master.php?f=delete_product. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 4:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9809
+CVE-2024-9810|A vulnerability was found in SourceCodester Record Management System 1.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the file sort2_user.php. The manipulation of the argument qualification leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 4:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9810
+CVE-2024-9811|A vulnerability classified as critical has been found in code-projects Restaurant Reservation System 1.0. This affects an unknown part of the file filter3.php. The manipulation of the argument company leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 5:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9811
+CVE-2024-9812|A vulnerability classified as critical was found in code-projects Crud Operation System 1.0. This vulnerability affects unknown code of the file delete.php. The manipulation of the argument sid leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 5:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9812
+CVE-2024-9813|A vulnerability, which was classified as critical, has been found in Codezips Pharmacy Management System 1.0. This issue affects some unknown processing of the file product/register.php. The manipulation of the argument category leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 5:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9813
+CVE-2024-9814|A vulnerability, which was classified as critical, was found in Codezips Pharmacy Management System 1.0. Affected is an unknown function of the file product/update.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 6:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9814
+CVE-2024-9815|A vulnerability has been found in Codezips Tourist Management System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /admin/create-package.php. The manipulation of the argument packageimage leads to unrestricted upload. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 6:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9815
+CVE-2024-9816|A vulnerability was found in Codezips Tourist Management System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /admin/change-image.php. The manipulation of the argument packageimage leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 6:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9816
+CVE-2024-9817|A vulnerability was found in code-projects Blood Bank System 1.0. It has been classified as critical. This affects an unknown part of the file /update.php. The manipulation of the argument name leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 7:15:03 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9817
+CVE-2024-9818|A vulnerability classified as critical has been found in SourceCodester Online Veterinary Appointment System 1.0. Affected is an unknown function of the file /admin/categories/manage_category.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.|October 10, 2024; 7:15:03 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9818
 Exploiting this vulnerability is possible when running Black on untrusted input, or if you habitually put thousands of leading tab characters in your docstrings.|March 19, 2024; 1:15:09 AM -0400|V3.x:(not available) V2.0:(not available)  (None)|https://nvd.nist.gov/vuln/detail/CVE-2024-21503|
 However, some local environment variables may have been set by the developer / CI environment for testing purposes, such as dropping the database during the application startup or trusting all TLS certificates to accept self-signed certificates. If these properties are configured using environment variables or the .env facility, they are captured into the built application. It leads to dangerous behavior if the application does not override these values.||||
 Mitigation:||||
