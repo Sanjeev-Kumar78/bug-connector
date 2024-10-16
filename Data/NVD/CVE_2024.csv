@@ -1534,6 +1534,15 @@ CVE-2024-0997|A vulnerability was found in Totolink N200RE 9.3.5u.6139_B20201216
 CVE-2024-0998|A vulnerability was found in Totolink N200RE 9.3.5u.6139_B20201216. It has been classified as critical. This affects the function setDiagnosisCfg of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument ip leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-252267. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.|January 29, 2024; 8:15:08 AM -0500|V3.1: 8.8 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-0998&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2024-0998
 CVE-2024-0999|A vulnerability was found in Totolink N200RE 9.3.5u.6139_B20201216. It has been declared as critical. This vulnerability affects the function setParentalRules of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument eTime leads to stack-based buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-252268. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.|January 29, 2024; 8:15:08 AM -0500|V3.1: 8.8 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-0999&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2024-0999
 CVE-2024-1000|A vulnerability was found in Totolink N200RE 9.3.5u.6139_B20201216. It has been rated as critical. This issue affects the function setTracerouteCfg of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument command leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-252269 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.|January 29, 2024; 9:15:08 AM -0500|V3.1: 8.8 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-1000&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2024-1000
+CVE-2024-10004|Opening an external link to an HTTP website when Firefox iOS was previously closed and had an HTTPS tab open could in some cases result in the padlock icon showing an HTTPS indicator incorrectly This vulnerability affects Firefox for iOS < 131.2.|October 15, 2024; 6:15:03 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10004
 CVE-2024-1001|A vulnerability classified as critical has been found in Totolink N200RE 9.3.5u.6139_B20201216. Affected is the function main of the file /cgi-bin/cstecgi.cgi. The manipulation leads to stack-based buffer overflow. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-252270 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.|January 29, 2024; 9:15:08 AM -0500|V3.1: 9.8 CRITICALV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-1001&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2024-1001
 CVE-2024-1002|A vulnerability classified as critical was found in Totolink N200RE 9.3.5u.6139_B20201216. Affected by this vulnerability is the function setIpPortFilterRules of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument ePort leads to stack-based buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-252271. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.|January 29, 2024; 9:15:09 AM -0500|V3.1: 8.8 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-1002&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2024-1002
 CVE-2024-1003|A vulnerability, which was classified as critical, has been found in Totolink N200RE 9.3.5u.6139_B20201216. Affected by this issue is the function setLanguageCfg of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument lang leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-252272. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.|January 29, 2024; 10:15:10 AM -0500|V3.1: 8.8 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-1003&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2024-1003
@@ -6451,6 +6460,17 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21171&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21171
+CVE-2024-21172|Vulnerability in the Oracle Hospitality OPERA 5 product of Oracle Hospitality Applications (component: Opera Servlet).  Supported versions that are affected are 5.6.19.19, 5.6.25.8 and  5.6.26.4. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Hospitality OPERA 5.  While the vulnerability is in Oracle Hospitality OPERA 5, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle Hospitality OPERA 5. CVSS 3.1 Base Score 9.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H).|October 15, 2024; 4:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+9.0 CRITICAL
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21172&vector=AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21172
 CVE-2024-21173|Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB).  Supported versions that are affected are 8.0.37 and prior and  8.4.0 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).|July 16, 2024; 7:15:20 PM -0400|"V4.0:(not available)
 
 
@@ -6614,6 +6634,328 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-2119&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-2119
+CVE-2024-21190|Vulnerability in the Oracle Global Lifecycle Management FMW Installer product of Oracle Fusion Middleware (component: Cloning).   The supported version that is affected is 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via SFTP to compromise Oracle Global Lifecycle Management FMW Installer.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Global Lifecycle Management FMW Installer accessible data. CVSS 3.1 Base Score 7.5 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N).|October 15, 2024; 4:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+7.5 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21190&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21190
+CVE-2024-21191|Vulnerability in the Oracle Enterprise Manager Fusion Middleware Control product of Oracle Fusion Middleware (component: FMW Control Plugin).   The supported version that is affected is 12.2.1.4.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Enterprise Manager Fusion Middleware Control.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Enterprise Manager Fusion Middleware Control, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Enterprise Manager Fusion Middleware Control accessible data as well as  unauthorized update, insert or delete access to some of Oracle Enterprise Manager Fusion Middleware Control accessible data. CVSS 3.1 Base Score 7.6 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:N).|October 15, 2024; 4:15:06 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21191
+CVE-2024-21192|Vulnerability in the Oracle Enterprise Manager for Fusion Middleware product of Oracle Fusion Middleware (component: WebLogic Mgmt).   The supported version that is affected is 12.2.1.4.0. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle Enterprise Manager for Fusion Middleware executes to compromise Oracle Enterprise Manager for Fusion Middleware.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Enterprise Manager for Fusion Middleware accessible data. CVSS 3.1 Base Score 4.4 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N).|October 15, 2024; 4:15:06 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.4 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21192&vector=AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21192
+CVE-2024-21193|Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: PS).  Supported versions that are affected are 8.0.39 and prior, 8.4.2 and prior and  9.0.1 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:06 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.9 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21193&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21193
+CVE-2024-21194|Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB).  Supported versions that are affected are 8.0.39 and prior, 8.4.2 and prior and  9.0.1 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:06 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.9 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21194&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21194
+CVE-2024-21195|Vulnerability in the Oracle BI Publisher product of Oracle Analytics (component: Layout Templates).  Supported versions that are affected are 7.0.0.0.0, 7.6.0.0.0 and  12.2.1.4.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle BI Publisher.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle BI Publisher accessible data as well as  unauthorized update, insert or delete access to some of Oracle BI Publisher accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle BI Publisher. CVSS 3.1 Base Score 7.6 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L).|October 15, 2024; 4:15:06 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+7.6 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21195&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21195
+CVE-2024-21196|Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: X Plugin).  Supported versions that are affected are 8.0.39 and prior, 8.4.2 and prior and  9.0.1 and prior. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 6.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:07 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.5 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21196&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21196
+CVE-2024-21197|Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Information Schema).  Supported versions that are affected are 8.0.39 and prior, 8.4.2 and prior and  9.0.1 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:07 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.9 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21197&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21197
+CVE-2024-21198|Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: DDL).  Supported versions that are affected are 8.0.39 and prior, 8.4.2 and prior and  9.0.1 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:07 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.9 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21198&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21198
+CVE-2024-21199|Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB).  Supported versions that are affected are 8.0.39 and prior, 8.4.2 and prior and  9.0.1 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:07 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.9 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21199&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21199
+CVE-2024-21200|Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer).  Supported versions that are affected are 8.0.35 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:07 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.9 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21200&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21200
+CVE-2024-21201|Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer).  Supported versions that are affected are 8.0.39 and prior, 8.4.2 and prior and  9.0.1 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:08 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.9 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21201&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21201
+CVE-2024-21202|Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: PIA Core Technology).  Supported versions that are affected are 8.59, 8.60 and  8.61. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise PeopleSoft Enterprise PeopleTools.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in PeopleSoft Enterprise PeopleTools, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of PeopleSoft Enterprise PeopleTools accessible data as well as  unauthorized read access to a subset of PeopleSoft Enterprise PeopleTools accessible data. CVSS 3.1 Base Score 6.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N).|October 15, 2024; 4:15:08 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.1 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21202&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21202
+CVE-2024-21203|Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: FTS).  Supported versions that are affected are 8.0.39 and prior, 8.4.2 and prior and  9.0.1 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:08 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21203
+CVE-2024-21204|Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: PS).  Supported versions that are affected are 8.4.0 and  9.0.1 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:08 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.9 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21204&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21204
+CVE-2024-21205|Vulnerability in the Oracle Service Bus product of Oracle Fusion Middleware (component: OSB Core Functionality).   The supported version that is affected is 12.2.1.4.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Service Bus.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Service Bus accessible data. CVSS 3.1 Base Score 6.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N).|October 15, 2024; 4:15:08 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.5 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21205&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21205
+CVE-2024-21206|Vulnerability in the Oracle Enterprise Command Center Framework product of Oracle E-Business Suite (component: Diagnostics).  Supported versions that are affected are ECC:11-13. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Enterprise Command Center Framework.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of Oracle Enterprise Command Center Framework accessible data. CVSS 3.1 Base Score 4.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N).|October 15, 2024; 4:15:09 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21206&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21206
+CVE-2024-21207|Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB).  Supported versions that are affected are 8.0.38 and prior, 8.4.1 and prior and  9.0.1 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:09 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.9 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21207&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21207
+CVE-2024-21208|Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 8u421, 8u421-perf, 11.0.24, 17.0.12, 21.0.4, 23; Oracle GraalVM for JDK: 17.0.12, 21.0.4, 23; Oracle GraalVM Enterprise Edition: 20.3.15 and  21.3.11. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).|October 15, 2024; 4:15:09 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+3.7 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21208&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21208
+CVE-2024-21209|Vulnerability in the MySQL Client product of Oracle MySQL (component: Client: mysqldump).  Supported versions that are affected are 8.4.2 and prior and  9.0.1 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Client.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in  unauthorized read access to a subset of MySQL Client accessible data. CVSS 3.1 Base Score 2.0 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:N/A:N).|October 15, 2024; 4:15:09 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+2.0 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21209&vector=AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:N/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21209
+CVE-2024-21210|Vulnerability in Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u421, 8u421-perf, 11.0.24, 17.0.12, 21.0.4 and  23. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).|October 15, 2024; 4:15:09 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+3.7 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21210&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21210
+CVE-2024-21211|Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler).  Supported versions that are affected are Oracle Java SE: 23; Oracle GraalVM for JDK: 17.0.12, 21.0.4, 23; Oracle GraalVM Enterprise Edition: 20.3.15 and  21.3.11. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).|October 15, 2024; 4:15:10 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+3.7 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21211&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21211
+CVE-2024-21212|Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Health Monitor).  Supported versions that are affected are 8.0.39 and prior and  8.4.0. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.4 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:10 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.4 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21212&vector=AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21212
+CVE-2024-21213|Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB).  Supported versions that are affected are 8.0.39 and prior, 8.4.2 and prior and  9.0.1 and prior. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where MySQL Server executes to compromise MySQL Server.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.2 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:10 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.2 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21213&vector=AV:L/AC:L/PR:H/UI:R/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21213
+CVE-2024-21214|Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Query).  Supported versions that are affected are 8.59, 8.60 and  8.61. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise PeopleSoft Enterprise PeopleTools.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all PeopleSoft Enterprise PeopleTools accessible data as well as  unauthorized access to critical data or complete access to all PeopleSoft Enterprise PeopleTools accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).|October 15, 2024; 4:15:10 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21214&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21214
+CVE-2024-21215|Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle WebLogic Server. CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:10 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+7.5 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21215&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21215
+CVE-2024-21216|Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).|October 15, 2024; 4:15:10 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21216
+CVE-2024-21217|Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Serialization).  Supported versions that are affected are Oracle Java SE: 8u421, 8u421-perf, 11.0.24, 17.0.12, 21.0.4, 23; Oracle GraalVM for JDK: 17.0.12, 21.0.4, 23; Oracle GraalVM Enterprise Edition: 20.3.15 and  21.3.11. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).|October 15, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+3.7 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21217&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21217
+CVE-2024-21218|Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB).  Supported versions that are affected are 8.0.39 and prior, 8.4.2 and prior and  9.0.1 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.9 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21218&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21218
+CVE-2024-21219|Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: DML).  Supported versions that are affected are 8.0.39 and prior, 8.4.2 and prior and  9.0.1 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21219
 CVE-2024-2122|The Best WordPress Gallery Plugin – FooGallery plugin for WordPress is vulnerable to Stored Cross-Site Scripting via album gallery custom URLs in all versions up to, and including, 2.4.15 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|June 14, 2024; 2:15:11 AM -0400|"V4.0:(not available)
 
 
@@ -6626,13 +6968,599 @@ V3.1:
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-2122&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-2122
 CVE-2024-2123|The Ultimate Member – User Profile, Registration, Login, Member Directory, Content Restriction & Membership Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the several parameters in all versions up to, and including, 2.8.3 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|March 13, 2024; 6:15:08 AM -0400|V3.x:(not available) V2.0:(not available)  (None)|https://nvd.nist.gov/vuln/detail/CVE-2024-2123
+CVE-2024-21230|Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer).  Supported versions that are affected are 8.0.39 and prior, 8.4.2 and prior and  9.0.1 and prior. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 6.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.5 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21230&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21230
+CVE-2024-21231|Vulnerability in the MySQL Server product of Oracle MySQL (component: Client programs).  Supported versions that are affected are 8.0.39 and prior, 8.4.2 and prior and  9.0.1 and prior. Difficult to exploit vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of MySQL Server. CVSS 3.1 Base Score 3.1 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L).|October 15, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+3.1 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21231&vector=AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21231
+CVE-2024-21232|Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Components Services).  Supported versions that are affected are 8.4.2 and prior and  9.0.1 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of MySQL Server. CVSS 3.1 Base Score 2.2 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L).|October 15, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+2.2 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21232&vector=AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21232
+CVE-2024-21233|Vulnerability in the Oracle Database Core component of Oracle Database Server.  Supported versions that are affected are 19.3-19.24, 21.3-21.15 and  23.4-23.5. Easily exploitable vulnerability allows low privileged attacker having Create Session privilege with network access via Oracle Net to compromise Oracle Database Core.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Database Core accessible data. CVSS 3.1 Base Score 4.3 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N).|October 15, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21233&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21233
+CVE-2024-21234|Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).|October 15, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+7.5 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21234&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21234
+CVE-2024-21235|Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u421, 8u421-perf, 11.0.24, 17.0.12, 21.0.4, 23;   Oracle GraalVM for JDK: 17.0.12, 21.0.4, 23;   Oracle GraalVM Enterprise Edition: 20.3.15 and  21.3.11. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).|October 15, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.8 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21235&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21235
+CVE-2024-21236|Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB).  Supported versions that are affected are 8.0.39 and prior, 8.4.2 and prior and  9.0.1 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.9 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21236&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21236
+CVE-2024-21237|Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Group Replication GCS).  Supported versions that are affected are 8.0.39 and prior, 8.4.2 and prior and  9.0.1 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of MySQL Server. CVSS 3.1 Base Score 2.2 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L).|October 15, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+2.2 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21237&vector=AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21237
+CVE-2024-21238|Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Thread Pooling).  Supported versions that are affected are 8.0.39 and prior, 8.4.1 and prior and  9.0.1 and prior. Difficult to exploit vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+5.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21238&vector=AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21238
+CVE-2024-21239|Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB).  Supported versions that are affected are 8.0.39 and prior, 8.4.2 and prior and  9.0.1 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.9 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21239&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21239
 CVE-2024-2124|The Translate WordPress and go Multilingual – Weglot plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's widget/block in all versions up to, and including, 4.2.5 due to insufficient input sanitization and output escaping on user supplied attributes such as 'className'. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|March 20, 2024; 1:15:45 AM -0400|V3.x:(not available) V2.0:(not available)  (None)|https://nvd.nist.gov/vuln/detail/CVE-2024-2124
+CVE-2024-21241|Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer).  Supported versions that are affected are 8.0.39 and prior, 8.4.2 and prior and  9.0.1 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.9 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21241&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21241
+CVE-2024-21242|Vulnerability in the XML Database component of Oracle Database Server.  Supported versions that are affected are 19.3-19.24, 21.3-21.15 and  23.4-23.5. Easily exploitable vulnerability allows low privileged attacker having Create Session privilege with network access via HTTP to compromise XML Database.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of XML Database. CVSS 3.1 Base Score 3.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L).|October 15, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+3.5 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21242&vector=AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21242
+CVE-2024-21243|Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Telemetry).  Supported versions that are affected are 8.4.2 and prior and  9.0.1 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of MySQL Server accessible data. CVSS 3.1 Base Score 2.2 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:N).|October 15, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+2.2 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21243&vector=AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21243
+CVE-2024-21244|Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Telemetry).  Supported versions that are affected are 8.4.2 and prior and  9.0.1 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of MySQL Server accessible data. CVSS 3.1 Base Score 2.2 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:N).|October 15, 2024; 4:15:14 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+2.2 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21244&vector=AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21244
+CVE-2024-21246|Vulnerability in the Oracle Service Bus product of Oracle Fusion Middleware (component: OSB Core Functionality).   The supported version that is affected is 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Service Bus.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Service Bus accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).|October 15, 2024; 4:15:14 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21246
+CVE-2024-21247|Vulnerability in the MySQL Client product of Oracle MySQL (component: Client: mysqldump).  Supported versions that are affected are 8.0.39 and prior, 8.4.2 and prior and  9.0.1 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Client.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of MySQL Client accessible data as well as  unauthorized read access to a subset of MySQL Client accessible data. CVSS 3.1 Base Score 3.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N).|October 15, 2024; 4:15:14 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+3.8 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21247&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21247
+CVE-2024-21248|Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core).  Supported versions that are affected are Prior to 7.0.22 and  prior to 7.1.2. Difficult to exploit vulnerability allows low privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox.  While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle VM VirtualBox accessible data as well as  unauthorized read access to a subset of Oracle VM VirtualBox accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle VM VirtualBox. CVSS 3.1 Base Score 5.3 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L).|October 15, 2024; 4:15:14 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+5.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21248&vector=AV:L/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21248
+CVE-2024-21249|Vulnerability in the PeopleSoft Enterprise FIN Expenses product of Oracle PeopleSoft (component: Expenses).   The supported version that is affected is 9.2. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise PeopleSoft Enterprise FIN Expenses.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of PeopleSoft Enterprise FIN Expenses accessible data. CVSS 3.1 Base Score 4.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N).|October 15, 2024; 4:15:14 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21249&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21249
 CVE-2024-2125|The EnvíaloSimple: Email Marketing y Newsletters plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.3. This is due to missing or incorrect nonce validation on the gallery_add function. This makes it possible for unauthenticated attackers to upload malicious files via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.|April 09, 2024; 3:15:28 PM -0400|"V3.x:(not available) 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-2125
+CVE-2024-21250|Vulnerability in the Oracle Process Manufacturing Product Development product of Oracle E-Business Suite (component: Quality Manager Specification).  Supported versions that are affected are 12.2.13-12.2.14. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Process Manufacturing Product Development.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Process Manufacturing Product Development accessible data as well as  unauthorized access to critical data or complete access to all Oracle Process Manufacturing Product Development accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).|October 15, 2024; 4:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21250&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21250
+CVE-2024-21251|Vulnerability in the Java VM component of Oracle Database Server.  Supported versions that are affected are 19.3-19.24, 21.3-21.15 and  23.4-23.5. Difficult to exploit vulnerability allows low privileged attacker having Create Session, Create Procedure privilege with network access via Oracle Net to compromise Java VM.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Java VM accessible data. CVSS 3.1 Base Score 3.1 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N).|October 15, 2024; 4:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+3.1 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21251&vector=AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21251
+CVE-2024-21252|Vulnerability in the Oracle Product Hub product of Oracle E-Business Suite (component: Item Catalog).  Supported versions that are affected are 12.2.3-12.2.13. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Product Hub.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Product Hub accessible data as well as  unauthorized access to critical data or complete access to all Oracle Product Hub accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).|October 15, 2024; 4:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21252&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21252
+CVE-2024-21253|Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core).  Supported versions that are affected are Prior to 7.0.22. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle VM VirtualBox. CVSS 3.1 Base Score 2.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L).|October 15, 2024; 4:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+2.3 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21253&vector=AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21253
+CVE-2024-21254|Vulnerability in the Oracle BI Publisher product of Oracle Analytics (component: Web Server).  Supported versions that are affected are 7.0.0.0.0, 7.6.0.0.0 and  12.2.1.4.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle BI Publisher.  Successful attacks of this vulnerability can result in takeover of Oracle BI Publisher. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).|October 15, 2024; 4:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.8 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21254&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21254
+CVE-2024-21255|Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: XMLPublisher).  Supported versions that are affected are 8.59, 8.60 and  8.61. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise PeopleSoft Enterprise PeopleTools.  Successful attacks of this vulnerability can result in takeover of PeopleSoft Enterprise PeopleTools. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).|October 15, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21255
+CVE-2024-21257|Vulnerability in the Oracle Hyperion BI+ product of Oracle Hyperion (component: UI and Visualization).   The supported version that is affected is 11.2.18.0.000. Easily exploitable vulnerability allows low privileged attacker with access to the physical communication segment attached to the hardware where the Oracle Hyperion BI+ executes to compromise Oracle Hyperion BI+.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in  unauthorized read access to a subset of Oracle Hyperion BI+ accessible data. CVSS 3.1 Base Score 3.0 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:A/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N).|October 15, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+3.0 LOW
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21257&vector=AV:A/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21257
+CVE-2024-21258|Vulnerability in the Oracle Installed Base product of Oracle E-Business Suite (component: User Interface).  Supported versions that are affected are 12.2.3-12.2.14. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Installed Base.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of Oracle Installed Base accessible data. CVSS 3.1 Base Score 5.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N).|October 15, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+5.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21258&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21258
+CVE-2024-21259|Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core).  Supported versions that are affected are Prior to 7.0.22 and  prior to 7.1.2. Difficult to exploit vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox.  While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H).|October 15, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+7.5 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21259&vector=AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21259
 CVE-2024-2126|The Orbit Fox by ThemeIsle plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Registration Form widget in all versions up to, and including, 2.10.32 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|March 13, 2024; 12:15:31 PM -0400|V3.x:(not available) V2.0:(not available)  (None)|https://nvd.nist.gov/vuln/detail/CVE-2024-2126
+CVE-2024-21260|Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle WebLogic Server. CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+7.5 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21260&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21260
+CVE-2024-21261|Vulnerability in Oracle Application Express (component: General).  Supported versions that are affected are 23.2 and  24.1. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Application Express.  While the vulnerability is in Oracle Application Express, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Application Express accessible data as well as  unauthorized read access to a subset of Oracle Application Express accessible data. CVSS 3.1 Base Score 4.9 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:N).|October 15, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.9 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21261&vector=AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21261
+CVE-2024-21262|Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/ODBC).  Supported versions that are affected are 9.0.0 and prior. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Connectors.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of MySQL Connectors accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of MySQL Connectors. CVSS 3.1 Base Score 6.5 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L).|October 15, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.5 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21262&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21262
+CVE-2024-21263|Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core).  Supported versions that are affected are Prior to 7.0.22 and  prior to 7.1.2. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle VM VirtualBox and  unauthorized read access to a subset of Oracle VM VirtualBox accessible data. CVSS 3.1 Base Score 6.1 (Confidentiality and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H).|October 15, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.1 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21263&vector=AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21263
+CVE-2024-21264|Vulnerability in the PeopleSoft Enterprise CC Common Application Objects product of Oracle PeopleSoft (component: Activity Guide Composer).   The supported version that is affected is 9.2. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise PeopleSoft Enterprise CC Common Application Objects.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of PeopleSoft Enterprise CC Common Application Objects accessible data as well as  unauthorized read access to a subset of PeopleSoft Enterprise CC Common Application Objects accessible data. CVSS 3.1 Base Score 5.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N).|October 15, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21264
+CVE-2024-21265|Vulnerability in the Oracle Site Hub product of Oracle E-Business Suite (component: Site Hierarchy Flows).  Supported versions that are affected are 12.2.3-12.2.13. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Site Hub.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Site Hub accessible data as well as  unauthorized access to critical data or complete access to all Oracle Site Hub accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).|October 15, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21265&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21265
+CVE-2024-21266|Vulnerability in the Oracle Advanced Pricing product of Oracle E-Business Suite (component: Price List).  Supported versions that are affected are 12.2.3-12.2.13. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Advanced Pricing.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Advanced Pricing accessible data as well as  unauthorized access to critical data or complete access to all Oracle Advanced Pricing accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).|October 15, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21266&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21266
+CVE-2024-21267|Vulnerability in the Oracle Cost Management product of Oracle E-Business Suite (component: Cost Planning).  Supported versions that are affected are 12.2.12-12.2.13. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Cost Management.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Cost Management accessible data as well as  unauthorized access to critical data or complete access to all Oracle Cost Management accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).|October 15, 2024; 4:15:18 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21267&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21267
+CVE-2024-21268|Vulnerability in the Oracle Applications Manager product of Oracle E-Business Suite (component: Diagnostics).  Supported versions that are affected are 12.2.11-12.2.13. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Applications Manager.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Applications Manager accessible data as well as  unauthorized access to critical data or complete access to all Oracle Applications Manager accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).|October 15, 2024; 4:15:18 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21268&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21268
+CVE-2024-21269|Vulnerability in the Oracle Incentive Compensation product of Oracle E-Business Suite (component: Compensation Plan).  Supported versions that are affected are 12.2.3-12.2.13. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Incentive Compensation.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Incentive Compensation accessible data as well as  unauthorized access to critical data or complete access to all Oracle Incentive Compensation accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).|October 15, 2024; 4:15:18 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21269&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21269
 CVE-2024-2127|The Page Builder: Pagelayer – Drag and Drop website builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via custom attributes in all versions up to, and including, 1.8.3 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|March 07, 2024; 3:15:50 PM -0500|V3.x:(not available) V2.0:(not available)  (None)|https://nvd.nist.gov/vuln/detail/CVE-2024-2127
+CVE-2024-21270|Vulnerability in the Oracle Common Applications Calendar product of Oracle E-Business Suite (component: Tasks).  Supported versions that are affected are 12.2.6-12.2.13. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Common Applications Calendar.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Common Applications Calendar accessible data as well as  unauthorized access to critical data or complete access to all Oracle Common Applications Calendar accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).|October 15, 2024; 4:15:18 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21270&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21270
+CVE-2024-21271|Vulnerability in the Oracle Field Service product of Oracle E-Business Suite (component: Field Service Engineer Portal).  Supported versions that are affected are 12.2.3-12.2.13. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Field Service.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Field Service accessible data as well as  unauthorized access to critical data or complete access to all Oracle Field Service accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).|October 15, 2024; 4:15:18 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21271&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21271
+CVE-2024-21272|Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/Python).  Supported versions that are affected are 9.0.0 and prior. Difficult to exploit vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Connectors.  Successful attacks of this vulnerability can result in takeover of MySQL Connectors. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H).|October 15, 2024; 4:15:18 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+7.5 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21272&vector=AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21272
+CVE-2024-21273|Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core).  Supported versions that are affected are Prior to 7.0.22 and  prior to 7.1.2. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox.  While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle VM VirtualBox accessible data. CVSS 3.1 Base Score 6.0 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N).|October 15, 2024; 4:15:19 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.0 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21273&vector=AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21273
+CVE-2024-21274|Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Console).  Supported versions that are affected are 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle WebLogic Server. CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).|October 15, 2024; 4:15:19 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+7.5 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21274&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21274
+CVE-2024-21275|Vulnerability in the Oracle Quoting product of Oracle E-Business Suite (component: User Interface).  Supported versions that are affected are 12.2.7-12.2.13. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Quoting.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Quoting accessible data as well as  unauthorized access to critical data or complete access to all Oracle Quoting accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).|October 15, 2024; 4:15:19 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21275
+CVE-2024-21276|Vulnerability in the Oracle Work in Process product of Oracle E-Business Suite (component: Messages).  Supported versions that are affected are 12.2.3-12.2.13. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Work in Process.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Work in Process accessible data as well as  unauthorized access to critical data or complete access to all Oracle Work in Process accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).|October 15, 2024; 4:15:19 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21276&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21276
+CVE-2024-21277|Vulnerability in the Oracle MES for Process Manufacturing product of Oracle E-Business Suite (component: Device Integration).  Supported versions that are affected are 12.2.3-12.2.13. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle MES for Process Manufacturing.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle MES for Process Manufacturing accessible data as well as  unauthorized access to critical data or complete access to all Oracle MES for Process Manufacturing accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).|October 15, 2024; 4:15:19 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21277&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21277
+CVE-2024-21278|Vulnerability in the Oracle Contract Lifecycle Management for Public Sector product of Oracle E-Business Suite (component: Award Processes).  Supported versions that are affected are 12.2.3-12.2.13. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Contract Lifecycle Management for Public Sector.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Contract Lifecycle Management for Public Sector accessible data as well as  unauthorized access to critical data or complete access to all Oracle Contract Lifecycle Management for Public Sector accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).|October 15, 2024; 4:15:20 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21278&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21278
+CVE-2024-21279|Vulnerability in the Oracle Sourcing product of Oracle E-Business Suite (component: Auctions).  Supported versions that are affected are 12.2.3-12.2.13. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Sourcing.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Sourcing accessible data as well as  unauthorized access to critical data or complete access to all Oracle Sourcing accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).|October 15, 2024; 4:15:20 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21279&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21279
 CVE-2024-2128|The EmbedPress – Embed PDF, Google Docs, Vimeo, Wistia, Embed YouTube Videos, Audios, Maps & Embed Any Documents in Gutenberg & Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's embed widget in all versions up to, and including, 3.9.10 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|March 07, 2024; 3:15:51 PM -0500|V3.x:(not available) V2.0:(not available)  (None)|https://nvd.nist.gov/vuln/detail/CVE-2024-2128
+CVE-2024-21280|Vulnerability in the Oracle Service Contracts product of Oracle E-Business Suite (component: Authoring).  Supported versions that are affected are 12.2.5-12.2.13. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Service Contracts.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Service Contracts accessible data as well as  unauthorized access to critical data or complete access to all Oracle Service Contracts accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).|October 15, 2024; 4:15:20 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21280&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21280
+CVE-2024-21281|Vulnerability in the Oracle Banking Liquidity Management product of Oracle Financial Services Applications (component: Infrastructure).   The supported version that is affected is 14.7.0.6.0. Difficult to exploit vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle Banking Liquidity Management.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Banking Liquidity Management accessible data as well as  unauthorized read access to a subset of Oracle Banking Liquidity Management accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Banking Liquidity Management. CVSS 3.1 Base Score 5.3 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:H/A:L).|October 15, 2024; 4:15:20 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+5.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21281&vector=AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:H/A:L&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21281
+CVE-2024-21282|Vulnerability in the Oracle Financials product of Oracle E-Business Suite (component: Common Components).  Supported versions that are affected are 12.2.3-12.2.13. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Financials.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Financials accessible data as well as  unauthorized access to critical data or complete access to all Oracle Financials accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).|October 15, 2024; 4:15:20 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21282&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21282
+CVE-2024-21283|Vulnerability in the PeopleSoft Enterprise HCM Global Payroll Core product of Oracle PeopleSoft (component: Global Payroll for Core).  Supported versions that are affected are 9.2.48-9.2.50. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise PeopleSoft Enterprise HCM Global Payroll Core.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all PeopleSoft Enterprise HCM Global Payroll Core accessible data as well as  unauthorized access to critical data or complete access to all PeopleSoft Enterprise HCM Global Payroll Core accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).|October 15, 2024; 4:15:21 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21283&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21283
+CVE-2024-21284|Vulnerability in the Oracle Banking Liquidity Management product of Oracle Financial Services Applications (component: Reports).   The supported version that is affected is 14.5.0.12.0. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Banking Liquidity Management.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of Oracle Banking Liquidity Management. CVSS 3.1 Base Score 7.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H).|October 15, 2024; 4:15:21 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+7.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21284&vector=AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21284
+CVE-2024-21285|Vulnerability in the Oracle Banking Liquidity Management product of Oracle Financial Services Applications (component: Reports).   The supported version that is affected is 14.5.0.12.0. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Banking Liquidity Management.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of Oracle Banking Liquidity Management. CVSS 3.1 Base Score 7.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H).|October 15, 2024; 4:15:21 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+7.1 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21285&vector=AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21285
+CVE-2024-21286|Vulnerability in the PeopleSoft Enterprise ELM Enterprise Learning Management product of Oracle PeopleSoft (component: Enterprise Learning Management).   The supported version that is affected is 9.2. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise PeopleSoft Enterprise ELM Enterprise Learning Management.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in PeopleSoft Enterprise ELM Enterprise Learning Management, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of PeopleSoft Enterprise ELM Enterprise Learning Management accessible data as well as  unauthorized read access to a subset of PeopleSoft Enterprise ELM Enterprise Learning Management accessible data. CVSS 3.1 Base Score 5.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N).|October 15, 2024; 4:15:21 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+5.4 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21286&vector=AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=Oracle)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21286
 CVE-2024-2129|The WPBITS Addons For Elementor Page Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's heading widget in all versions up to, and including, 1.3.4.2 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|March 20, 2024; 3:15:11 AM -0400|V3.x:(not available) V2.0:(not available)  (None)|https://nvd.nist.gov/vuln/detail/CVE-2024-2129
 CVE-2024-2130|The CWW Companion plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Module2 widget in all versions up to, and including, 1.2.7 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|March 12, 2024; 4:15:08 PM -0400|V3.x:(not available) V2.0:(not available)  (None)|https://nvd.nist.gov/vuln/detail/CVE-2024-2130
 CVE-2024-21302|"Summary:Microsoft was notified that an elevation of privilege vulnerability exists in Windows based systems supporting Virtualization Based Security (VBS) including a subset of Azure Virtual Machine SKUS; enabling an attacker with administrator privileges to replace current versions of Windows system files with outdated versions. By exploiting this vulnerability, an attacker could reintroduce previously mitigated vulnerabilities, circumvent some features of VBS, and exfiltrate data protected by VBS.  For more information on Windows versions and VM SKUs supporting VBS, reference: Virtualization-based Security (VBS) | Microsoft Learn..Microsoft is developing a security update to mitigate this vulnerability, but it is not yet available. Guidance to help customers reduce the risks associated with this vulnerability and to protect their systems until the mitigation is available in a Windows security update is provided in the Recommended Actions section of this CVE.This CVE will be updated when the mitigation is available in a Windows security update. We highly encourage customers to subscribe to Security Update Guide notifications to receive an alert when this update occurs.Details:A security researcher informed Microsoft of an elevation of privilege vulnerability in Windows 10, Windows 11, Windows Server 2016, Windows Server 2019, Windows Server 2022 , and a subset of Azure Virtual Machines (VM) SKUs with a Windows based guestOS supporting VBS. For more information on Windows versions and VM SKUs supporting VBS, reference: Virtualization-based Security (VBS) | Microsoft Learn.The vulnerability enables an attacker with administrator privileges on the target system to replace current Windows system files with outdated versions. Successful exploitation provides an attacker with the ability to reintroduce previously mitigated vulnerabilities, circumvent VBS security features, and exfiltrate data protected by VBS.Microsoft is developing a security update that will revoke outdated, unpatched VBS system files to mitigate this vulnerability, but it is not yet available. Due to the complexity of blocking such a large quantity of files, rigorous testing is required to avoid integration failures or regressions. This CVE will be updated with new information and links to the security updates once available. We highly encourage customers subscribe to Security Update Guide notifications to be alerted of updates. See Microsoft Technical Security Notifications and Security Update Guide Notification System News: Create your profile now – Microsoft Security Response Center.Microsoft is not aware of any attempts to exploit this vulnerability. However, a public presentation regarding this vulnerability was hosted at BlackHat on August 07th, 2024. The presentation was appropriately coordinated with Microsoft but may change the threat landscape. Customers concerned with these risks should reference the guidance provided in the Recommended Actions section of this CVE to protect their systems.Recommended Actions:The following recommendations do not mitigate the vulnerability but can be used to reduce the risk of exploitation until the security update is available.Configure “Audit Object Access” settings to monitor attempts to access files, such as handle creation, read / write operations, or modifications to security descriptors.Audit File System - Windows 10 | Microsoft LearnApply a basic audit policy on a file or folder - Windows 10 | Microsoft LearnAuditing sensitive privileges used to identify access, modification, or replacement of VBS related files could help indicacte attempts to exploit this vulnerability.Audit Sensitive Privilege Use - Windows 10 | Microsoft LearnProtect your Azure tenant by investigating administrators and users flagged for risky sign-ins and rotating their credentials.Investigate risk Microsoft Entra ID Protection - Microsoft Entra ID Protection | Microsoft LearnEnabling Multi-Factor Authentication can also help alleviate concerns about compromised accounts or exposure.Enforce multifactor..."|August 07, 2024; 10:15:37 PM -0400|"V4.0:(not available)
@@ -29958,6 +30886,15 @@ V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-31950
 CVE-2024-31951|In the Opaque LSA Extended Link parser in FRRouting (FRR) through 9.1, there can be a buffer overflow and daemon crash in ospf_te_parse_ext_link for OSPF LSA packets during an attempt to read Segment Routing Adjacency SID subTLVs (lengths are not validated).|April 07, 2024; 5:15:07 PM -0400|"V3.x:(not available) 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-31951
+CVE-2024-31955|An issue was discovered in Samsung eMMC with KLMAG2GE4A and KLM8G1WEMB firmware. Code bypass through Electromagnetic Fault Injection allows an attacker to successfully authenticate and write to the RPMB (Replay Protected Memory Block) area without possessing secret information.|October 15, 2024; 5:15:10 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-31955
 CVE-2024-31956|An issue was discovered in Samsung Mobile Processor Exynos 2200, Exynos 1480, Exynos 2400. It lacks proper buffer length checking, which can result in an Out-of-Bounds Write.|June 13, 2024; 1:15:49 PM -0400|"V4.0:(not available)
 
 
@@ -53204,6 +54141,17 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-38138&vector=AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=Microsoft%20Corporation)"|https://nvd.nist.gov/vuln/detail/CVE-2024-38138
+CVE-2024-38139|Improper authentication in Microsoft Dataverse allows an authorized attacker to elevate privileges over a network.|October 15, 2024; 7:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.7 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-38139&vector=AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:N&version=3.1&source=Microsoft%20Corporation)"|https://nvd.nist.gov/vuln/detail/CVE-2024-38139
 CVE-2024-3814|The tagDiv Composer plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'single' module in all versions up to, and including, 4.8 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|June 14, 2024; 10:15:51 PM -0400|"V4.0:(not available)
 
 
@@ -53773,6 +54721,17 @@ CVE-2024-3819|The Jeg Elementor Kit plugin for WordPress is vulnerable to Stored
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-3819&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-3819
+CVE-2024-38190|Missing authorization in Power Platform allows an unauthenticated attacker to view sensitive information through a network attack vector.|October 15, 2024; 7:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+8.6 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-38190&vector=AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N&version=3.1&source=Microsoft%20Corporation)"|https://nvd.nist.gov/vuln/detail/CVE-2024-38190
 CVE-2024-38191|Kernel Streaming Service Driver Elevation of Privilege Vulnerability|August 13, 2024; 2:15:27 PM -0400|"V4.0:(not available)
 
 
@@ -53894,6 +54853,17 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-38202&vector=AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H&version=3.1&source=Microsoft%20Corporation)"|https://nvd.nist.gov/vuln/detail/CVE-2024-38202
+CVE-2024-38204|Improper Access Control in Imagine Cup allows an authorized attacker to elevate privileges over a network.|October 15, 2024; 7:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+7.5 HIGH
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-38204&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N&version=3.1&source=Microsoft%20Corporation)"|https://nvd.nist.gov/vuln/detail/CVE-2024-38204
 CVE-2024-38206|An authenticated attacker can bypass Server-Side Request Forgery (SSRF) protection in Microsoft Copilot Studio to leak sensitive information over a network.|August 06, 2024; 6:15:54 PM -0400|"V4.0:(not available)
 
 
@@ -67422,6 +68392,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-41310
+CVE-2024-41311|In Libheif 1.17.6, insufficient checks in ImageOverlay::parse() decoding a heif file containing an overlay image with forged offsets can lead to an out-of-bounds read and write.|October 15, 2024; 5:15:10 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-41311
 CVE-2024-41314|TOTOLINK A6000R V1.0.1-B20201211.2000 was discovered to contain a command injection vulnerability via the iface parameter in the vif_disable function.|July 22, 2024; 10:15:06 AM -0400|"V4.0:(not available)
 
 
@@ -81635,6 +82614,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-44335
+CVE-2024-44337|The package `github.com/gomarkdown/markdown` is a Go library for parsing Markdown text and rendering as HTML. Prior to pseudoversion `v0.0.0-20240729232818-a2a9c4f`, which corresponds with commit `a2a9c4f76ef5a5c32108e36f7c47f8d310322252`, there was a logical problem in the paragraph function of the parser/block.go file, which allowed a remote attacker to cause a denial of service (DoS) condition by providing a tailor-made input that caused an infinite loop, causing the program to hang and consume resources indefinitely. Submit `a2a9c4f76ef5a5c32108e36f7c47f8d310322252` contains fixes to this problem.|October 15, 2024; 4:15:21 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-44337
 CVE-2024-44340|D-Link DIR-846W A1 FW100A43 was discovered to contain a remote command execution (RCE) vulnerability via keys smartqos_express_devices and smartqos_normal_devices in SetSmartQoSSettings.|August 27, 2024; 12:15:07 PM -0400|"V4.0:(not available)
 
 
@@ -82444,6 +83432,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-4477
+CVE-2024-44775|An issue in kmqtt v0.2.7 allows attackers to cause a Denial of Service(DoS) via a crafted request.|October 15, 2024; 5:15:10 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-44775
 CVE-2024-44776|An Open Redirect vulnerability in the page parameter of vTiger CRM v7.4.0 allows attackers to redirect users to a malicious site via a crafted URL.|August 29, 2024; 2:15:14 PM -0400|"V4.0:(not available)
 
 
@@ -84162,6 +85159,17 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45076&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H&version=3.1&source=IBM%20Corporation)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45076
+CVE-2024-45085|IBM WebSphere Application Server 8.5 is vulnerable to a denial of service, under certain configurations, caused by an unexpected specially crafted request. A remote attacker could exploit this vulnerability to cause an error resulting in a denial of service.|October 15, 2024; 6:15:03 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+5.9 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-45085&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=IBM%20Corporation)"|https://nvd.nist.gov/vuln/detail/CVE-2024-45085
 CVE-2024-45096|IBM Aspera Faspex 5.0.0 through 5.0.9 could allow a user with access to the package to obtain sensitive information through a directory listing.|September 05, 2024; 12:15:07 PM -0400|"V4.0:(not available)
 
 
@@ -93865,6 +94873,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-4841
+CVE-2024-48411|itsourcecode Online Tours and Travels Management System v1.0 is vulnerable to SQL Injection (SQLI) via a crafted payload to the val-email parameter in forget_password.php.|October 15, 2024; 5:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48411
 CVE-2024-4845|The Icegram Express plugin for WordPress is vulnerable to SQL Injection via the ‘options[list_id]’ parameter in all versions up to, and including, 5.7.22 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Subscriber-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.|June 12, 2024; 6:15:31 AM -0400|"V4.0:(not available)
 
 
@@ -93958,6 +94975,42 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-4869&vector=AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-4869
+CVE-2024-48710|In TP-Link TL-WDR7660 1.0, the wlanTimerRuleJsonToBin function handles the parameter string name without checking it, which can lead to stack overflow vulnerabilities.|October 15, 2024; 5:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48710
+CVE-2024-48712|In TP-Link TL-WDR7660 1.0, the rtRuleJsonToBin function handles the parameter string name without checking it, which can lead to stack overflow vulnerabilities.|October 15, 2024; 5:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48712
+CVE-2024-48713|In TP-Link TL-WDR7660 1.0, the wacWhitelistJsonToBin function handles the parameter string name without checking it, which can lead to stack overflow vulnerabilities.|October 15, 2024; 5:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48713
+CVE-2024-48714|In TP-Link TL-WDR7660 v1.0, the guestRuleJsonToBin function handles the parameter string name without checking it, which can lead to stack overflow vulnerabilities.|October 15, 2024; 5:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48714
 CVE-2024-4872|The product does not validate any query towards persistentdata, resulting in a risk of injection attacks.|August 27, 2024; 9:15:05 AM -0400|"V4.0:(not available)
 
 
@@ -94075,6 +95128,42 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48778
+CVE-2024-48779|An issue in Wanxing Technology's Yitu project Management Software 3.2.2 allows a remote attacker to execute arbitrary code via the platformpluginpath parameter to specify that the qt plugin loads the directory.|October 15, 2024; 5:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48779
+CVE-2024-48781|An issue in Wanxing Technology Yitu Project Management Kirin Edition 2.3.6 allows a remote attacker to execute arbitrary code via a specially constructed so file/opt/EdrawProj-2/plugins/imageformat.|October 15, 2024; 5:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48781
+CVE-2024-48782|File Upload vulnerability in DYCMS Open-Source Version v2.0.9.41 allows a remote attacker to execute arbitrary code via the application only detecting the extension of image files in the front-end.|October 15, 2024; 5:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48782
+CVE-2024-48783|An issue in Ruijie NBR3000D-E Gateway allows a remote attacker to obtain sensitive information via the /tool/shell/postgresql.conf component.|October 15, 2024; 5:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48783
 CVE-2024-48784|An Incorrect Access Control issue in SAMPMAX com.sampmax.homemax 2.1.2.7 allows a remote attacker to obtain sensitive information via the firmware update process.|October 11, 2024; 4:15:06 PM -0400|"V4.0:(not available)
 
 
@@ -94715,6 +95804,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-49193
+CVE-2024-49195|Mbed TLS 3.5.x through 3.6.x before 3.6.2 has a buffer underrun in pkwrite when writing an opaque key pair|October 15, 2024; 4:15:21 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-49195
 CVE-2024-4920|A vulnerability was found in SourceCodester Online Discussion Forum Site 1.0. It has been rated as critical. This issue affects some unknown processing of the file registerH.php. The manipulation of the argument ima leads to unrestricted upload. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-264455.|May 15, 2024; 8:15:08 PM -0400|"V4.0:(not available)
 
 
@@ -94751,6 +95849,17 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-4934
+CVE-2024-49340|IBM Watson Studio Local 1.2.3 is vulnerable to cross-site request forgery which could allow an attacker to execute malicious and unauthorized actions transmitted from a user that the website trusts.|October 15, 2024; 8:15:03 PM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-49340&vector=AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N&version=3.1&source=IBM%20Corporation)"|https://nvd.nist.gov/vuln/detail/CVE-2024-49340
 CVE-2024-4936|The Canto plugin for WordPress is vulnerable to Remote File Inclusion in all versions up to, and including, 3.0.8 via the abspath parameter. This makes it possible for unauthenticated attackers to include remote files on the server, resulting in code execution. This required allow_url_include to be enabled on the target site in order to exploit.|June 14, 2024; 1:15:49 AM -0400|"V4.0:(not available)
 
 
@@ -120936,6 +122045,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9484
+CVE-2024-9486|A security issue was discovered in the Kubernetes Image Builder versions <= v0.1.37 where default credentials are enabled during the image build process. Virtual machine images built using the Proxmox provider do not disable these default credentials, and nodes using the resulting images may be accessible via these default credentials. The credentials can be used to gain root access. Kubernetes clusters are only affected if their nodes use VM images created via the Image Builder project with its Proxmox provider.|October 15, 2024; 5:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9486
 CVE-2024-9487|An improper verification of cryptographic signature vulnerability was identified in GitHub Enterprise Server that allowed SAML SSO authentication to be bypassed resulting in unauthorized provisioning of users and access to the instance. Exploitation required the encrypted assertions feature to be enabled, and the attacker would require direct network access as well as a signed SAML response or metadata document. This vulnerability affected all versions of GitHub Enterprise Server prior to 3.15 and was fixed in versions 3.11.16, 3.12.10, 3.13.5, and 3.14.2. This vulnerability was reported via the GitHub Bug Bounty program.|October 10, 2024; 6:15:11 PM -0400|"V4.0:(not available)
 
 
@@ -121430,6 +122548,15 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9592&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9592
+CVE-2024-9594|A security issue was discovered in the Kubernetes Image Builder versions <= v0.1.37 where default credentials are enabled during the image build process when using the Nutanix, OVA, QEMU or raw providers. The credentials can be used to gain root access. The credentials are disabled at the conclusion of the image build process. Kubernetes clusters are only affected if their nodes use VM images created via the Image Builder project. Because these images were vulnerable during the image build process, they are affected only if an attacker was able to reach the VM where the image build was happening and used the vulnerability to modify the image at the time the image build was occurring.|October 15, 2024; 5:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9594
 CVE-2024-9595|The TablePress – Tables in WordPress made easy plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the table cell content in all versions up to, and including, 2.4.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|October 12, 2024; 5:15:03 AM -0400|"V4.0:(not available)
 
 
@@ -122235,6 +123362,123 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9953
+CVE-2024-9954|Use after free in AI in Google Chrome prior to 130.0.6723.58 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)|October 15, 2024; 5:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9954
+CVE-2024-9955|Use after free in WebAuthentication in Google Chrome prior to 130.0.6723.58 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)|October 15, 2024; 5:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9955
+CVE-2024-9956|Inappropriate implementation in WebAuthentication in Google Chrome on Android prior to 130.0.6723.58 allowed a local attacker to perform privilege escalation via a crafted HTML page. (Chromium security severity: Medium)|October 15, 2024; 5:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9956
+CVE-2024-9957|Use after free in UI in Google Chrome on iOS prior to 130.0.6723.58 allowed a remote attacker who convinced a user to engage in specific UI gestures to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)|October 15, 2024; 5:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9957
+CVE-2024-9958|Inappropriate implementation in PictureInPicture in Google Chrome prior to 130.0.6723.58 allowed a remote attacker to perform UI spoofing via a crafted HTML page. (Chromium security severity: Medium)|October 15, 2024; 5:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9958
+CVE-2024-9959|Use after free in DevTools in Google Chrome prior to 130.0.6723.58 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a crafted Chrome Extension. (Chromium security severity: Medium)|October 15, 2024; 5:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9959
+CVE-2024-9960|Use after free in Dawn in Google Chrome prior to 130.0.6723.58 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)|October 15, 2024; 5:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9960
+CVE-2024-9961|Use after free in ParcelTracking in Google Chrome on iOS prior to 130.0.6723.58 allowed a remote attacker who convinced a user to engage in specific UI gestures to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)|October 15, 2024; 5:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9961
+CVE-2024-9962|Inappropriate implementation in Permissions in Google Chrome prior to 130.0.6723.58 allowed a remote attacker who convinced a user to engage in specific UI gestures to perform UI spoofing via a crafted HTML page. (Chromium security severity: Medium)|October 15, 2024; 5:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9962
+CVE-2024-9963|Insufficient data validation in Downloads in Google Chrome prior to 130.0.6723.58 allowed a remote attacker who convinced a user to engage in specific UI gestures to perform UI spoofing via a crafted HTML page. (Chromium security severity: Medium)|October 15, 2024; 5:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9963
+CVE-2024-9964|Inappropriate implementation in Payments in Google Chrome prior to 130.0.6723.58 allowed a remote attacker who convinced a user to engage in specific UI gestures to perform UI spoofing via a crafted Chrome Extension. (Chromium security severity: Low)|October 15, 2024; 5:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9964
+CVE-2024-9965|Insufficient data validation in DevTools in Google Chrome on Windows prior to 130.0.6723.58 allowed a remote attacker who convinced a user to engage in specific UI gestures to execute arbitrary code via a crafted HTML page. (Chromium security severity: Low)|October 15, 2024; 5:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9965
+CVE-2024-9966|Inappropriate implementation in Navigations in Google Chrome prior to 130.0.6723.58 allowed a remote attacker to bypass content security policy via a crafted HTML page. (Chromium security severity: Low)|October 15, 2024; 5:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9966
 Exploiting this vulnerability is possible when running Black on untrusted input, or if you habitually put thousands of leading tab characters in your docstrings.|March 19, 2024; 1:15:09 AM -0400|V3.x:(not available) V2.0:(not available)  (None)|https://nvd.nist.gov/vuln/detail/CVE-2024-21503|
 However, some local environment variables may have been set by the developer / CI environment for testing purposes, such as dropping the database during the application startup or trusting all TLS certificates to accept self-signed certificates. If these properties are configured using environment variables or the .env facility, they are captured into the built application. It leads to dangerous behavior if the application does not override these values.||||
 Mitigation:||||
