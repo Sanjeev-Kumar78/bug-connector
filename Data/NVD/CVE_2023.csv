@@ -5341,11 +5341,29 @@ retain their previous permissions in Rancher, even if they change groups
 from a group, thus retaining their access to Rancher instead of losing 
 it.
 This issue affects Rancher: from >= 2.6.7 before < 2.6.13, from >= 2.7.0 before < 2.7.4."|June 01, 2023; 9:15:10 AM -0400|V3.1: 8.8 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-22648&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-22648
+CVE-2023-22649|A vulnerability has been identified which may lead to sensitive data being leaked into Rancher's audit logs. [Rancher Audit Logging](https://ranchermanager.docs.rancher.com/how-to-guides/advanced-user-guides/enable-api-audit-log) is an opt-in feature, only deployments that have it enabled and have [AUDIT_LEVEL](https://ranchermanager.docs.rancher.com/how-to-guides/advanced-user-guides/enable-api-audit-log#audit-log-levels) set to `1 or above` are impacted by this issue.|October 16, 2024; 4:15:04 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-22649
 CVE-2023-2265|"An Improper Restriction of Rendered UI Layers or Frames in the Schweitzer Engineering Laboratories SEL-411L could allow an unauthenticated attacker to perform clickjacking based attacks against an authenticated and authorized user.
 
 
 
 See product Instruction Manual Appendix A dated 20230830 for more details."|November 30, 2023; 12:15:07 PM -0500|V3.1: 6.1 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-2265&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-2265
+CVE-2023-22650|A vulnerability has been identified in which Rancher does not automatically clean up a user which has been deleted from the configured authentication provider (AP). This characteristic also applies to disabled or revoked users, Rancher will not reflect these modifications which may leave the user’s tokens still usable.|October 16, 2024; 5:15:02 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-22650
 CVE-2023-22651|"Improper Privilege Management vulnerability in SUSE Rancher allows Privilege Escalation. A failure in the update logic of Rancher's admission Webhook may lead to
  the misconfiguration of the Webhook. This component enforces validation
  rules and security checks before resources are admitted into the 
@@ -15184,7 +15202,79 @@ CVE-2023-32186|"A Allocation of Resources Without Limits or Throttling vulnerabi
 This issue affects RKE2: from 1.24.0 before 1.24.17+rke2r1, from v1.25.0 before v1.25.13+rke2r1, from v1.26.0 before v1.26.8+rke2r1, from v1.27.0 before v1.27.5+rke2r1, from v1.28.0 before v1.28.1+rke2r1."|September 19, 2023; 6:15:13 AM -0400|V3.1: 7.5 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-32186&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-32186
 CVE-2023-32187|"An Allocation of Resources Without Limits or Throttling vulnerability in SUSE k3s allows attackers with access to K3s servers' apiserver/supervisor port (TCP 6443) cause denial of service.
 This issue affects k3s: from v1.24.0 before v1.24.17+k3s1, from v1.25.0 before v1.25.13+k3s1, from v1.26.0 before v1.26.8+k3s1, from sev1.27.0 before v1.27.5+k3s1, from v1.28.0 before v1.28.1+k3s1."|September 18, 2023; 9:15:08 AM -0400|V3.1: 7.5 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-32187&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-32187
+CVE-2023-32188|A user can reverse engineer the JWT token (JSON Web Token) used in authentication for Manager and API access, forging a valid NeuVector Token to perform malicious activity in NeuVector. This can lead to an RCE.|October 16, 2024; 5:15:03 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-32188
+CVE-2023-32189|Insecure handling of ssh keys used to bootstrap clients allows local attackers to potentially gain access to the keys|October 16, 2024; 10:15:04 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-32189
 CVE-2023-3219|The EventON WordPress plugin before 2.1.2 does not validate that the event_id parameter in its eventon_ics_download ajax action is a valid Event, allowing unauthenticated visitors to access any Post (including unpublished or protected posts) content via the ics export functionality by providing the numeric id of the post.|July 10, 2023; 12:15:55 PM -0400|V3.1: 5.3 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-3219&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-3219
+CVE-2023-32190|mlocate's %post script allows RUN_UPDATEDB_AS user to make arbitrary files world readable by abusing insecure file operations that run with root privileges.|October 16, 2024; 8:15:07 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-32190
+CVE-2023-32191|When RKE provisions a cluster, it stores the cluster state in a configmap called `full-cluster-state` inside the `kube-system` namespace of the cluster itself. The information available in there allows non-admin users to escalate to admin.|October 16, 2024; 9:15:12 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-32191
+CVE-2023-32192|A vulnerability has been identified in which unauthenticated cross-site scripting (XSS) in the API Server's public API endpoint can be exploited, allowing an attacker to execute arbitrary JavaScript code in the victim browser|October 16, 2024; 9:15:12 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-32192
+CVE-2023-32193|A vulnerability has been identified in which unauthenticated cross-site scripting (XSS) in Norman's public API endpoint can be exploited. This can lead to an attacker exploiting the vulnerability to trigger JavaScript code and execute commands remotely.|October 16, 2024; 9:15:12 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-32193
+CVE-2023-32194|"A vulnerability has been identified when granting a create or * global role for a resource type of ""namespaces""; no matter the API group, the subject will receive * permissions for core namespaces. This can lead to someone being capable of accessing, creating, updating, or deleting a namespace in the project."|October 16, 2024; 9:15:12 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-32194
+CVE-2023-32196|A vulnerability has been identified whereby privilege escalation checks are not properly enforced for RoleTemplateobjects when external=true, which in specific scenarios can lead to privilege escalation.|October 16, 2024; 9:15:13 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-32196
 CVE-2023-3220|An issue was discovered in the Linux kernel through 6.1-rc8. dpu_crtc_atomic_check in drivers/gpu/drm/msm/disp/dpu1/dpu_crtc.c lacks check of the return value of kzalloc() and will cause the NULL Pointer Dereference.|June 20, 2023; 4:15:09 PM -0400|V3.1: 5.5 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-3220&vector=AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-3220
 CVE-2023-32200|"There is insufficient restrictions of called script functions in Apache Jena
  versions 4.8.0 and earlier. It allows a 
@@ -15282,6 +15372,15 @@ CVE-2023-32265|"A potential security vulnerability has been identified in the En
 An attacker would need to be authenticated into ESCWA to attempt to exploit this vulnerability. As described in the hardening guide in the product documentation, other mitigations including restricting network access to ESCWA and restricting usersâ€™ permissions in the Micro Focus Directory Server also reduce the exposure to this issue.
 
 Given the right conditions this vulnerability could be exploited to expose a service account password. The account corresponding to the exposed credentials usually has limited privileges and, in many cases would only be useful for extracting details of other user accounts and similar information."|July 20, 2023; 10:15:11 AM -0400|V3.1: 6.5 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-32265&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-32265
+CVE-2023-32266|Untrusted Search Path vulnerability in OpenText™ Application Lifecycle Management (ALM),Quality Center allows Code Inclusion. The vulnerability allows a user to archive a malicious DLLs on the system prior to the installation.  This issue affects Application Lifecycle Management (ALM),Quality Center: 15.00, 15.01, 15.01 P1, 15.01 P2, 15.01 P3, 15.01 P4, 15.01 P5, 15.51, 15.51 P1, 15.51 P2, 15.51 P3, 16.00, 16.01 P1.|October 16, 2024; 1:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-32266
 CVE-2023-32267|A potential vulnerability has been identified in OpenText / Micro Focus ArcSight Management Center. The vulnerability could be remotely exploited.|August 11, 2023; 10:15:13 AM -0400|V3.1: 8.8 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-32267&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-32267
 CVE-2023-32268|"Exposure of Proxy Administrator Credentials
 
@@ -45359,14 +45458,34 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-7282
+CVE-2023-7295|The Video Grid plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the search_term parameter in versions up to, and including, 1.21 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.|October 16, 2024; 4:15:04 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.1 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-7295&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2023-7295
+CVE-2023-7296|The BigBlueButton plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the the moderator code and viewer code fields in versions up to, and including, 3.0.0-beta.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers with author privileges or higher to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.|October 16, 2024; 4:15:04 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-7296
 If the mentions list is sourced from unsafe (user-sourced) data, this might allow an injection attack when a Quill user hits @.|September 28, 2023; 1:15:46 AM -0400|V3.1: 6.1 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26149&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26149|
 In order to exploit this vulnerability, the attacker needs to invest resources in preparing the attack and brute-force the encryption.|December 06, 2023; 12:15:10 AM -0500|V3.1: 5.9 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26154&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26154|
 The pydash.collections.invoke_map() method is also vulnerable, but is harder to exploit as the attacker does not have direct control over the argument to be passed to the invoked function.|September 28, 2023; 1:15:45 AM -0400|V3.1: 8.1 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26145&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26145|
 The pydash.objects.invoke() method is vulnerable to Command Injection when the following prerequisites are satisfied:||||
 This issue is a result of missing checks for services that require an active session.|October 03, 2023; 1:15:49 AM -0400|V3.1: 7.5 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26150&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26150|
-To execute the code snippet and potentially exploit the vulnerability, the attacker needs to have the ability to run Node.js code within the target environment. This typically requires some level of access to the system or application hosting the Node.js environment.|May 27, 2023; 1:15:09 AM -0400|V3.1: 7.8 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26129&vector=AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26129|
 To execute the code snippet and potentially exploit the vulnerability, the attacker needs to have the ability to run Node.js code within the target environment. This typically requires some level of access to the system or application hosting the Node.js environment.|May 27, 2023; 1:15:09 AM -0400|V3.1: 7.8 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26127&vector=AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26127|
 To execute the code snippet and potentially exploit the vulnerability, the attacker needs to have the ability to run Node.js code within the target environment. This typically requires some level of access to the system or application hosting the Node.js environment.|May 27, 2023; 1:15:09 AM -0400|V3.1: 7.8 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26128&vector=AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26128|
+To execute the code snippet and potentially exploit the vulnerability, the attacker needs to have the ability to run Node.js code within the target environment. This typically requires some level of access to the system or application hosting the Node.js environment.|May 27, 2023; 1:15:09 AM -0400|V3.1: 7.8 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26129&vector=AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26129|
 |February 24, 2023; 12:15:15 AM -0500|V3.1: 8.2 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26102&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26102|
 |February 25, 2023; 12:15:12 AM -0500|V3.1: 7.5 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26103&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26103|
 |February 28, 2023; 12:15:13 AM -0500|V3.1: 7.5 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26105&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26105|

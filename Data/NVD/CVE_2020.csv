@@ -14333,6 +14333,17 @@ V3.x:(not available)
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2020-36830
 CVE-2020-3684|u'QSEE reads the access permission policy for the SMEM TOC partition from the SMEM TOC contents populated by XBL Loader and applies them without validation' in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wired Infrastructure and Networking in Agatti, APQ8009, APQ8098, Bitra, IPQ6018, Kamorta, MDM9150, MDM9205, MDM9206, MDM9607, MDM9650, MSM8905, MSM8998, Nicobar, QCA6390, QCS404, QCS405, QCS605, QCS610, Rennell, SA415M, SA515M, SA6155P, SA8155P, Saipan, SC7180, SC8180X, SDA660, SDA845, SDM630, SDM636, SDM660, SDM670, SDM710, SDM845, SDM850, SDX20, SDX24, SDX55, SM6150, SM7150, SM8150, SM8250, SXR1130, SXR2130|November 02, 2020; 2:15:14 AM -0500|V3.1: 7.8 HIGH      V2.0: 4.6 MEDIUM (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2020-3684&vector=AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2020-3684
+CVE-2020-36841|The WooCommerce Smart Coupons plugin for WordPress is vulnerable to authorization bypass due to a missing capability check on the woocommerce_coupon_admin_init function in versions up to, and including, 4.6.0. This makes it possible for unauthenticated attackers to send themselves gift certificates of any value, which could be redeemed for products sold on the victim’s storefront.|October 16, 2024; 9:15:11 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+5.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2020-36841&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2020-36841
 CVE-2020-3685|Pointer variable which is freed is not cleared can result in memory corruption and leads to denial of service in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon IoT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking|January 21, 2021; 5:15:14 AM -0500|V3.1: 7.5 HIGH      V2.0: 7.8 HIGH (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2020-3685&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2020-3685
 CVE-2020-3686|Possible memory out of bound issue during music playback when an incorrect bit stream content is copied into array without checking the length of array in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon IoT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking|January 21, 2021; 5:15:15 AM -0500|V3.1: 9.8 CRITICAL      V2.0: 10.0 HIGH (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2020-3686&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2020-3686
 CVE-2020-3687|Local privilege escalation in admin services in Windows environment can occur due to an arbitrary read issue.|January 21, 2021; 5:15:15 AM -0500|V3.1: 5.5 MEDIUM      V2.0: 2.1 LOW (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2020-3687&vector=AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2020-3687
