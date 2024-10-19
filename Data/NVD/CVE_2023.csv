@@ -34124,6 +34124,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-49566
+CVE-2023-49567|A vulnerability has been identified in the Bitdefender Total Security HTTPS scanning functionality where the product incorrectly checks the site's certificate, which allows an attacker to make MITM SSL connections to an arbitrary site. The product trusts certificates that are issued using the MD5 and SHA1 collision hash functions which allow attackers to create rogue certificates that appear legitimate.|October 18, 2024; 4:15:03 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-49567
 CVE-2023-49568|"A denial of service (DoS) vulnerability was discovered in go-git versions prior to v5.11. This vulnerability allows an attacker to perform denial of service attacks by providing specially crafted responses from a Git server which triggers resource exhaustion in go-git clients.
 
 Applications using only the in-memory filesystem supported by go-git are not affected by this vulnerability.
@@ -34133,6 +34142,15 @@ CVE-2023-49569|"A path traversal vulnerability was discovered in go-git versions
 Applications are only affected if they are using the  ChrootOS https://pkg.go.dev/github.com/go-git/go-billy/v5/osfs#ChrootOS , which is the default when using ""Plain"" versions of Open and Clone funcs (e.g. PlainClone). Applications using  BoundOS https://pkg.go.dev/github.com/go-git/go-billy/v5/osfs#BoundOS  or in-memory filesystems are not affected by this issue.
 This is a go-git implementation issue and does not affect the upstream git cli."|January 12, 2024; 6:15:13 AM -0500|V3.1: 9.8 CRITICALV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-49569&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-49569
 CVE-2023-4957| A vulnerability of authentication bypass has been found on a Zebra Technologies ZTC ZT410-203dpi ZPL printer. This vulnerability allows an attacker that is in the same network as the printer, to change the username and password for the Web Page by sending a specially crafted POST request to the setvarsResults.cgi file. For this vulnerability to be exploitable, the printers protected mode must be disabled.|October 11, 2023; 10:15:10 AM -0400|V3.1: 4.3 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-4957&vector=AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-4957
+CVE-2023-49570|"A vulnerability has been identified in Bitdefender Total Security HTTPS scanning functionality where the software trusts a certificate issued by an entity that isn't authorized to issue certificates. This occurs when the ""Basic Constraints"" extension in the certificate indicates that it is meant to be an ""End Entity”. This flaw could allow an attacker to perform a Man-in-the-Middle (MITM) attack, intercepting and potentially altering communications between the user and the website."|October 18, 2024; 5:15:02 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-49570
 CVE-2023-49572|A vulnerability has been discovered in VX Search Enterprise affecting version 10.2.14 that could allow an attacker to execute persistent XSS through /setup_odbc in odbc_data_source, odbc_user and odbc_password parameters. This vulnerability could allow an attacker to store malicious JavaScript payloads on the system to be triggered when the page loads.|May 24, 2024; 9:15:08 AM -0400|"V4.0:(not available)
 
 
@@ -43791,6 +43809,42 @@ CVE-2023-6051|An issue has been discovered in GitLab CE/EE affecting all version
 CVE-2023-6052|A vulnerability classified as critical has been found in Tongda OA 2017 up to 11.9. Affected is an unknown function of the file general/system/censor_words/module/delete.php. The manipulation of the argument DELETE_STR leads to sql injection. The exploit has been disclosed to the public and may be used. Upgrading to version 11.10 is able to address this issue. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-244872. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.|November 09, 2023; 8:15:07 AM -0500|V3.1: 9.8 CRITICALV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-6052&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-6052
 CVE-2023-6053|A vulnerability, which was classified as critical, has been found in Tongda OA 2017 up to 11.9. Affected by this issue is some unknown functionality of the file general/system/censor_words/manage/delete.php. The manipulation of the argument DELETE_STR leads to sql injection. The exploit has been disclosed to the public and may be used. Upgrading to version 11.10 is able to address this issue. It is recommended to upgrade the affected component. VDB-244874 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.|November 09, 2023; 2:15:08 PM -0500|V3.1: 9.8 CRITICALV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-6053&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-6053
 CVE-2023-6054|A vulnerability, which was classified as critical, was found in Tongda OA 2017 up to 11.9. This affects an unknown part of the file general/wiki/cp/manage/lock.php. The manipulation of the argument TERM_ID_STR leads to sql injection. The exploit has been disclosed to the public and may be used. Upgrading to version 11.10 is able to address this issue. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-244875. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.|November 09, 2023; 2:15:08 PM -0500|V3.1: 9.8 CRITICALV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-6054&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-6054
+CVE-2023-6055|"A vulnerability has been identified in Bitdefender Total Security HTTPS scanning functionality where the software fails to properly validate website certificates. Specifically, if a site certificate lacks the ""Server Authentication"" specification in the Extended Key Usage extension, the product does not verify the certificate's compliance with the site, deeming such certificates as valid. This flaw could allow an attacker to perform a Man-in-the-Middle (MITM) attack, intercepting and potentially altering communications between the user and the website."|October 18, 2024; 4:15:03 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-6055
+CVE-2023-6056|A vulnerability has been discovered in Bitdefender Total Security HTTPS scanning functionality that results in the improper trust of self-signed certificates. The product is found to trust certificates signed with the RIPEMD-160 hashing algorithm without proper validation, allowing an attacker to establish MITM SSL connections to arbitrary sites.|October 18, 2024; 4:15:03 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-6056
+CVE-2023-6057|A vulnerability has been discovered in Bitdefender Total Security HTTPS scanning functionality that results in the improper trust of certificates issued using the DSA signature algorithm. The product does not properly check the certificate chain, allowing an attacker to establish MITM SSL connections to arbitrary sites using a DSA-signed certificate.|October 18, 2024; 4:15:03 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-6057
+CVE-2023-6058|A vulnerability has been identified in Bitdefender Safepay's handling of HTTPS connections. The issue arises when the product blocks a connection due to an untrusted server certificate but allows the user to add the site to exceptions, resulting in the product trusting the certificate for subsequent HTTPS scans. This vulnerability allows an attacker to perform a Man-in-the-Middle (MITM) attack by using a self-signed certificate, which the product will trust after the site has been added to exceptions. This can lead to the interception and potential alteration of secure communications.|October 18, 2024; 4:15:03 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-6058
 CVE-2023-6061|"Multiple components of Iconics SCADA Suite are prone to a Phantom DLL loading vulnerability. This issue arises from the applications improperly searching for and loading dynamic link libraries, potentially allowing an attacker to execute malicious code via a DLL with a matching name in an accessible search path. The affected components are:
   *  MMXFax.exe  *  winfax.dll
 
@@ -43821,6 +43875,15 @@ CVE-2023-6075|A vulnerability classified as problematic has been found in PHPGur
 CVE-2023-6076|A vulnerability classified as problematic was found in PHPGurukul Restaurant Table Booking System 1.0. Affected by this vulnerability is an unknown functionality of the file booking-details.php of the component Reservation Status Handler. The manipulation of the argument bid leads to information disclosure. The attack can be launched remotely. The identifier VDB-244945 was assigned to this vulnerability.|November 10, 2023; 11:15:34 AM -0500|V3.1: 7.5 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-6076&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-6076
 CVE-2023-6077|The Slider WordPress plugin before 3.5.12 does not ensure that posts to be accessed via an AJAX action are slides and can be viewed by the user making the request, allowing any authenticated users, such as subscriber to access the content arbitrary post such as private, draft and password protected|December 18, 2023; 3:15:08 PM -0500|V3.1: 6.5 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-6077&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-6077
 CVE-2023-6078|An OS Command Injection vulnerability exists in BIOVIA Materials Studio products from Release BIOVIA 2021 through Release BIOVIA 2023. Upload of a specially crafted perl script can lead to arbitrary command execution.|February 01, 2024; 9:15:55 AM -0500|V3.1: 9.8 CRITICALV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-6078&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-6078
+CVE-2023-6080|Lakeside Software’s SysTrack LsiAgent Installer version 10.7.8 for Windows contains a local privilege escalation vulnerability which allows attackers SYSTEM level access.|October 18, 2024; 1:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-6080
 CVE-2023-6081|The chartjs WordPress plugin through 2023.2 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).|February 12, 2024; 11:15:08 AM -0500|V3.x:(not available) V2.0:(not available)  (None)|https://nvd.nist.gov/vuln/detail/CVE-2023-6081
 CVE-2023-6082|The chartjs WordPress plugin through 2023.2 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).|February 12, 2024; 11:15:08 AM -0500|V3.x:(not available) V2.0:(not available)  (None)|https://nvd.nist.gov/vuln/detail/CVE-2023-6082
 CVE-2023-6084|A vulnerability was found in Tongda OA 2017 up to 11.9 and classified as critical. Affected by this issue is some unknown functionality of the file general/vehicle/checkup/delete.php. The manipulation of the argument VU_ID leads to sql injection. The exploit has been disclosed to the public and may be used. Upgrading to version 11.10 is able to address this issue. It is recommended to upgrade the affected component. VDB-244994 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.|November 12, 2023; 6:15:07 AM -0500|V3.1: 9.8 CRITICALV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-6084&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-6084
@@ -45519,9 +45582,9 @@ In order to exploit this vulnerability, the attacker needs to invest resources i
 The pydash.collections.invoke_map() method is also vulnerable, but is harder to exploit as the attacker does not have direct control over the argument to be passed to the invoked function.|September 28, 2023; 1:15:45 AM -0400|V3.1: 8.1 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26145&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26145|
 The pydash.objects.invoke() method is vulnerable to Command Injection when the following prerequisites are satisfied:||||
 This issue is a result of missing checks for services that require an active session.|October 03, 2023; 1:15:49 AM -0400|V3.1: 7.5 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26150&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26150|
-To execute the code snippet and potentially exploit the vulnerability, the attacker needs to have the ability to run Node.js code within the target environment. This typically requires some level of access to the system or application hosting the Node.js environment.|May 27, 2023; 1:15:09 AM -0400|V3.1: 7.8 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26128&vector=AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26128|
 To execute the code snippet and potentially exploit the vulnerability, the attacker needs to have the ability to run Node.js code within the target environment. This typically requires some level of access to the system or application hosting the Node.js environment.|May 27, 2023; 1:15:09 AM -0400|V3.1: 7.8 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26129&vector=AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26129|
 To execute the code snippet and potentially exploit the vulnerability, the attacker needs to have the ability to run Node.js code within the target environment. This typically requires some level of access to the system or application hosting the Node.js environment.|May 27, 2023; 1:15:09 AM -0400|V3.1: 7.8 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26127&vector=AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26127|
+To execute the code snippet and potentially exploit the vulnerability, the attacker needs to have the ability to run Node.js code within the target environment. This typically requires some level of access to the system or application hosting the Node.js environment.|May 27, 2023; 1:15:09 AM -0400|V3.1: 7.8 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26128&vector=AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26128|
 |February 24, 2023; 12:15:15 AM -0500|V3.1: 8.2 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26102&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26102|
 |February 25, 2023; 12:15:12 AM -0500|V3.1: 7.5 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26103&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26103|
 |February 28, 2023; 12:15:13 AM -0500|V3.1: 7.5 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-26105&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-26105|
