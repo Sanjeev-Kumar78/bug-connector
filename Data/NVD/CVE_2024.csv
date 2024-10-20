@@ -1855,9 +1855,180 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10130
+CVE-2024-10131|The `add_llm` function in `llm_app.py` in infiniflow/ragflow version 0.11.0 contains a remote code execution (RCE) vulnerability. The function uses user-supplied input `req['llm_factory']` and `req['llm_name']` to dynamically instantiate classes from various model dictionaries. This approach allows an attacker to potentially execute arbitrary code due to the lack of comprehensive input validation or sanitization. An attacker could provide a malicious value for 'llm_factory' that, when used as an index to these model dictionaries, results in the execution of arbitrary code.|October 19, 2024; 12:15:05 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10131
+CVE-2024-10133|A vulnerability has been found in ESAFENET CDG 5 and classified as critical. Affected by this vulnerability is the function updateNetSecPolicyPriority of the file /com/esafenet/servlet/ajax/NetSecPolicyAjax.java. The manipulation of the argument id/frontId leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.|October 19, 2024; 5:15:11 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10133
+CVE-2024-10134|A vulnerability was found in ESAFENET CDG 5 and classified as critical. Affected by this issue is the function connectLogout of the file /com/esafenet/servlet/ajax/MultiServerAjax.java. The manipulation of the argument servername leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.|October 19, 2024; 6:15:02 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10134
+CVE-2024-10135|A vulnerability was found in ESAFENET CDG 5. It has been classified as critical. This affects the function actionDelNetSecConfig of the file /com/esafenet/servlet/netSec/NetSecConfigService.java. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.|October 19, 2024; 8:15:13 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10135
+CVE-2024-10136|A vulnerability was found in code-projects Pharmacy Management System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /manage_invoice.php. The manipulation of the argument invoice_number leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.|October 19, 2024; 8:15:14 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10136
+CVE-2024-10137|A vulnerability was found in code-projects Pharmacy Management System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /manage_medicine.php?action=delete. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.|October 19, 2024; 9:15:11 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10137
+CVE-2024-10138|A vulnerability classified as critical has been found in code-projects Pharmacy Management System 1.0. Affected is an unknown function of the file /add_new_purchase.php?action=is_supplier. The manipulation of the argument name leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.|October 19, 2024; 9:15:12 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10138
+CVE-2024-10139|A vulnerability classified as critical was found in code-projects Pharmacy Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /add_new_supplier.php. The manipulation of the argument name leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.|October 19, 2024; 10:15:02 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10139
 CVE-2024-1014|Uncontrolled resource consumption vulnerability in SE-elektronic GmbH E-DDC3.3 affecting versions 03.07.03 and higher. An attacker could interrupt the availability of the administration panel by sending multiple ICMP packets.|January 29, 2024; 9:15:09 AM -0500|V3.1: 7.5 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-1014&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2024-1014
+CVE-2024-10140|A vulnerability, which was classified as critical, has been found in code-projects Pharmacy Management System 1.0. Affected by this issue is some unknown functionality of the file /manage_supplier.php. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.|October 19, 2024; 11:15:14 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10140
+CVE-2024-10141|A vulnerability, which was classified as problematic, was found in jsbroks COCO Annotator 0.11.1. This affects an unknown part of the component Session Handler. The manipulation of the argument SECRET_KEY leads to predictable from observable state. It is possible to initiate the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. The exploit has been disclosed to the public and may be used.|October 19, 2024; 11:15:14 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10141
+CVE-2024-10142|A vulnerability has been found in code-projects Blood Bank System 1.0 and classified as problematic. This vulnerability affects unknown code of the file /viewrequest.php. The manipulation leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.|October 19, 2024; 1:15:10 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10142
 CVE-2024-1015| Remote command execution vulnerability in SE-elektronic GmbH E-DDC3.3 affecting versions 03.07.03 and higher. An attacker could send different commands from the operating system to the system via the web configuration functionality of the device.|January 29, 2024; 9:15:09 AM -0500|V3.1: 9.8 CRITICALV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-1015&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2024-1015
+CVE-2024-10153|A vulnerability has been found in PHPGurukul Boat Booking System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file book-boat.php?bid=1 of the component Book a Boat Page. The manipulation of the argument nopeople leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.|October 19, 2024; 2:15:02 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10153
+CVE-2024-10154|A vulnerability was found in PHPGurukul Boat Booking System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file status.php of the component Check Booking Status Page. The manipulation of the argument emailid leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.|October 19, 2024; 3:15:04 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10154
+CVE-2024-10155|A vulnerability was found in PHPGurukul Boat Booking System 1.0. It has been classified as problematic. This affects an unknown part of the file book-boat.php?bid=1 of the component Book a Boat Page. The manipulation of the argument phone_number leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.|October 19, 2024; 5:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10155
+CVE-2024-10156|A vulnerability was found in PHPGurukul Boat Booking System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /admin/index.php of the component Sign In Page. The manipulation of the argument username leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.|October 19, 2024; 5:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10156
+CVE-2024-10157|A vulnerability was found in PHPGurukul Boat Booking System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /admin/password-recovery.php of the component Reset Your Password Page. The manipulation of the argument username leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.|October 19, 2024; 7:15:04 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10157
+CVE-2024-10158|A vulnerability classified as problematic has been found in PHPGurukul Boat Booking System 1.0. Affected is the function session_start. The manipulation leads to session fixiation. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.|October 19, 2024; 7:15:04 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10158
+CVE-2024-10159|"A vulnerability classified as critical was found in PHPGurukul Boat Booking System 1.0. Affected by this vulnerability is an unknown functionality of the file /admin/profile.php of the component My Profile Page. The manipulation of the argument sadminusername/fullname/emailid/mobilenumber leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory only mentions the parameter ""mobilenumber"" to be affected. But it must be assumed that other parameters are affected as well."|October 19, 2024; 8:15:02 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10159
 CVE-2024-1016|A vulnerability was found in Solar FTP Server 2.1.1/2.1.2. It has been declared as problematic. This vulnerability affects unknown code of the component PASV Command Handler. The manipulation leads to denial of service. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. It is recommended to apply a patch to fix this issue. VDB-252286 is the identifier assigned to this vulnerability.|January 29, 2024; 1:15:07 PM -0500|V3.1: 7.5 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-1016&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2024-1016
+CVE-2024-10160|"A vulnerability, which was classified as critical, has been found in PHPGurukul Boat Booking System 1.0. Affected by this issue is some unknown functionality of the file /admin/bwdates-report-details.php of the component BW Dates Report Page. The manipulation of the argument fdate/tdate leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory only mentions the parameter ""fdate"" to be affected. But it must be assumed ""tdate"" is affected as well."|October 19, 2024; 8:15:02 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10160
 CVE-2024-1017|A vulnerability was found in Gabriels FTP Server 1.2. It has been rated as problematic. This issue affects some unknown processing. The manipulation of the argument USERNAME leads to denial of service. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-252287.|January 29, 2024; 2:15:08 PM -0500|V3.1: 7.5 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-1017&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2024-1017
 CVE-2024-1018|A vulnerability classified as problematic has been found in PbootCMS 3.2.5-20230421. Affected is an unknown function of the file /admin.php?p=/Area/index#tab=t2. The manipulation of the argument name leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-252288.|January 29, 2024; 3:15:15 PM -0500|V3.1: 6.1 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-1018&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2024-1018
 CVE-2024-1019|ModSecurity / libModSecurity 3.0.0 to 3.0.11 is affected by a WAF bypass for path-based payloads submitted via specially crafted request URLs. ModSecurity v3 decodes percent-encoded characters present in request URLs before it separates the URL path component from the optional query string component. This results in an impedance mismatch versus RFC compliant back-end applications. The vulnerability hides an attack payload in the path component of the URL from WAF rules inspecting it. A back-end may be vulnerable if it uses the path component of request URLs to construct queries. Integrators and users are advised to upgrade to 3.0.12. The ModSecurity v2 release line is not affected by this vulnerability.|January 30, 2024; 11:15:47 AM -0500|V3.1: 8.6 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-1019&vector=AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2024-1019
@@ -8581,6 +8752,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21531
+CVE-2024-21536|Versions of the package http-proxy-middleware before 2.0.7, from 3.0.0 and before 3.0.3 are vulnerable to Denial of Service (DoS) due to an UnhandledPromiseRejection error thrown by micromatch. An attacker could kill the Node.js process and crash the server by making requests to certain paths.|October 19, 2024; 1:15:13 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-21536
 CVE-2024-2154|A vulnerability has been found in SourceCodester Online Mobile Management Store 1.0 and classified as critical. This vulnerability affects unknown code of the file view_product.php. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-255586 is the identifier assigned to this vulnerability.|March 03, 2024; 8:15:07 PM -0500|V3.x:(not available) V2.0:(not available)  (None)|https://nvd.nist.gov/vuln/detail/CVE-2024-2154
 CVE-2024-2155|A vulnerability was found in SourceCodester Best POS Management System 1.0 and classified as problematic. This issue affects some unknown processing of the file index.php. The manipulation of the argument page leads to file inclusion. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-255587.|March 03, 2024; 8:15:07 PM -0500|V3.x:(not available) V2.0:(not available)  (None)|https://nvd.nist.gov/vuln/detail/CVE-2024-2155
 CVE-2024-21550|SteVe is an open platform that implements different version of the OCPP protocol for Electric Vehicle charge points, acting as a central server for management of registered charge points. Attackers can inject arbitrary HTML and Javascript code via WebSockets leading to persistent Cross-Site Scripting in the SteVe management interface.|August 12, 2024; 11:15:19 AM -0400|"V4.0:(not available)
@@ -123368,6 +123548,17 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9218&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9218
+CVE-2024-9219|The WordPress Social Share Buttons plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 1.19. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.|October 19, 2024; 12:15:05 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.1 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9219&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9219
 CVE-2024-9220|The LH Copy Media File plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 1.08. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.|October 01, 2024; 5:15:06 AM -0400|"V4.0:(not available)
 
 
@@ -125833,6 +126024,17 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9860&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9860
+CVE-2024-9889|The ElementInvader Addons for Elementor plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.2.9 via the Page Loader widget. This makes it possible for authenticated attackers, with contributor-level access and above, to view private/draft/password protected posts, pages, and Elementor templates that they should not have access to.|October 19, 2024; 3:15:03 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.3 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9889&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9889
 CVE-2024-9892|The Add Widget After Content plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 2.4.6 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.|October 18, 2024; 1:15:08 AM -0400|"V4.0:(not available)
 
 
@@ -125862,6 +126064,17 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9894
+CVE-2024-9897|The StreamWeasels Twitch Integration plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's sw-twitch-embed shortcode in all versions up to, and including, 1.8.6 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|October 19, 2024; 6:15:05 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+6.4 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-9897&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-9897
 CVE-2024-9903|A vulnerability classified as critical has been found in 07FLYCMS, 07FLY-CMS and 07FlyCRM up to 1.2.0. This affects the function fileUpload of the file /admin/File/fileUpload. The manipulation of the argument file leads to unrestricted upload. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The affected product is known with different names like 07FLYCMS, 07FLY-CMS, and 07FlyCRM. It was not possible to reach out to the vendor before assigning a CVE due to a not working mail address.|October 12, 2024; 7:15:11 PM -0400|"V4.0:(not available)
 
 
