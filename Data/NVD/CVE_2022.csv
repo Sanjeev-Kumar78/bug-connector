@@ -27155,11 +27155,416 @@ CVE-2022-4895|Improper Certificate Validation vulnerability in Hitachi Infrastru
 CVE-2022-4896|"Cyber Control, in its 1.650 version, is affected by a vulnerability in the generation on the server of pop-up windows with the messages ""PNTMEDIDAS"", ""PEDIR"", ""HAYDISCOA"" or ""SPOOLER"". A complete denial of service can be achieved by sending multiple requests simultaneously on a core."|September 12, 2023; 4:15:13 AM -0400|V3.1: 7.5 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-4896&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2022-4896
 CVE-2022-4897|The BackupBuddy WordPress plugin before 8.8.3 does not sanitise and escape some parameters before outputting them back in various places, leading to Reflected Cross-Site Scripting|February 21, 2023; 4:15:11 AM -0500|V3.1: 6.1 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-4897&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2022-4897
 CVE-2022-4898|In affected versions of Octopus Server the help sidebar can be customized to include a Cross-Site Scripting payload in the support link. This was initially resolved in advisory 2022-07 however it was identified that the fix could be bypassed in certain circumstances. A different approach was taken to prevent the possibility of the support link being susceptible to XSS|January 30, 2023; 11:15:07 PM -0500|V3.1: 5.4 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-4898&vector=AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2022-4898
+CVE-2022-48989|In the Linux kernel, the following vulnerability has been resolved:fscache: Fix oops due to race with cookie_lru and use_cookieIf a cookie expires from the LRU and the LRU_DISCARD flag is set, butthe state machine has not run yet, it's possible another thread can callfscache_use_cookie and begin to use it.When the cookie_worker finally runs, it will see the LRU_DISCARD flagset, transition the cookie->state to LRU_DISCARDING, which will thenwithdraw the cookie.  Once the cookie is withdrawn the object is removedthe below oops will occur because the object associated with the cookieis now NULL.Fix the oops by clearing the LRU_DISCARD bit if another thread uses thecookie before the cookie_worker runs.  BUG: kernel NULL pointer dereference, address: 0000000000000008  ...  CPU: 31 PID: 44773 Comm: kworker/u130:1 Tainted: G     E    6.0.0-5.dneg.x86_64 #1  Hardware name: Google Compute Engine/Google Compute Engine, BIOS Google 08/26/2022  Workqueue: events_unbound netfs_rreq_write_to_cache_work [netfs]  RIP: 0010:cachefiles_prepare_write+0x28/0x90 [cachefiles]  ...  Call Trace:    netfs_rreq_write_to_cache_work+0x11c/0x320 [netfs]    process_one_work+0x217/0x3e0    worker_thread+0x4a/0x3b0    kthread+0xd6/0x100|October 21, 2024; 4:15:10 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-48989
 CVE-2022-4899|A vulnerability was found in zstd v1.4.10, where an attacker can supply empty string as an argument to the command line tool to cause buffer overrun.|March 31, 2023; 4:15:07 PM -0400|V3.1: 7.5 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-4899&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2022-4899
+CVE-2022-48990|In the Linux kernel, the following vulnerability has been resolved:drm/amdgpu: fix use-after-free during gpu recovery[Why]    [  754.862560] refcount_t: underflow; use-after-free.    [  754.862898] Call Trace:    [  754.862903]  <TASK>    [  754.862913]  amdgpu_job_free_cb+0xc2/0xe1 [amdgpu]    [  754.863543]  drm_sched_main.cold+0x34/0x39 [amd_sched][How]    The fw_fence may be not init, check whether dma_fence_init    is performed before job free|October 21, 2024; 4:15:10 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-48990
+CVE-2022-48991|"In the Linux kernel, the following vulnerability has been resolved:mm/khugepaged: invoke MMU notifiers in shmem/file collapse pathsAny codepath that zaps page table entries must invoke MMU notifiers toensure that secondary MMUs (like KVM) don't keep accessing pages whicharen't mapped anymore.  Secondary MMUs don't hold their own references topages that are mirrored over, so failing to notify them can lead to pageuse-after-free.I'm marking this as addressing an issue introduced in commit f3f0e1d2150b(""khugepaged: add support of collapse for tmpfs/shmem pages""), but most ofthe security impact of this only came in commit 27e1f8273113 (""khugepaged:enable collapse pmd for pte-mapped THP""), which actually omitted flushesfor the removal of present PTEs, not just for the removal of empty pagetables."|October 21, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-48991
+CVE-2022-48992|In the Linux kernel, the following vulnerability has been resolved:ASoC: soc-pcm: Add NULL check in BE reparentingAdd NULL check in dpcm_be_reparent API, to handlekernel NULL pointer dereference error.The issue occurred in fuzzing test.|October 21, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-48992
+CVE-2022-48993|"In the Linux kernel, the following vulnerability has been resolved:fbcon: Use kzalloc() in fbcon_prepare_logo()A kernel built with syzbot's config file reported that  scr_memcpyw(q, save, array3_size(logo_lines, new_cols, 2))causes uninitialized ""save"" to be copied.  ----------  [drm] Initialized vgem 1.0.0 20120112 for vgem on minor 0  [drm] Initialized vkms 1.0.0 20180514 for vkms on minor 1  Console: switching to colour frame buffer device 128x48  =====================================================  BUG: KMSAN: uninit-value in do_update_region+0x4b8/0xba0   do_update_region+0x4b8/0xba0   update_region+0x40d/0x840   fbcon_switch+0x3364/0x35e0   redraw_screen+0xae3/0x18a0   do_bind_con_driver+0x1cb3/0x1df0   do_take_over_console+0x11cb/0x13f0   fbcon_fb_registered+0xacc/0xfd0   register_framebuffer+0x1179/0x1320   __drm_fb_helper_initial_config_and_unlock+0x23ad/0x2b40   drm_fbdev_client_hotplug+0xbea/0xda0   drm_fbdev_generic_setup+0x65e/0x9d0   vkms_init+0x9f3/0xc76   (...snipped...)  Uninit was stored to memory at:   fbcon_prepare_logo+0x143b/0x1940   fbcon_init+0x2c1b/0x31c0   visual_init+0x3e7/0x820   do_bind_con_driver+0x14a4/0x1df0   do_take_over_console+0x11cb/0x13f0   fbcon_fb_registered+0xacc/0xfd0   register_framebuffer+0x1179/0x1320   __drm_fb_helper_initial_config_and_unlock+0x23ad/0x2b40   drm_fbdev_client_hotplug+0xbea/0xda0   drm_fbdev_generic_setup+0x65e/0x9d0   vkms_init+0x9f3/0xc76   (...snipped...)  Uninit was created at:   __kmem_cache_alloc_node+0xb69/0x1020   __kmalloc+0x379/0x680   fbcon_prepare_logo+0x704/0x1940   fbcon_init+0x2c1b/0x31c0   visual_init+0x3e7/0x820   do_bind_con_driver+0x14a4/0x1df0   do_take_over_console+0x11cb/0x13f0   fbcon_fb_registered+0xacc/0xfd0   register_framebuffer+0x1179/0x1320   __drm_fb_helper_initial_config_and_unlock+0x23ad/0x2b40   drm_fbdev_client_hotplug+0xbea/0xda0   drm_fbdev_generic_setup+0x65e/0x9d0   vkms_init+0x9f3/0xc76   (...snipped...)  CPU: 2 PID: 1 Comm: swapper/0 Not tainted 6.1.0-rc4-00356-g8f2975c2bb4c #924  Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006  ----------"|October 21, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-48993
+CVE-2022-48994|In the Linux kernel, the following vulnerability has been resolved:ALSA: seq: Fix function prototype mismatch in snd_seq_expand_var_eventWith clang's kernel control flow integrity (kCFI, CONFIG_CFI_CLANG),indirect call targets are validated against the expected functionpointer prototype to make sure the call target is valid to help mitigateROP attacks. If they are not identical, there is a failure at run time,which manifests as either a kernel panic or thread getting killed.seq_copy_in_user() and seq_copy_in_kernel() did not have prototypesmatching snd_seq_dump_func_t. Adjust this and remove the casts. Thereare not resulting binary output differences.This was found as a result of Clang's new -Wcast-function-type-strictflag, which is more sensitive than the simpler -Wcast-function-type,which only checks for type width mismatches.|October 21, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-48994
+CVE-2022-48995|"In the Linux kernel, the following vulnerability has been resolved:Input: raydium_ts_i2c - fix memory leak in raydium_i2c_send()There is a kmemleak when test the raydium_i2c_ts with bpf mock device:  unreferenced object 0xffff88812d3675a0 (size 8):    comm ""python3"", pid 349, jiffies 4294741067 (age 95.695s)    hex dump (first 8 bytes):      11 0e 10 c0 01 00 04 00                          ........    backtrace:      [<0000000068427125>] __kmalloc+0x46/0x1b0      [<0000000090180f91>] raydium_i2c_send+0xd4/0x2bf [raydium_i2c_ts]      [<000000006e631aee>] raydium_i2c_initialize.cold+0xbc/0x3e4 [raydium_i2c_ts]      [<00000000dc6fcf38>] raydium_i2c_probe+0x3cd/0x6bc [raydium_i2c_ts]      [<00000000a310de16>] i2c_device_probe+0x651/0x680      [<00000000f5a96bf3>] really_probe+0x17c/0x3f0      [<00000000096ba499>] __driver_probe_device+0xe3/0x170      [<00000000c5acb4d9>] driver_probe_device+0x49/0x120      [<00000000264fe082>] __device_attach_driver+0xf7/0x150      [<00000000f919423c>] bus_for_each_drv+0x114/0x180      [<00000000e067feca>] __device_attach+0x1e5/0x2d0      [<0000000054301fc2>] bus_probe_device+0x126/0x140      [<00000000aad93b22>] device_add+0x810/0x1130      [<00000000c086a53f>] i2c_new_client_device+0x352/0x4e0      [<000000003c2c248c>] of_i2c_register_device+0xf1/0x110      [<00000000ffec4177>] of_i2c_notify+0x100/0x160  unreferenced object 0xffff88812d3675c8 (size 8):    comm ""python3"", pid 349, jiffies 4294741070 (age 95.692s)    hex dump (first 8 bytes):      22 00 36 2d 81 88 ff ff                          "".6-....    backtrace:      [<0000000068427125>] __kmalloc+0x46/0x1b0      [<0000000090180f91>] raydium_i2c_send+0xd4/0x2bf [raydium_i2c_ts]      [<000000001d5c9620>] raydium_i2c_initialize.cold+0x223/0x3e4 [raydium_i2c_ts]      [<00000000dc6fcf38>] raydium_i2c_probe+0x3cd/0x6bc [raydium_i2c_ts]      [<00000000a310de16>] i2c_device_probe+0x651/0x680      [<00000000f5a96bf3>] really_probe+0x17c/0x3f0      [<00000000096ba499>] __driver_probe_device+0xe3/0x170      [<00000000c5acb4d9>] driver_probe_device+0x49/0x120      [<00000000264fe082>] __device_attach_driver+0xf7/0x150      [<00000000f919423c>] bus_for_each_drv+0x114/0x180      [<00000000e067feca>] __device_attach+0x1e5/0x2d0      [<0000000054301fc2>] bus_probe_device+0x126/0x140      [<00000000aad93b22>] device_add+0x810/0x1130      [<00000000c086a53f>] i2c_new_client_device+0x352/0x4e0      [<000000003c2c248c>] of_i2c_register_device+0xf1/0x110      [<00000000ffec4177>] of_i2c_notify+0x100/0x160After BANK_SWITCH command from i2c BUS, no matter success or errorhappened, the tx_buf should be freed."|October 21, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-48995
+CVE-2022-48996|"In the Linux kernel, the following vulnerability has been resolved:mm/damon/sysfs: fix wrong empty schemes assumption under online tuning in damon_sysfs_set_schemes()Commit da87878010e5 (""mm/damon/sysfs: support online inputs update"") made'damon_sysfs_set_schemes()' to be called for running DAMON context, whichcould have schemes.  In the case, DAMON sysfs interface is supposed toupdate, remove, or add schemes to reflect the sysfs files.  However, thecode is assuming the DAMON context wouldn't have schemes at all, andtherefore creates and adds new schemes.  As a result, the code doesn'twork as intended for online schemes tuning and could have more thanexpected memory footprint.  The schemes are all in the DAMON context, soit doesn't leak the memory, though.Remove the wrong asssumption (the DAMON context wouldn't have schemes) in'damon_sysfs_set_schemes()' to fix the bug."|October 21, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-48996
+CVE-2022-48997|In the Linux kernel, the following vulnerability has been resolved:char: tpm: Protect tpm_pm_suspend with locksCurrently tpm transactions are executed unconditionally intpm_pm_suspend() function, which may lead to races with other tpmaccessors in the system.Specifically, the hw_random tpm driver makes use of tpm_get_random(),and this function is called in a loop from a kthread, which means it'snot frozen alongside userspace, and so can race with the work doneduring system suspend:  tpm tpm0: tpm_transmit: tpm_recv: error -52  tpm tpm0: invalid TPM_STS.x 0xff, dumping stack for forensics  CPU: 0 PID: 1 Comm: init Not tainted 6.1.0-rc5+ #135  Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS 1.16.0-20220807_005459-localhost 04/01/2014  Call Trace:   tpm_tis_status.cold+0x19/0x20   tpm_transmit+0x13b/0x390   tpm_transmit_cmd+0x20/0x80   tpm1_pm_suspend+0xa6/0x110   tpm_pm_suspend+0x53/0x80   __pnp_bus_suspend+0x35/0xe0   __device_suspend+0x10f/0x350Fix this by calling tpm_try_get_ops(), which itself is a wrapper aroundtpm_chip_start(), but takes the appropriate mutex.[Jason: reworked commit message, added metadata]|October 21, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-48997
+CVE-2022-48998|"In the Linux kernel, the following vulnerability has been resolved:powerpc/bpf/32: Fix Oops on tail call teststest_bpf tail call tests end up as:  test_bpf: #0 Tail call leaf jited:1 85 PASS  test_bpf: #1 Tail call 2 jited:1 111 PASS  test_bpf: #2 Tail call 3 jited:1 145 PASS  test_bpf: #3 Tail call 4 jited:1 170 PASS  test_bpf: #4 Tail call load/store leaf jited:1 190 PASS  test_bpf: #5 Tail call load/store jited:1  BUG: Unable to handle kernel data access on write at 0xf1b4e000  Faulting instruction address: 0xbe86b710  Oops: Kernel access of bad area, sig: 11 [#1]  BE PAGE_SIZE=4K MMU=Hash PowerMac  Modules linked in: test_bpf(+)  CPU: 0 PID: 97 Comm: insmod Not tainted 6.1.0-rc4+ #195  Hardware name: PowerMac3,1 750CL 0x87210 PowerMac  NIP:  be86b710 LR: be857e88 CTR: be86b704  REGS: f1b4df20 TRAP: 0300   Not tainted  (6.1.0-rc4+)  MSR:  00009032 <EE,ME,IR,DR,RI>  CR: 28008242  XER: 00000000  DAR: f1b4e000 DSISR: 42000000  GPR00: 00000001 f1b4dfe0 c11d2280 00000000 00000000 00000000 00000002 00000000  GPR08: f1b4e000 be86b704 f1b4e000 00000000 00000000 100d816a f2440000 fe73baa8  GPR16: f2458000 00000000 c1941ae4 f1fe2248 00000045 c0de0000 f2458030 00000000  GPR24: 000003e8 0000000f f2458000 f1b4dc90 3e584b46 00000000 f24466a0 c1941a00  NIP [be86b710] 0xbe86b710  LR [be857e88] __run_one+0xec/0x264 [test_bpf]  Call Trace:  [f1b4dfe0] [00000002] 0x2 (unreliable)  Instruction dump:  XXXXXXXX XXXXXXXX XXXXXXXX XXXXXXXX XXXXXXXX XXXXXXXX XXXXXXXX XXXXXXXX  XXXXXXXX XXXXXXXX XXXXXXXX XXXXXXXX XXXXXXXX XXXXXXXX XXXXXXXX XXXXXXXX  ---[ end trace 0000000000000000 ]---This is a tentative to write above the stack. The problem is encouteredwith tests added by commit 38608ee7b690 (""bpf, tests: Add load storetest case for tail call"")This happens because tail call is done to a BPF prog with a differentstack_depth. At the time being, the stack is kept as is when the callertail calls its callee. But at exit, the callee restores the stack basedon its own properties. Therefore here, at each run, r1 is erroneouslyincreased by 32 - 16 = 16 bytes.This was done that way in order to pass the tail call count from callerto callee through the stack. As powerpc32 doesn't have a red zone inthe stack, it was necessary the maintain the stack as is for the tailcall. But it was not anticipated that the BPF frame size could bedifferent.Let's take a new approach. Use register r4 to carry the tail call countduring the tail call, and save it into the stack at function entry ifrequired. This means the input parameter must be in r3, which is morecorrect as it is a 32 bits parameter, then tail call better match withnormal BPF function entry, the down side being that we move that inputparameter back and forth between r3 and r4. That can be optimised later.Doing that also has the advantage of maximising the common parts betweentail calls and a normal function exit.With the fix, tail call tests are now successfull:  test_bpf: #0 Tail call leaf jited:1 53 PASS  test_bpf: #1 Tail call 2 jited:1 115 PASS  test_bpf: #2 Tail call 3 jited:1 154 PASS  test_bpf: #3 Tail call 4 jited:1 165 PASS  test_bpf: #4 Tail call load/store leaf jited:1 101 PASS  test_bpf: #5 Tail call load/store jited:1 141 PASS  test_bpf: #6 Tail call error path, max count reached jited:1 994 PASS  test_bpf: #7 Tail call count preserved across function calls jited:1 140975 PASS  test_bpf: #8 Tail call error path, NULL target jited:1 110 PASS  test_bpf: #9 Tail call error path, index out of range jited:1 69 PASS  test_bpf: test_tail_calls: Summary: 10 PASSED, 0 FAILED, [10/10 JIT'ed]"|October 21, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-48998
+CVE-2022-48999|In the Linux kernel, the following vulnerability has been resolved:ipv4: Handle attempt to delete multipath route when fib_info contains an nh referenceGwangun Jung reported a slab-out-of-bounds access in fib_nh_match:    fib_nh_match+0xf98/0x1130 linux-6.0-rc7/net/ipv4/fib_semantics.c:961    fib_table_delete+0x5f3/0xa40 linux-6.0-rc7/net/ipv4/fib_trie.c:1753    inet_rtm_delroute+0x2b3/0x380 linux-6.0-rc7/net/ipv4/fib_frontend.c:874Separate nexthop objects are mutually exclusive with the legacymultipath spec. Fix fib_nh_match to return if the config for theto be deleted route contains a multipath spec while the fib_infois using a nexthop object.|October 21, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-48999
 CVE-2022-4900|A vulnerability was found in PHP where setting the environment variable PHP_CLI_SERVER_WORKERS to a large value leads to a heap buffer overflow.|November 02, 2023; 12:15:08 PM -0400|V3.1: 5.5 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-4900&vector=AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2022-4900
+CVE-2022-49000|In the Linux kernel, the following vulnerability has been resolved:iommu/vt-d: Fix PCI device refcount leak in has_external_pci()for_each_pci_dev() is implemented by pci_get_device(). The comment ofpci_get_device() says that it will increase the reference count for thereturned pci_dev and also decrease the reference count for the inputpci_dev @from if it is not NULL.If we break for_each_pci_dev() loop with pdev not NULL, we need to callpci_dev_put() to decrease the reference count. Add the missingpci_dev_put() before 'return true' to avoid reference count leak.|October 21, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49000
+CVE-2022-49001|In the Linux kernel, the following vulnerability has been resolved:riscv: fix race when vmap stack overflowCurrently, when detecting vmap stack overflow, riscv firstly switchesto the so called shadow stack, then use this shadow stack to call theget_overflow_stack() to get the overflow stack. However, there'sa race here if two or more harts use the same shadow stack at the sametime.To solve this race, we introduce spin_shadow_stack atomic var, whichwill be swap between its own address and 0 in atomic way, when thevar is set, it means the shadow_stack is being used; when the varis cleared, it means the shadow_stack isn't being used.[Palmer: Add AQ to the swap, and also some comments.]|October 21, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49001
+CVE-2022-49002|In the Linux kernel, the following vulnerability has been resolved:iommu/vt-d: Fix PCI device refcount leak in dmar_dev_scope_init()for_each_pci_dev() is implemented by pci_get_device(). The comment ofpci_get_device() says that it will increase the reference count for thereturned pci_dev and also decrease the reference count for the inputpci_dev @from if it is not NULL.If we break for_each_pci_dev() loop with pdev not NULL, we need to callpci_dev_put() to decrease the reference count. Add the missingpci_dev_put() for the error path to avoid reference count leak.|October 21, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49002
+CVE-2022-49003|In the Linux kernel, the following vulnerability has been resolved:nvme: fix SRCU protection of nvme_ns_head listWalking the nvme_ns_head siblings list is protected by the head's srcuin nvme_ns_head_submit_bio() but not nvme_mpath_revalidate_paths().Removing namespaces from the list also fails to synchronize the srcu.Concurrent scan work can therefore cause use-after-frees.Hold the head's srcu lock in nvme_mpath_revalidate_paths() andsynchronize with the srcu, not the global RCU, in nvme_ns_remove().Observed the following panic when making NVMe/RDMA connectionswith native multipath on the Rocky Linux 8.6 kernel(it seems the upstream kernel has the same race condition).Disassembly shows the faulting instruction is cmp 0x50(%rdx),%rcx;computing capacity != get_capacity(ns->disk).Address 0x50 is dereferenced because ns->disk is NULL.The NULL disk appears to be the result of concurrent scan workfreeing the namespace (note the log line in the middle of the panic).[37314.206036] BUG: unable to handle kernel NULL pointer dereference at 0000000000000050[37314.206036] nvme0n3: detected capacity change from 0 to 11811160064[37314.299753] PGD 0 P4D 0[37314.299756] Oops: 0000 [#1] SMP PTI[37314.299759] CPU: 29 PID: 322046 Comm: kworker/u98:3 Kdump: loaded Tainted: G        W      X --------- -  - 4.18.0-372.32.1.el8test86.x86_64 #1[37314.299762] Hardware name: Dell Inc. PowerEdge R720/0JP31P, BIOS 2.7.0 05/23/2018[37314.299763] Workqueue: nvme-wq nvme_scan_work [nvme_core][37314.299783] RIP: 0010:nvme_mpath_revalidate_paths+0x26/0xb0 [nvme_core][37314.299790] Code: 1f 44 00 00 66 66 66 66 90 55 53 48 8b 5f 50 48 8b 83 c8 c9 00 00 48 8b 13 48 8b 48 50 48 39 d3 74 20 48 8d 42 d0 48 8b 50 20 <48> 3b 4a 50 74 05 f0 80 60 70 ef 48 8b 50 30 48 8d 42 d0 48 39 d3[37315.058803] RSP: 0018:ffffabe28f913d10 EFLAGS: 00010202[37315.121316] RAX: ffff927a077da800 RBX: ffff92991dd70000 RCX: 0000000001600000[37315.206704] RDX: 0000000000000000 RSI: 0000000000000000 RDI: ffff92991b719800[37315.292106] RBP: ffff929a6b70c000 R08: 000000010234cd4a R09: c0000000ffff7fff[37315.377501] R10: 0000000000000001 R11: ffffabe28f913a30 R12: 0000000000000000[37315.462889] R13: ffff92992716600c R14: ffff929964e6e030 R15: ffff92991dd70000[37315.548286] FS:  0000000000000000(0000) GS:ffff92b87fb80000(0000) knlGS:0000000000000000[37315.645111] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033[37315.713871] CR2: 0000000000000050 CR3: 0000002208810006 CR4: 00000000000606e0[37315.799267] Call Trace:[37315.828515]  nvme_update_ns_info+0x1ac/0x250 [nvme_core][37315.892075]  nvme_validate_or_alloc_ns+0x2ff/0xa00 [nvme_core][37315.961871]  ? __blk_mq_free_request+0x6b/0x90[37316.015021]  nvme_scan_work+0x151/0x240 [nvme_core][37316.073371]  process_one_work+0x1a7/0x360[37316.121318]  ? create_worker+0x1a0/0x1a0[37316.168227]  worker_thread+0x30/0x390[37316.212024]  ? create_worker+0x1a0/0x1a0[37316.258939]  kthread+0x10a/0x120[37316.297557]  ? set_kthread_struct+0x50/0x50[37316.347590]  ret_from_fork+0x35/0x40[37316.390360] Modules linked in: nvme_rdma nvme_tcp(X) nvme_fabrics nvme_core netconsole iscsi_tcp libiscsi_tcp dm_queue_length dm_service_time nf_conntrack_netlink br_netfilter bridge stp llc overlay nft_chain_nat ipt_MASQUERADE nf_nat xt_addrtype xt_CT nft_counter xt_state xt_conntrack nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 xt_comment xt_multiport nft_compat nf_tables libcrc32c nfnetlink dm_multipath tg3 rpcrdma sunrpc rdma_ucm ib_srpt ib_isert iscsi_target_mod target_core_mod ib_iser libiscsi scsi_transport_iscsi ib_umad rdma_cm ib_ipoib iw_cm ib_cm intel_rapl_msr iTCO_wdt iTCO_vendor_support dcdbas intel_rapl_common sb_edac x86_pkg_temp_thermal intel_powerclamp coretemp kvm_intel ipmi_ssif kvm irqbypass crct10dif_pclmul crc32_pclmul mlx5_ib ghash_clmulni_intel ib_uverbs rapl intel_cstate intel_uncore ib_core ipmi_si joydev mei_me pcspkr ipmi_devintf mei lpc_ich wmi ipmi_msghandler acpi_power_meter ex---truncated---|October 21, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49003
+CVE-2022-49004|In the Linux kernel, the following vulnerability has been resolved:riscv: Sync efi page table's kernel mappings before switchingThe EFI page table is initially created as a copy of the kernel page table.With VMAP_STACK enabled, kernel stacks are allocated in the vmalloc area:if the stack is allocated in a new PGD (one that was not present at themoment of the efi page table creation or not synced in a previous vmallocfault), the kernel will take a trap when switching to the efi page tablewhen the vmalloc kernel stack is accessed, resulting in a kernel panic.Fix that by updating the efi kernel mappings before switching to the efipage table.|October 21, 2024; 4:15:11 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49004
+CVE-2022-49005|In the Linux kernel, the following vulnerability has been resolved:ASoC: ops: Fix bounds check for _sx controlsFor _sx controls the semantics of the max field is not the usual one, maxis the number of steps rather than the maximum value. This means that ourcheck in snd_soc_put_volsw_sx() needs to just check against the maximumvalue.|October 21, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49005
+CVE-2022-49006|"In the Linux kernel, the following vulnerability has been resolved:tracing: Free buffers when a used dynamic event is removedAfter 65536 dynamic events have been added and removed, the ""type"" fieldof the event then uses the first type number that is available (notcurrently used by other events). A type number is the identifier of thebinary blobs in the tracing ring buffer (known as events) to map them tologic that can parse the binary blob.The issue is that if a dynamic event (like a kprobe event) is traced andis in the ring buffer, and then that event is removed (because it isdynamic, which means it can be created and destroyed), if another dynamicevent is created that has the same number that new event's logic onparsing the binary blob will be used.To show how this can be an issue, the following can crash the kernel: # cd /sys/kernel/tracing # for i in `seq 65536`; do     echo 'p:kprobes/foo do_sys_openat2 $arg1:u32' > kprobe_events # doneFor every iteration of the above, the writing to the kprobe_events willremove the old event and create a new one (with the same format) andincrease the type number to the next available on until the type numberreaches over 65535 which is the max number for the 16 bit type. After itreaches that number, the logic to allocate a new number simply looks forthe next available number. When an dynamic event is removed, that numberis then available to be reused by the next dynamic event created. That is,once the above reaches the max number, the number assigned to the event inthat loop will remain the same.Now that means deleting one dynamic event and created another will reusethe previous events type number. This is where bad things can happen.After the above loop finishes, the kprobes/foo event which reads thedo_sys_openat2 function call's first parameter as an integer. # echo 1 > kprobes/foo/enable # cat /etc/passwd > /dev/null # cat trace             cat-2211    [005] ....  2007.849603: foo: (do_sys_openat2+0x0/0x130) arg1=4294967196             cat-2211    [005] ....  2007.849620: foo: (do_sys_openat2+0x0/0x130) arg1=4294967196             cat-2211    [005] ....  2007.849838: foo: (do_sys_openat2+0x0/0x130) arg1=4294967196             cat-2211    [005] ....  2007.849880: foo: (do_sys_openat2+0x0/0x130) arg1=4294967196 # echo 0 > kprobes/foo/enableNow if we delete the kprobe and create a new one that reads a string: # echo 'p:kprobes/foo do_sys_openat2 +0($arg2):string' > kprobe_eventsAnd now we can the trace: # cat trace        sendmail-1942    [002] .....   530.136320: foo: (do_sys_openat2+0x0/0x240) arg1=             cat-2046    [004] .....   530.930817: foo: (do_sys_openat2+0x0/0x240) arg1=""������������������������������������������������������������������������������������������������""             cat-2046    [004] .....   530.930961: foo: (do_sys_openat2+0x0/0x240) arg1=""������������������������������������������������������������������������������������������������""             cat-2046    [004] .....   530.934278: foo: (do_sys_openat2+0x0/0x240) arg1=""������������������������������������������������������������������������������������������������""             cat-2046    [004] .....   530.934563: foo: (do_sys_openat2+0x0/0x240) arg1=""���������������������������������������---truncated---"|October 21, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49006
+CVE-2022-49007|In the Linux kernel, the following vulnerability has been resolved:nilfs2: fix NULL pointer dereference in nilfs_palloc_commit_free_entry()Syzbot reported a null-ptr-deref bug: NILFS (loop0): segctord starting. Construction interval = 5 seconds, CP frequency < 30 seconds general protection fault, probably for non-canonical address 0xdffffc0000000002: 0000 [#1] PREEMPT SMP KASAN KASAN: null-ptr-deref in range [0x0000000000000010-0x0000000000000017] CPU: 1 PID: 3603 Comm: segctord Not tainted 6.1.0-rc2-syzkaller-00105-gb229b6ca5abb #0 Hardware name: Google Compute Engine/Google Compute Engine, BIOS Google 10/11/2022 RIP: 0010:nilfs_palloc_commit_free_entry+0xe5/0x6b0 fs/nilfs2/alloc.c:608 Code: 00 00 00 00 fc ff df 80 3c 02 00 0f 85 cd 05 00 00 48 b8 00 00 00 00 00 fc ff df 4c 8b 73 08 49 8d 7e 10 48 89 fa 48 c1 ea 03 <80> 3c 02 00 0f 85 26 05 00 00 49 8b 46 10 be a6 00 00 00 48 c7 c7 RSP: 0018:ffffc90003dff830 EFLAGS: 00010212 RAX: dffffc0000000000 RBX: ffff88802594e218 RCX: 000000000000000d RDX: 0000000000000002 RSI: 0000000000002000 RDI: 0000000000000010 RBP: ffff888071880222 R08: 0000000000000005 R09: 000000000000003f R10: 000000000000000d R11: 0000000000000000 R12: ffff888071880158 R13: ffff88802594e220 R14: 0000000000000000 R15: 0000000000000004 FS:  0000000000000000(0000) GS:ffff8880b9b00000(0000) knlGS:0000000000000000 CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033 CR2: 00007fb1c08316a8 CR3: 0000000018560000 CR4: 0000000000350ee0 Call Trace:  <TASK>  nilfs_dat_commit_free fs/nilfs2/dat.c:114 [inline]  nilfs_dat_commit_end+0x464/0x5f0 fs/nilfs2/dat.c:193  nilfs_dat_commit_update+0x26/0x40 fs/nilfs2/dat.c:236  nilfs_btree_commit_update_v+0x87/0x4a0 fs/nilfs2/btree.c:1940  nilfs_btree_commit_propagate_v fs/nilfs2/btree.c:2016 [inline]  nilfs_btree_propagate_v fs/nilfs2/btree.c:2046 [inline]  nilfs_btree_propagate+0xa00/0xd60 fs/nilfs2/btree.c:2088  nilfs_bmap_propagate+0x73/0x170 fs/nilfs2/bmap.c:337  nilfs_collect_file_data+0x45/0xd0 fs/nilfs2/segment.c:568  nilfs_segctor_apply_buffers+0x14a/0x470 fs/nilfs2/segment.c:1018  nilfs_segctor_scan_file+0x3f4/0x6f0 fs/nilfs2/segment.c:1067  nilfs_segctor_collect_blocks fs/nilfs2/segment.c:1197 [inline]  nilfs_segctor_collect fs/nilfs2/segment.c:1503 [inline]  nilfs_segctor_do_construct+0x12fc/0x6af0 fs/nilfs2/segment.c:2045  nilfs_segctor_construct+0x8e3/0xb30 fs/nilfs2/segment.c:2379  nilfs_segctor_thread_construct fs/nilfs2/segment.c:2487 [inline]  nilfs_segctor_thread+0x3c3/0xf30 fs/nilfs2/segment.c:2570  kthread+0x2e4/0x3a0 kernel/kthread.c:376  ret_from_fork+0x1f/0x30 arch/x86/entry/entry_64.S:306  </TASK> ...If DAT metadata file is corrupted on disk, there is a case wherereq->pr_desc_bh is NULL and blocknr is 0 at nilfs_dat_commit_end() duringa b-tree operation that cascadingly updates ancestor nodes of the b-tree,because nilfs_dat_commit_alloc() for a lower level block can initializethe blocknr on the same DAT entry between nilfs_dat_prepare_end() andnilfs_dat_commit_end().If this happens, nilfs_dat_commit_end() calls nilfs_dat_commit_free()without valid buffer heads in req->pr_desc_bh and req->pr_bitmap_bh, andcauses the NULL pointer dereference above innilfs_palloc_commit_free_entry() function, which leads to a crash.Fix this by adding a NULL check on req->pr_desc_bh and req->pr_bitmap_bhbefore nilfs_palloc_commit_free_entry() in nilfs_dat_commit_free().This also calls nilfs_error() in that case to notify that there is a fatalflaw in the filesystem metadata and prevent further operations.|October 21, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49007
+CVE-2022-49008|In the Linux kernel, the following vulnerability has been resolved:can: can327: can327_feed_frame_to_netdev(): fix potential skb leak when netdev is downIn can327_feed_frame_to_netdev(), it did not free the skb when netdevis down, and all callers of can327_feed_frame_to_netdev() did not freeallocated skb too. That would trigger skb leak.Fix it by adding kfree_skb() in can327_feed_frame_to_netdev() when netdevis down. Not tested, just compiled.|October 21, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49008
+CVE-2022-49009|In the Linux kernel, the following vulnerability has been resolved:hwmon: (asus-ec-sensors) Add checks for devm_kcallocAs the devm_kcalloc may return NULL, the return value needs to be checkedto avoid NULL poineter dereference.|October 21, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49009
 CVE-2022-4901|Multiple stored XSS vulnerabilities in Sophos Connect versions older than 2.2.90 allow Javascript code to run in the local UI via a malicious VPN configuration that must be manually loaded by the victim.|March 01, 2023; 2:15:25 PM -0500|V3.1: 6.1 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-4901&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2022-4901
+CVE-2022-49010|In the Linux kernel, the following vulnerability has been resolved:hwmon: (coretemp) Check for null before removing sysfs attrsIf coretemp_add_core() gets an error then pdata->core_data[indx]is already NULL and has been kfreed. Don't pass that tosysfs_remove_group() as that will crash in sysfs_remove_group().[Shortened for readability][91854.020159] sysfs: cannot create duplicate filename '/devices/platform/coretemp.0/hwmon/hwmon2/temp20_label'<cpu offline>[91855.126115] BUG: kernel NULL pointer dereference, address: 0000000000000188[91855.165103] #PF: supervisor read access in kernel mode[91855.194506] #PF: error_code(0x0000) - not-present page[91855.224445] PGD 0 P4D 0[91855.238508] Oops: 0000 [#1] PREEMPT SMP PTI...[91855.342716] RIP: 0010:sysfs_remove_group+0xc/0x80...[91855.796571] Call Trace:[91855.810524]  coretemp_cpu_offline+0x12b/0x1dd [coretemp][91855.841738]  ? coretemp_cpu_online+0x180/0x180 [coretemp][91855.871107]  cpuhp_invoke_callback+0x105/0x4b0[91855.893432]  cpuhp_thread_fun+0x8e/0x150...Fix this by checking for NULL first.|October 21, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49010
+CVE-2022-49011|In the Linux kernel, the following vulnerability has been resolved:hwmon: (coretemp) fix pci device refcount leak in nv1a_ram_new()As comment of pci_get_domain_bus_and_slot() says, it returnsa pci device with refcount increment, when finish using it,the caller must decrement the reference count by callingpci_dev_put(). So call it after using to avoid refcount leak.|October 21, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49011
+CVE-2022-49012|In the Linux kernel, the following vulnerability has been resolved:afs: Fix server->active leak in afs_put_serverThe atomic_read was accidentally replaced with atomic_inc_return,which prevents the server from getting cleaned up and causes rmmodto hang with a warning:    Can't purge s=00000001|October 21, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49012
+CVE-2022-49013|"In the Linux kernel, the following vulnerability has been resolved:sctp: fix memory leak in sctp_stream_outq_migrate()When sctp_stream_outq_migrate() is called to release stream out resources,the memory pointed to by prio_head in stream out is not released.The memory leak information is as follows: unreferenced object 0xffff88801fe79f80 (size 64):   comm ""sctp_repo"", pid 7957, jiffies 4294951704 (age 36.480s)   hex dump (first 32 bytes):     80 9f e7 1f 80 88 ff ff 80 9f e7 1f 80 88 ff ff  ................     90 9f e7 1f 80 88 ff ff 90 9f e7 1f 80 88 ff ff  ................   backtrace:     [<ffffffff81b215c6>] kmalloc_trace+0x26/0x60     [<ffffffff88ae517c>] sctp_sched_prio_set+0x4cc/0x770     [<ffffffff88ad64f2>] sctp_stream_init_ext+0xd2/0x1b0     [<ffffffff88aa2604>] sctp_sendmsg_to_asoc+0x1614/0x1a30     [<ffffffff88ab7ff1>] sctp_sendmsg+0xda1/0x1ef0     [<ffffffff87f765ed>] inet_sendmsg+0x9d/0xe0     [<ffffffff8754b5b3>] sock_sendmsg+0xd3/0x120     [<ffffffff8755446a>] __sys_sendto+0x23a/0x340     [<ffffffff87554651>] __x64_sys_sendto+0xe1/0x1b0     [<ffffffff89978b49>] do_syscall_64+0x39/0xb0     [<ffffffff89a0008b>] entry_SYSCALL_64_after_hwframe+0x63/0xcd"|October 21, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49013
+CVE-2022-49014|In the Linux kernel, the following vulnerability has been resolved:net: tun: Fix use-after-free in tun_detach()syzbot reported use-after-free in tun_detach() [1].  This causes calltrace like below:==================================================================BUG: KASAN: use-after-free in notifier_call_chain+0x1ee/0x200 kernel/notifier.c:75Read of size 8 at addr ffff88807324e2a8 by task syz-executor.0/3673CPU: 0 PID: 3673 Comm: syz-executor.0 Not tainted 6.1.0-rc5-syzkaller-00044-gcc675d22e422 #0Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 10/26/2022Call Trace: <TASK> __dump_stack lib/dump_stack.c:88 [inline] dump_stack_lvl+0xd1/0x138 lib/dump_stack.c:106 print_address_description mm/kasan/report.c:284 [inline] print_report+0x15e/0x461 mm/kasan/report.c:395 kasan_report+0xbf/0x1f0 mm/kasan/report.c:495 notifier_call_chain+0x1ee/0x200 kernel/notifier.c:75 call_netdevice_notifiers_info+0x86/0x130 net/core/dev.c:1942 call_netdevice_notifiers_extack net/core/dev.c:1983 [inline] call_netdevice_notifiers net/core/dev.c:1997 [inline] netdev_wait_allrefs_any net/core/dev.c:10237 [inline] netdev_run_todo+0xbc6/0x1100 net/core/dev.c:10351 tun_detach drivers/net/tun.c:704 [inline] tun_chr_close+0xe4/0x190 drivers/net/tun.c:3467 __fput+0x27c/0xa90 fs/file_table.c:320 task_work_run+0x16f/0x270 kernel/task_work.c:179 exit_task_work include/linux/task_work.h:38 [inline] do_exit+0xb3d/0x2a30 kernel/exit.c:820 do_group_exit+0xd4/0x2a0 kernel/exit.c:950 get_signal+0x21b1/0x2440 kernel/signal.c:2858 arch_do_signal_or_restart+0x86/0x2300 arch/x86/kernel/signal.c:869 exit_to_user_mode_loop kernel/entry/common.c:168 [inline] exit_to_user_mode_prepare+0x15f/0x250 kernel/entry/common.c:203 __syscall_exit_to_user_mode_work kernel/entry/common.c:285 [inline] syscall_exit_to_user_mode+0x1d/0x50 kernel/entry/common.c:296 do_syscall_64+0x46/0xb0 arch/x86/entry/common.c:86 entry_SYSCALL_64_after_hwframe+0x63/0xcdThe cause of the issue is that sock_put() from __tun_detach() dropslast reference count for struct net, and then notifier_call_chain()from netdev_state_change() accesses that struct net.This patch fixes the issue by calling sock_put() from tun_detach()after all necessary accesses for the struct net has done.|October 21, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49014
+CVE-2022-49015|In the Linux kernel, the following vulnerability has been resolved:net: hsr: Fix potential use-after-freeThe skb is delivered to netif_rx() which may free it, after calling this,dereferencing skb may trigger use-after-free.|October 21, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49015
+CVE-2022-49016|In the Linux kernel, the following vulnerability has been resolved:net: mdiobus: fix unbalanced node reference countI got the following report while doing device(mscc-miim) load testwith CONFIG_OF_UNITTEST and CONFIG_OF_DYNAMIC enabled:  OF: ERROR: memory leak, expected refcount 1 instead of 2,  of_node_get()/of_node_put() unbalanced - destroy cset entry:  attach overlay node /spi/soc@0/mdio@7107009c/ethernet-phy@0If the 'fwnode' is not an acpi node, the refcount is get infwnode_mdiobus_phy_device_register(), but it has never beenput when the device is freed in the normal path. So callfwnode_handle_put() in phy_device_release() to avoid leak.If it's an acpi node, it has never been get, but it's putin the error path, so call fwnode_handle_get() beforephy_device_register() to keep get/put operation balanced.|October 21, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49016
+CVE-2022-49017|In the Linux kernel, the following vulnerability has been resolved:tipc: re-fetch skb cb after tipc_msg_validateAs the call trace shows, the original skb was freed in tipc_msg_validate(),and dereferencing the old skb cb would cause an use-after-free crash.  BUG: KASAN: use-after-free in tipc_crypto_rcv_complete+0x1835/0x2240 [tipc]  Call Trace:   <IRQ>   tipc_crypto_rcv_complete+0x1835/0x2240 [tipc]   tipc_crypto_rcv+0xd32/0x1ec0 [tipc]   tipc_rcv+0x744/0x1150 [tipc]  ...  Allocated by task 47078:   kmem_cache_alloc_node+0x158/0x4d0   __alloc_skb+0x1c1/0x270   tipc_buf_acquire+0x1e/0xe0 [tipc]   tipc_msg_create+0x33/0x1c0 [tipc]   tipc_link_build_proto_msg+0x38a/0x2100 [tipc]   tipc_link_timeout+0x8b8/0xef0 [tipc]   tipc_node_timeout+0x2a1/0x960 [tipc]   call_timer_fn+0x2d/0x1c0  ...  Freed by task 47078:   tipc_msg_validate+0x7b/0x440 [tipc]   tipc_crypto_rcv_complete+0x4b5/0x2240 [tipc]   tipc_crypto_rcv+0xd32/0x1ec0 [tipc]   tipc_rcv+0x744/0x1150 [tipc]This patch fixes it by re-fetching the skb cb from the new allocated skbafter calling tipc_msg_validate().|October 21, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49017
+CVE-2022-49018|In the Linux kernel, the following vulnerability has been resolved:mptcp: fix sleep in atomic at close timeMatt reported a splat at msk close time:    BUG: sleeping function called from invalid context at net/mptcp/protocol.c:2877    in_atomic(): 1, irqs_disabled(): 0, non_block: 0, pid: 155, name: packetdrill    preempt_count: 201, expected: 0    RCU nest depth: 0, expected: 0    4 locks held by packetdrill/155:    #0: ffff888001536990 (&sb->s_type->i_mutex_key#6){+.+.}-{3:3}, at: __sock_release (net/socket.c:650)    #1: ffff88800b498130 (sk_lock-AF_INET){+.+.}-{0:0}, at: mptcp_close (net/mptcp/protocol.c:2973)    #2: ffff88800b49a130 (sk_lock-AF_INET/1){+.+.}-{0:0}, at: __mptcp_close_ssk (net/mptcp/protocol.c:2363)    #3: ffff88800b49a0b0 (slock-AF_INET){+...}-{2:2}, at: __lock_sock_fast (include/net/sock.h:1820)    Preemption disabled at:    0x0    CPU: 1 PID: 155 Comm: packetdrill Not tainted 6.1.0-rc5 #365    Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.15.0-1 04/01/2014    Call Trace:    <TASK>    dump_stack_lvl (lib/dump_stack.c:107 (discriminator 4))    __might_resched.cold (kernel/sched/core.c:9891)    __mptcp_destroy_sock (include/linux/kernel.h:110)    __mptcp_close (net/mptcp/protocol.c:2959)    mptcp_subflow_queue_clean (include/net/sock.h:1777)    __mptcp_close_ssk (net/mptcp/protocol.c:2363)    mptcp_destroy_common (net/mptcp/protocol.c:3170)    mptcp_destroy (include/net/sock.h:1495)    __mptcp_destroy_sock (net/mptcp/protocol.c:2886)    __mptcp_close (net/mptcp/protocol.c:2959)    mptcp_close (net/mptcp/protocol.c:2974)    inet_release (net/ipv4/af_inet.c:432)    __sock_release (net/socket.c:651)    sock_close (net/socket.c:1367)    __fput (fs/file_table.c:320)    task_work_run (kernel/task_work.c:181 (discriminator 1))    exit_to_user_mode_prepare (include/linux/resume_user_mode.h:49)    syscall_exit_to_user_mode (kernel/entry/common.c:130)    do_syscall_64 (arch/x86/entry/common.c:87)    entry_SYSCALL_64_after_hwframe (arch/x86/entry/entry_64.S:120)We can't call mptcp_close under the 'fast' socket lock variant, replaceit with a sock_lock_nested() as the relevant code is already under thelistening msk socket lock protection.|October 21, 2024; 4:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49018
+CVE-2022-49019|In the Linux kernel, the following vulnerability has been resolved:net: ethernet: nixge: fix NULL dereferenceIn function nixge_hw_dma_bd_release() dereference of NULL pointerpriv->rx_bd_v is possible for the case of its allocation failure innixge_hw_dma_bd_init().Move for() loop with priv->rx_bd_v dereference under the check forits validity.Found by Linux Verification Center (linuxtesting.org) with SVACE.|October 21, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49019
 CVE-2022-4902|A vulnerability classified as problematic has been found in eXo Chat Application. Affected is an unknown function of the file application/src/main/webapp/vue-app/components/ExoChatMessageComposer.vue of the component Mention Handler. The manipulation leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version 3.3.0-20220417 is able to address this issue. The name of the patch is 26bf307d3658d1403cfd5c3ad423ce4c4d1cb2dc. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-220212.|February 06, 2023; 2:15:10 PM -0500|V3.1: 6.1 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-4902&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2022-4902
+CVE-2022-49020|In the Linux kernel, the following vulnerability has been resolved:net/9p: Fix a potential socket leak in p9_socket_openBoth p9_fd_create_tcp() and p9_fd_create_unix() will callp9_socket_open(). If the creation of p9_trans_fd fails,p9_fd_create_tcp() and p9_fd_create_unix() will return anerror directly instead of releasing the cscoket, which willresult in a socket leak.This patch adds sock_release() to fix the leak issue.|October 21, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49020
+CVE-2022-49021|In the Linux kernel, the following vulnerability has been resolved:net: phy: fix null-ptr-deref while probe() failedI got a null-ptr-deref report as following when doing fault injection test:BUG: kernel NULL pointer dereference, address: 0000000000000058Oops: 0000 [#1] PREEMPT SMP KASAN PTICPU: 1 PID: 253 Comm: 507-spi-dm9051 Tainted: G    B            N 6.1.0-rc3+Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.13.0-1ubuntu1.1 04/01/2014RIP: 0010:klist_put+0x2d/0xd0Call Trace: <TASK> klist_remove+0xf1/0x1c0 device_release_driver_internal+0x23e/0x2d0 bus_remove_device+0x1bd/0x240 device_del+0x357/0x770 phy_device_remove+0x11/0x30 mdiobus_unregister+0xa5/0x140 release_nodes+0x6a/0xa0 devres_release_all+0xf8/0x150 device_unbind_cleanup+0x19/0xd0//probe path:phy_device_register()  device_add()phy_connect  phy_attach_direct() //set device driver    probe() //it's failed, driver is not bound    device_bind_driver() // probe failed, it's not called//remove path:phy_device_remove()  device_del()    device_release_driver_internal()      __device_release_driver() //dev->drv is not NULL        klist_remove() <- knode_driver is not added yet, cause null-ptr-derefIn phy_attach_direct(), after setting the 'dev->driver', probe() fails,device_bind_driver() is not called, so the knode_driver->n_klist is notset, then it causes null-ptr-deref in __device_release_driver() whiledeleting device. Fix this by setting dev->driver to NULL in the errorpath in phy_attach_direct().|October 21, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49021
+CVE-2022-49022|In the Linux kernel, the following vulnerability has been resolved:wifi: mac8021: fix possible oob access in ieee80211_get_rate_durationFix possible out-of-bound access in ieee80211_get_rate_duration routineas reported by the following UBSAN report:UBSAN: array-index-out-of-bounds in net/mac80211/airtime.c:455:47index 15 is out of range for type 'u16 [12]'CPU: 2 PID: 217 Comm: kworker/u32:10 Not tainted 6.1.0-060100rc3-genericHardware name: Acer Aspire TC-281/Aspire TC-281, BIOS R01-A2 07/18/2017Workqueue: mt76 mt76u_tx_status_data [mt76_usb]Call Trace: <TASK> show_stack+0x4e/0x61 dump_stack_lvl+0x4a/0x6f dump_stack+0x10/0x18 ubsan_epilogue+0x9/0x43 __ubsan_handle_out_of_bounds.cold+0x42/0x47ieee80211_get_rate_duration.constprop.0+0x22f/0x2a0 [mac80211] ? ieee80211_tx_status_ext+0x32e/0x640 [mac80211] ieee80211_calc_rx_airtime+0xda/0x120 [mac80211] ieee80211_calc_tx_airtime+0xb4/0x100 [mac80211] mt76x02_send_tx_status+0x266/0x480 [mt76x02_lib] mt76x02_tx_status_data+0x52/0x80 [mt76x02_lib] mt76u_tx_status_data+0x67/0xd0 [mt76_usb] process_one_work+0x225/0x400 worker_thread+0x50/0x3e0 ? process_one_work+0x400/0x400 kthread+0xe9/0x110 ? kthread_complete_and_exit+0x20/0x20 ret_from_fork+0x22/0x30|October 21, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49022
+CVE-2022-49023|In the Linux kernel, the following vulnerability has been resolved:wifi: cfg80211: fix buffer overflow in elem comparisonFor vendor elements, the code here assumes that 5 octetsare present without checking. Since the element itself isalready checked to fit, we only need to check the length.|October 21, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49023
+CVE-2022-49024|In the Linux kernel, the following vulnerability has been resolved:can: m_can: pci: add missing m_can_class_free_dev() in probe/remove methodsIn m_can_pci_remove() and error handling path of m_can_pci_probe(),m_can_class_free_dev() should be called to free resource allocated bym_can_class_allocate_dev(), otherwise there will be memleak.|October 21, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49024
+CVE-2022-49025|In the Linux kernel, the following vulnerability has been resolved:net/mlx5e: Fix use-after-free when reverting termination tableWhen having multiple dests with termination tables and second oneor afterwards fails the driver reverts usage of term tables butdoesn't reset the assignment in attr->dests[num_vport_dests].termtblwhich case a use-after-free when releasing the rule.Fix by resetting the assignment of termtbl to null.|October 21, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49025
+CVE-2022-49026|In the Linux kernel, the following vulnerability has been resolved:e100: Fix possible use after free in e100_xmit_prepareIn e100_xmit_prepare(), if we can't map the skb, then return -ENOMEM, soe100_xmit_frame() will return NETDEV_TX_BUSY and the upper layer willresend the skb. But the skb is already freed, which will cause UAF bugwhen the upper layer resends the skb.Remove the harmful free.|October 21, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49026
+CVE-2022-49027|"In the Linux kernel, the following vulnerability has been resolved:iavf: Fix error handling in iavf_init_module()The iavf_init_module() won't destroy workqueue when pci_register_driver()failed. Call destroy_workqueue() when pci_register_driver() failed toprevent the resource leak.Similar to the handling of u132_hcd_init in commit f276e002793c(""usb: u132-hcd: fix resource leak"")"|October 21, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49027
+CVE-2022-49028|"In the Linux kernel, the following vulnerability has been resolved:ixgbevf: Fix resource leak in ixgbevf_init_module()ixgbevf_init_module() won't destroy the workqueue created bycreate_singlethread_workqueue() when pci_register_driver() failed. Adddestroy_workqueue() in fail path to prevent the resource leak.Similar to the handling of u132_hcd_init in commit f276e002793c(""usb: u132-hcd: fix resource leak"")"|October 21, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49028
+CVE-2022-49029|In the Linux kernel, the following vulnerability has been resolved:hwmon: (ibmpex) Fix possible UAF when ibmpex_register_bmc() failsSmatch report warning as follows:drivers/hwmon/ibmpex.c:509 ibmpex_register_bmc() warn:  '&data->list' not removed from listIf ibmpex_find_sensors() fails in ibmpex_register_bmc(), data willbe freed, but data->list will not be removed from driver_data.bmc_data,then list traversal may cause UAF.Fix by removeing it from driver_data.bmc_data before free().|October 21, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49029
 CVE-2022-4903|A vulnerability was found in CodenameOne 7.0.70. It has been classified as problematic. Affected is an unknown function. The manipulation leads to use of implicit intent for sensitive communication. It is possible to launch the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. Upgrading to version 7.0.71 is able to address this issue. The patch is identified as dad49c9ef26a598619fc48d2697151a02987d478. It is recommended to upgrade the affected component. VDB-220470 is the identifier assigned to this vulnerability.|February 10, 2023; 10:15:11 AM -0500|V3.1: 8.1 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-4903&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2022-4903
+CVE-2022-49030|In the Linux kernel, the following vulnerability has been resolved:libbpf: Handle size overflow for ringbuf mmapThe maximum size of ringbuf is 2GB on x86-64 host, so 2 * max_entrieswill overflow u32 when mapping producer page and data pages. Onlycasting max_entries to size_t is not enough, because for 32-bitsapplication on 64-bits kernel the size of read-only mmap regionalso could overflow size_t.So fixing it by casting the size of read-only mmap region into a __u64and checking whether or not there will be overflow during mmap.|October 21, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49030
+CVE-2022-49031|In the Linux kernel, the following vulnerability has been resolved:iio: health: afe4403: Fix oob read in afe4403_read_rawKASAN report out-of-bounds read as follows:BUG: KASAN: global-out-of-bounds in afe4403_read_raw+0x42e/0x4c0Read of size 4 at addr ffffffffc02ac638 by task cat/279Call Trace: afe4403_read_raw iio_read_channel_info dev_attr_showThe buggy address belongs to the variable: afe4403_channel_leds+0x18/0xffffffffffffe9e0This issue can be reproduced by singe command: $ cat /sys/bus/spi/devices/spi0.0/iio\:device0/in_intensity6_rawThe array size of afe4403_channel_leds is less than channels, so accesswith chan->address cause OOB read in afe4403_read_raw. Fix it by movingaccess before use it.|October 21, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49031
+CVE-2022-49032|"In the Linux kernel, the following vulnerability has been resolved:iio: health: afe4404: Fix oob read in afe4404_[read|write]_rawKASAN report out-of-bounds read as follows:BUG: KASAN: global-out-of-bounds in afe4404_read_raw+0x2ce/0x380Read of size 4 at addr ffffffffc00e4658 by task cat/278Call Trace: afe4404_read_raw iio_read_channel_info dev_attr_showThe buggy address belongs to the variable: afe4404_channel_leds+0x18/0xffffffffffffe9c0This issue can be reproduce by singe command: $ cat /sys/bus/i2c/devices/0-0058/iio\:device0/in_intensity6_rawThe array size of afe4404_channel_leds and afe4404_channel_offdacsare less than channels, so access with chan->address cause OOB readin afe4404_[read|write]_raw. Fix it by moving access before use them."|October 21, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49032
+CVE-2022-49033|In the Linux kernel, the following vulnerability has been resolved:btrfs: qgroup: fix sleep from invalid context bug in btrfs_qgroup_inherit()Syzkaller reported BUG as follows:  BUG: sleeping function called from invalid context at       include/linux/sched/mm.h:274  Call Trace:   <TASK>   dump_stack_lvl+0xcd/0x134   __might_resched.cold+0x222/0x26b   kmem_cache_alloc+0x2e7/0x3c0   update_qgroup_limit_item+0xe1/0x390   btrfs_qgroup_inherit+0x147b/0x1ee0   create_subvol+0x4eb/0x1710   btrfs_mksubvol+0xfe5/0x13f0   __btrfs_ioctl_snap_create+0x2b0/0x430   btrfs_ioctl_snap_create_v2+0x25a/0x520   btrfs_ioctl+0x2a1c/0x5ce0   __x64_sys_ioctl+0x193/0x200   do_syscall_64+0x35/0x80Fix this by calling qgroup_dirty() on @dstqgroup, and update limit item inbtrfs_run_qgroups() later outside of the spinlock context.|October 21, 2024; 4:15:13 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-49033
 CVE-2022-49037|Insertion of sensitive information into log file vulnerability in proxy settings component in Synology Drive Client before 3.3.0-15082 allows remote authenticated users to obtain sensitive information via unspecified vectors.|September 26, 2024; 12:15:03 AM -0400|"V4.0:(not available)
 
 

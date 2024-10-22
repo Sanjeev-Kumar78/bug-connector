@@ -1827,6 +1827,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10123
+CVE-2024-10125|The  Amazon.ApplicationLoadBalancer.Identity.AspNetCore repo https://github.com/awslabs/aws-alb-identity-aspnetcore#validatetokensignature  contains Middleware that can be used in conjunction with the Application Load Balancer (ALB) OpenId Connect integration and can be used in any  ASP.NET http://asp.net/  Core deployment scenario, including Fargate, EKS, ECS, EC2, and Lambda. In the JWT handling code, it performs signature validation but fails to validate the JWT issuer and signer identity. The signer omission, if combined with a scenario where the infrastructure owner allows internet traffic to the ALB targets (not a recommended configuration), can allow for JWT signing by an untrusted entity and an actor may be able to mimic valid OIDC-federated sessions to the ALB targets.|October 21, 2024; 8:15:02 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-10125
 CVE-2024-10128|A vulnerability was found in Topdata Inner Rep Plus WebServer 2.01. It has been rated as problematic. Affected by this issue is some unknown functionality of the file td.js.gz. The manipulation leads to risky cryptographic algorithm. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.|October 18, 2024; 5:15:03 PM -0400|"V4.0:(not available)
 
 
@@ -27114,6 +27123,42 @@ V3.x:(not available)
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-30135
 CVE-2024-30156|Varnish Cache before 7.3.2 and 7.4.x before 7.4.3 (and before 6.0.13 LTS), and Varnish Enterprise 6 before 6.0.12r6, allows credits exhaustion for an HTTP/2 connection control flow window, aka a Broke Window Attack.|March 23, 2024; 9:15:45 PM -0400|V3.x:(not available) V2.0:(not available)  (None)|https://nvd.nist.gov/vuln/detail/CVE-2024-30156
+CVE-2024-30157|A vulnerability in the Suite Applications Services component of Mitel MiCollab through 9.7.1.110 could allow an authenticated attacker with administrative privileges to conduct a SQL Injection attack due to insufficient validation of user input. A successful exploit could allow an attacker to execute arbitrary database and management operations.|October 21, 2024; 5:15:04 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-30157
+CVE-2024-30158|A vulnerability in the web conferencing component of Mitel MiCollab through 9.7.1.110 could allow an authenticated attacker with administrative privileges to conduct a SQL Injection attack due to insufficient validation of user input. A successful exploit could allow an attacker to execute arbitrary database and management operations.|October 21, 2024; 5:15:04 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-30158
+CVE-2024-30159|A vulnerability in the web conferencing component of Mitel MiCollab through 9.7.1.110 could allow an authenticated attacker with administrative privileges to conduct a Stored Cross-Site Scripting (XSS) attack due to insufficient validation of user input. A successful exploit could allow an attacker to execute arbitrary scripts.|October 21, 2024; 5:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-30159
+CVE-2024-30160|A vulnerability in the Suite Applications Services component of Mitel MiCollab through 9.7.1.110 could allow an authenticated attacker with administrative privileges to conduct a Stored Cross-Site Scripting (XSS) attack due to insufficient validation of user input. A successful exploit could allow an attacker to execute arbitrary scripts.|October 21, 2024; 5:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-30160
 CVE-2024-30161|In Qt before 6.5.6 and 6.6.x before 6.6.3, the wasm component may access QNetworkReply header data via a dangling pointer.|March 23, 2024; 9:15:45 PM -0400|V3.x:(not available) V2.0:(not available)  (None)|https://nvd.nist.gov/vuln/detail/CVE-2024-30161
 CVE-2024-30162|Invision Community through 4.7.16 allows remote code execution via the applications/core/modules/admin/editor/toolbar.php IPS\core\modules\admin\editor\_toolbar::addPlugin() method. This method handles uploaded ZIP files that are extracted into the applications/core/interface/ckeditor/ckeditor/plugins/ directory without properly verifying their content. This can be exploited by admin users (with the toolbar_manage permission) to write arbitrary PHP files into that directory, leading to execution of arbitrary PHP code in the context of the web server user.|June 07, 2024; 1:15:50 PM -0400|"V4.0:(not available)
 
@@ -28913,6 +28958,15 @@ V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-31004
 CVE-2024-31005|An issue in Bento4 Bento v.1.6.0-641 allows a remote attacker to execute arbitrary code via the Ap4MdhdAtom.cpp,AP4_MdhdAtom::AP4_MdhdAtom,mp4fragment|April 02, 2024; 4:16:16 AM -0400|"V3.x:(not available) 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-31005
+CVE-2024-31007|Buffer Overflow vulnerability in IrfanView 32bit v.4.66 allows a local attacker to cause a denial of service via a crafted file. Affected component is IrfanView 32bit 4.66 with plugin formats.dll.|October 21, 2024; 4:15:14 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-31007
 CVE-2024-3101|In mintplex-labs/anything-llm, an improper input validation vulnerability allows attackers to escalate privileges by deactivating 'Multi-User Mode'. By sending a specially crafted curl request with the 'multi_user_mode' parameter set to false, an attacker can deactivate 'Multi-User Mode'. This action permits the creation of a new admin user without requiring a password, leading to unauthorized administrative access.|April 10, 2024; 1:15:56 PM -0400|"V3.x:(not available) 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-3101
@@ -41488,6 +41542,33 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-35284
+CVE-2024-35285|A vulnerability in NuPoint Messenger (NPM) of Mitel MiCollab through 9.8.0.33 allows an unauthenticated attacker to conduct a command injection attack due to insufficient parameter sanitization.|October 21, 2024; 5:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-35285
+CVE-2024-35286|A vulnerability in NuPoint Messenger (NPM) of Mitel MiCollab through 9.8.0.33 allows an unauthenticated attacker to conduct a SQL injection attack due to insufficient sanitization of user input. A successful exploit could allow an attacker to access sensitive information and execute arbitrary database and management operations.|October 21, 2024; 5:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-35286
+CVE-2024-35287|A vulnerability in the NuPoint Messenger (NPM) component of Mitel MiCollab through version 9.8 SP1 (9.8.1.5) could allow an authenticated attacker with administrative privilege to conduct a privilege escalation attack due to the execution of a resource with unnecessary privileges. A successful exploit could allow an attacker to execute arbitrary commands with elevated privileges.|October 21, 2024; 5:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-35287
 CVE-2024-35291|Cross-site scripting vulnerability exists in Splunk Config Explorer versions prior to 1.7.16. If this vulnerability is exploited, an arbitrary script may be executed on the web browser of the user who is using the product.|May 27, 2024; 1:15:08 AM -0400|"V4.0:(not available)
 
 
@@ -41600,6 +41681,24 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-35313
+CVE-2024-35314|A vulnerability in the Desktop Client of Mitel MiCollab through 9.7.1.110, and MiVoice Business Solution Virtual Instance (MiVB SVI) 1.0.0.25, could allow an unauthenticated attacker to conduct a command injection attack due to insufficient parameter sanitization. A successful exploit could allow an attacker to execute arbitrary scripts.|October 21, 2024; 5:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-35314
+CVE-2024-35315|A vulnerability in the Desktop Client of Mitel MiCollab through 9.7.1.110, and MiVoice Business Solution Virtual Instance (MiVB SVI) 1.0.0.25, could allow an authenticated attacker to conduct a privilege escalation attack due to improper file validation. A successful exploit could allow an attacker to run arbitrary code with elevated privileges.|October 21, 2024; 5:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-35315
 CVE-2024-35324|Douchat 4.0.5 suffers from an arbitrary file upload vulnerability via Public/Plugins/webuploader/server/preview.php.|May 28, 2024; 12:15:16 PM -0400|"V4.0:(not available)
 
 
@@ -64954,6 +65053,69 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-4008
+CVE-2024-40083|A Buffer Overflow vulnerabilty in the local_app_set_router_token function of Vilo 5 Mesh WiFi System <= 5.16.1.33 allows remote, unauthenticated attackers to execute arbitrary code via sscanf reading the token and timezone JSON fields into a fixed-length buffer.|October 21, 2024; 5:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-40083
+CVE-2024-40084|A Buffer Overflow in the Boa webserver of Vilo 5 Mesh WiFi System <= 5.16.1.33 allows remote, unauthenticated attackers to execute arbitrary code via exceptionally long HTTP methods or paths.|October 21, 2024; 5:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-40084
+CVE-2024-40085|A Buffer Overflow vulnerability in the local_app_set_router_wan function of Vilo 5 Mesh WiFi System <= 5.16.1.33 allows remote, unauthenticated attackers to execute arbitrary code via pppoe_username and pppoe_password fields being larger than 128 bytes in length.|October 21, 2024; 5:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-40085
+CVE-2024-40086|A Buffer Overflow vulnerability in the local_app_set_router_wifi_SSID_PWD function of Vilo 5 Mesh WiFi System <= 5.16.1.33 allows remote, unauthenticated attackers to execute arbitrary code via a password field larger than 64 bytes in length.|October 21, 2024; 5:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-40086
+CVE-2024-40087|Vilo 5 Mesh WiFi System <= 5.16.1.33 is vulnerable to Insecure Permissions. Lack of authentication in the custom TCP service on port 5432 allows remote, unauthenticated attackers to gain administrative access over the router.|October 21, 2024; 5:15:06 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-40087
+CVE-2024-40088|A Directory Traversal vulnerability in the Boa webserver of Vilo 5 Mesh WiFi System <= 5.16.1.33 allows remote, unauthenticated attackers to enumerate the existence and length of any file in the filesystem by placing malicious payloads in the path of any HTTP request.|October 21, 2024; 5:15:06 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-40088
+CVE-2024-40089|A Command Injection vulnerability in Vilo 5 Mesh WiFi System <= 5.16.1.33 allows remote, authenticated attackers to execute arbitrary code by injecting shell commands into the name of the Vilo device.|October 21, 2024; 5:15:06 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-40089
 CVE-2024-4009|Replay Attackin ABB, Busch-Jaeger, FTS Display (version 1.00) and BCU (version 1.3.0.33) allows attacker to capture/replay KNX telegram to local KNX Bus-System|June 05, 2024; 2:15:11 PM -0400|"V4.0:(not available)
 
 
@@ -64963,6 +65125,24 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-4009
+CVE-2024-40090|Vilo 5 Mesh WiFi System <= 5.16.1.33 is vulnerable to Information Disclosure. An information leak in the Boa webserver allows remote, unauthenticated attackers to leak memory addresses of uClibc and the stack via sending a GET request to the index page.|October 21, 2024; 5:15:06 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-40090
+CVE-2024-40091|Vilo 5 Mesh WiFi System <= 5.16.1.33 lacks authentication in the Boa webserver, which allows remote, unauthenticated attackers to retrieve logs with sensitive system.|October 21, 2024; 5:15:06 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-40091
 CVE-2024-40096|The com.cascadialabs.who (aka Who - Caller ID, Spam Block) application 15.0 for Android places sensitive information in the system log.|August 05, 2024; 6:15:33 AM -0400|"V4.0:(not available)
 
 
@@ -70731,6 +70911,33 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-41711
+CVE-2024-41712|A vulnerability in the Web Conferencing Component of Mitel MiCollab through 9.8.1.5 could allow an authenticated attacker to conduct a command injection attack, due to insufficient validation of user input. A successful exploit could allow an attacker to execute arbitrary commands on the system within the context of the user.|October 21, 2024; 5:15:06 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-41712
+CVE-2024-41713|A vulnerability in the NuPoint Unified Messaging (NPM) component of Mitel MiCollab through 9.8 SP1 FP2 (9.8.1.201) could allow an unauthenticated attacker to conduct a path traversal attack, due to insufficient input validation. A successful exploit could allow unauthorized access, enabling the attacker to view, corrupt, or delete users' data and system configurations.|October 21, 2024; 5:15:06 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-41713
+CVE-2024-41714|A vulnerability in the Web Interface component of Mitel MiCollab through 9.8 SP1 (9.8.1.5) and MiVoice Business Solution Virtual Instance (MiVB SVI) through 1.0.0.27 could allow an authenticated attacker to conduct a command injection attack, due to insufficient parameter sanitization. A successful exploit could allow an attacker to execute arbitrary commands with elevated privileges within the context of the system.|October 21, 2024; 5:15:06 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-41714
 CVE-2024-41715|The goTenna Pro ATAK Plugin has a payload length vulnerability that makes it possible to tell the length of the payload regardless of the encryption used.|September 26, 2024; 2:15:05 PM -0400|"V4.0:(not available)
 
 
@@ -90194,6 +90401,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-46325
+CVE-2024-46326|Public Knowledge Project pkp-lib 3.4.0-7 and earlier is vulnerable to Open redirect due to a lack of input sanitization in the logout function.|October 21, 2024; 4:15:14 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-46326
 CVE-2024-46327|An issue in the Http_handle object of VONETS VAP11G-300 v3.3.23.6.9 allows attackers to access sensitive files via a directory traversal.|September 26, 2024; 10:15:09 AM -0400|"V4.0:(not available)
 
 
@@ -93006,6 +93222,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47188
+CVE-2024-47189|The API Interface of the AWV (Audio, Web and Video Conferencing) component of Mitel MiCollab through 9.8 SP1 FP2 (9.8.1.201) could allow an unauthenticated attacker to conduct SQL injection due to insufficient sanitization of user input. A successful exploit could allow an attacker with knowledge of specific details to access non-sensitive user provisioning information and execute arbitrary SQL database commands.|October 21, 2024; 4:15:14 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47189
 CVE-2024-47197|Exposure of Sensitive Information to an Unauthorized Actor, Insecure Storage of Sensitive Information vulnerability in Maven Archetype Plugin.This issue affects Maven Archetype Plugin: from 3.2.1 before 3.3.0.Users are recommended to upgrade to version 3.3.0, which fixes the issue.Archetype integration testing creates a filecalled ./target/classes/archetype-it/archetype-settings.xmlThis file contains all the content from the users ~/.m2/settings.xml file,which often contains information they do not want to publish. We expect that on many developer machines, this also containscredentials.When the user runs mvn verify again (without a mvn clean), this file becomes part ofthe final artifact.If a developer were to publish this into Maven Central or any other remote repository (whether as a releaseor a snapshot) their credentials would be published without them knowing.|September 26, 2024; 4:15:06 AM -0400|"V4.0:(not available)
 
 
@@ -93078,6 +93303,24 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47222
+CVE-2024-47223|A vulnerability in the AWV (Audio, Web and Video Conferencing) component of Mitel MiCollab through 9.8 SP1 FP2 (9.8.1.201) could allow an unauthenticated attacker to conduct a SQL injection attack due to insufficient sanitization of user input. A successful exploit could allow an attacker to access non-sensitive user provisioning information and execute arbitrary SQL database commands.|October 21, 2024; 4:15:14 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47223
+CVE-2024-47224|A vulnerability in the AWV (Audio, Web and Video Conferencing) component of Mitel MiCollab through 9.8 SP1 FP2 (9.8.1.201) could allow an unauthenticated attacker to conduct a CRLF injection attack due to inadequate encoding of user input in URLs. A successful exploit could allow an attacker to perform a phishing attack.|October 21, 2024; 5:15:06 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47224
 CVE-2024-47226|"A stored cross-site scripting (XSS) vulnerability exists in NetBox 4.1.0 within the ""Configuration History"" feature of the ""Admin"" panel via a /core/config-revisions/ Add action. An authenticated user can inject arbitrary JavaScript or HTML into the ""Top banner"" field."|September 21, 2024; 10:15:02 PM -0400|"V4.0:(not available)
 
 
@@ -95992,6 +96235,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47911
+CVE-2024-47912|A vulnerability in the AWV (Audio, Web, and Video) Conferencing component of Mitel MiCollab through 9.8 SP1 FP2 (9.8.1.201) could allow an unauthenticated attacker to perform unauthorized data-access attacks due to missing authentication mechanisms. A successful exploit could allow an attacker to access and delete sensitive information.|October 21, 2024; 4:15:14 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-47912
 CVE-2024-47913|An issue was discovered in the AbuseFilter extension for MediaWiki before 1.39.9, 1.40.x and 1.41.x before 1.41.3, and 1.42.x before 1.42.2. An API caller can match a filter condition against AbuseFilter logs even if the caller is not authorized to view the log details for the filter.|October 04, 2024; 6:15:02 PM -0400|"V4.0:(not available)
 
 
@@ -96574,6 +96826,15 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-4849&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-4849
+CVE-2024-48509|Learning with Texts (LWT) 2.0.3 is vulnerable to SQL Injection. This occurs when the application fails to properly sanitize user inputs, allowing attackers to manipulate SQL queries by injecting malicious SQL statements into URL parameters. By exploiting this vulnerability, an attacker could gain unauthorized access to the database, retrieve sensitive information, modify or delete data, and execute arbitrary commands.|October 21, 2024; 4:15:14 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48509
 CVE-2024-4851|A Server-Side Request Forgery (SSRF) vulnerability exists in the stangirard/quivr application, version 0.0.204, which allows attackers to access internal networks. The vulnerability is present in the crawl endpoint where the 'url' parameter can be manipulated to send HTTP requests to arbitrary URLs, thereby facilitating SSRF attacks. The affected code is located in the backend/routes/crawl_routes.py file, specifically within the crawl_endpoint function. This issue could allow attackers to interact with internal services that are accessible from the server hosting the application.|June 06, 2024; 3:16:02 PM -0400|"V4.0:(not available)
 
 
@@ -96594,6 +96855,15 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-4858&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-4858
+CVE-2024-48597|Online Clinic Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /success/editp.php?action=edit.|October 21, 2024; 4:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48597
 CVE-2024-48629|D-Link DIR_882_FW130B06 and DIR_878 DIR_878_FW130B08 were discovered to contain a command injection vulnerability via the IPAddress parameter in the SetGuestZoneRouterSettings function. This vulnerability allows attackers to execute arbitrary OS commands via a crafted POST request.|October 17, 2024; 2:15:08 PM -0400|"V4.0:(not available)
 
 
@@ -96693,6 +96963,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48638
+CVE-2024-48645|"In Minecraft mod ""Command Block IDE"" up to and including version 0.4.9, a missing authorization (CWE-862) allows any user to modify ""function"" files used by the game when installed on a dedicated server."|October 21, 2024; 4:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48645
 CVE-2024-4865|The Happy Addons for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘_id’ parameter in all versions up to, and including, 3.10.8 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|May 17, 2024; 11:15:06 PM -0400|"V4.0:(not available)
 
 
@@ -96704,6 +96983,15 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-4865&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-4865
+CVE-2024-48659|An issue in DCME-320-L <=9.3.2.114 allows a remote attacker to execute arbitrary code via the log_u_umount.php component.|October 21, 2024; 4:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-48659
 CVE-2024-4866|The UltraAddons – Elementor Addons (Header Footer Builder, Custom Font, Custom CSS,Woo Widget, Menu Builder, Anywhere Elementor Shortcode) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via multiple widgets in all versions up to, and including, 1.1.6 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|July 09, 2024; 10:15:03 PM -0400|"V4.0:(not available)
 
 
@@ -99178,6 +99466,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-4999
+CVE-2024-50019|In the Linux kernel, the following vulnerability has been resolved:kthread: unpark only parked kthreadCalling into kthread unparking unconditionally is mostly harmless whenthe kthread is already unparked. The wake up is then simply ignoredbecause the target is not in TASK_PARKED state.However if the kthread is per CPU, the wake up is preceded by a callto kthread_bind() which expects the task to be inactive and inTASK_PARKED state, which obviously isn't the case if it is unparked.As a result, calling kthread_stop() on an unparked per-cpu kthreadtriggers such a warning:	WARNING: CPU: 0 PID: 11 at kernel/kthread.c:525 __kthread_bind_mask kernel/kthread.c:525	 <TASK>	 kthread_stop+0x17a/0x630 kernel/kthread.c:707	 destroy_workqueue+0x136/0xc40 kernel/workqueue.c:5810	 wg_destruct+0x1e2/0x2e0 drivers/net/wireguard/device.c:257	 netdev_run_todo+0xe1a/0x1000 net/core/dev.c:10693	 default_device_exit_batch+0xa14/0xa90 net/core/dev.c:11769	 ops_exit_list net/core/net_namespace.c:178 [inline]	 cleanup_net+0x89d/0xcc0 net/core/net_namespace.c:640	 process_one_work kernel/workqueue.c:3231 [inline]	 process_scheduled_works+0xa2c/0x1830 kernel/workqueue.c:3312	 worker_thread+0x86d/0xd70 kernel/workqueue.c:3393	 kthread+0x2f0/0x390 kernel/kthread.c:389	 ret_from_fork+0x4b/0x80 arch/x86/kernel/process.c:147	 ret_from_fork_asm+0x1a/0x30 arch/x86/entry/entry_64.S:244	 </TASK>Fix this with skipping unecessary unparking while stopping a kthread.|October 21, 2024; 4:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50019
 CVE-2024-5002|The User Submitted Posts  WordPress plugin before 20240516 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)|July 13, 2024; 2:15:03 AM -0400|"V4.0:(not available)
 
 
@@ -99187,6 +99484,96 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-5002
+CVE-2024-50020|In the Linux kernel, the following vulnerability has been resolved:ice: Fix improper handling of refcount in ice_sriov_set_msix_vec_count()This patch addresses an issue with improper reference count handling in theice_sriov_set_msix_vec_count() function.First, the function calls ice_get_vf_by_id(), which increments thereference count of the vf pointer. If the subsequent call toice_get_vf_vsi() fails, the function currently returns an error withoutdecrementing the reference count of the vf pointer, leading to a referencecount leak. The correct behavior, as implemented in this patch, is todecrement the reference count using ice_put_vf(vf) before returning anerror when vsi is NULL.Second, the function calls ice_sriov_get_irqs(), which setsvf->first_vector_idx. If this call returns a negative value, indicating anerror, the function returns an error without decrementing the referencecount of the vf pointer, resulting in another reference count leak. Thepatch addresses this by adding a call to ice_put_vf(vf) before returningan error when vf->first_vector_idx < 0.This bug was identified by an experimental static analysis tool developedby our team. The tool specializes in analyzing reference count operationsand identifying potential mismanagement of reference counts. In this case,the tool flagged the missing decrement operation as a potential issue,leading to this patch.|October 21, 2024; 4:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50020
+CVE-2024-50021|"In the Linux kernel, the following vulnerability has been resolved:ice: Fix improper handling of refcount in ice_dpll_init_rclk_pins()This patch addresses a reference count handling issue in theice_dpll_init_rclk_pins() function. The function calls ice_dpll_get_pins(),which increments the reference count of the relevant resources. However,if the condition WARN_ON((!vsi || !vsi->netdev)) is met, the functioncurrently returns an error without properly releasing the resourcesacquired by ice_dpll_get_pins(), leading to a reference count leak.To resolve this, the check has been moved to the top of the function. Thisensures that the function verifies the state before any resources areacquired, avoiding the need for additional resource management in theerror path.This bug was identified by an experimental static analysis tool developedby our team. The tool specializes in analyzing reference count operationsand detecting potential issues where resources are not properly managed.In this case, the tool flagged the missing release operation as apotential problem, which led to the development of this patch."|October 21, 2024; 4:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50021
+CVE-2024-50022|In the Linux kernel, the following vulnerability has been resolved:device-dax: correct pgoff align in dax_set_mapping()pgoff should be aligned using ALIGN_DOWN() instead of ALIGN().  Otherwise,vmf->address not aligned to fault_size will be aligned to the nextalignment, that can result in memory failure getting the wrong address.It's a subtle situation that only can be observed inpage_mapped_in_vma() after the page is page fault handled bydev_dax_huge_fault.  Generally, there is little chance to performpage_mapped_in_vma in dev-dax's page unless in specific error injectionto the dax device to trigger an MCE - memory-failure.  In that case,page_mapped_in_vma() will be triggered to determine which task isaccessing the failure address and kill that task in the end.We used self-developed dax device (which is 2M aligned mapping) , toperform error injection to random address.  It turned out that errorinjected to non-2M-aligned address was causing endless MCE until panic.Because page_mapped_in_vma() kept resulting wrong address and the taskaccessing the failure address was never killed properly:[ 3783.719419] Memory failure: 0x200c9742: recovery action for dax page: Recovered[ 3784.049006] mce: Uncorrected hardware memory error in user-access at 200c9742380[ 3784.049190] Memory failure: 0x200c9742: recovery action for dax page: Recovered[ 3784.448042] mce: Uncorrected hardware memory error in user-access at 200c9742380[ 3784.448186] Memory failure: 0x200c9742: recovery action for dax page: Recovered[ 3784.792026] mce: Uncorrected hardware memory error in user-access at 200c9742380[ 3784.792179] Memory failure: 0x200c9742: recovery action for dax page: Recovered[ 3785.162502] mce: Uncorrected hardware memory error in user-access at 200c9742380[ 3785.162633] Memory failure: 0x200c9742: recovery action for dax page: Recovered[ 3785.461116] mce: Uncorrected hardware memory error in user-access at 200c9742380[ 3785.461247] Memory failure: 0x200c9742: recovery action for dax page: Recovered[ 3785.764730] mce: Uncorrected hardware memory error in user-access at 200c9742380[ 3785.764859] Memory failure: 0x200c9742: recovery action for dax page: Recovered[ 3786.042128] mce: Uncorrected hardware memory error in user-access at 200c9742380[ 3786.042259] Memory failure: 0x200c9742: recovery action for dax page: Recovered[ 3786.464293] mce: Uncorrected hardware memory error in user-access at 200c9742380[ 3786.464423] Memory failure: 0x200c9742: recovery action for dax page: Recovered[ 3786.818090] mce: Uncorrected hardware memory error in user-access at 200c9742380[ 3786.818217] Memory failure: 0x200c9742: recovery action for dax page: Recovered[ 3787.085297] mce: Uncorrected hardware memory error in user-access at 200c9742380[ 3787.085424] Memory failure: 0x200c9742: recovery action for dax page: RecoveredIt took us several weeks to pinpoint this problem,  but we eventuallyused bpftrace to trace the page fault and mce address and successfullyidentified the issue.Joao added:; Likely we never reproduce in production because we always pin: device-dax regions in the region align they provide (Qemu does: similarly with prealloc in hugetlb/file backed memory).  I think this: bug requires that we touch *unpinned* device-dax regions unaligned to: the device-dax selected alignment (page size i.e.  4K/2M/1G)|October 21, 2024; 4:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50022
+CVE-2024-50023|"In the Linux kernel, the following vulnerability has been resolved:net: phy: Remove LED entry from LEDs list on unregisterCommit c938ab4da0eb (""net: phy: Manual remove LEDs to ensure correctordering"") correctly fixed a problem with using devm_ but missedremoving the LED entry from the LEDs list.This cause kernel panic on specific scenario where the port for the PHYis torn down and up and the kmod for the PHY is removed.On setting the port down the first time, the assosiacted LEDs arecorrectly unregistered. The associated kmod for the PHY is now removed.The kmod is now added again and the port is now put up, the associated LEDare registered again.On putting the port down again for the second time after these step, theLED list now have 4 elements. With the first 2 already unregisteredpreviously and the 2 new one registered again.This cause a kernel panic as the first 2 element should have beenremoved.Fix this by correctly removing the element when LED is unregistered."|October 21, 2024; 4:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50023
+CVE-2024-50024|In the Linux kernel, the following vulnerability has been resolved:net: Fix an unsafe loop on the listThe kernel may crash when deleting a genetlink family if there are stilllisteners for that family:Oops: Kernel access of bad area, sig: 11 [#1]  ...  NIP [c000000000c080bc] netlink_update_socket_mc+0x3c/0xc0  LR [c000000000c0f764] __netlink_clear_multicast_users+0x74/0xc0  Call Trace:__netlink_clear_multicast_users+0x74/0xc0genl_unregister_family+0xd4/0x2d0Change the unsafe loop on the list to a safe one, because inside theloop there is an element removal from this list.|October 21, 2024; 4:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50024
+CVE-2024-50025|"In the Linux kernel, the following vulnerability has been resolved:scsi: fnic: Move flush_work initialization out of if blockAfter commit 379a58caa199 (""scsi: fnic: Move fnic_fnic_flush_tx() to awork queue""), it can happen that a work item is sent to an uninitializedwork queue.  This may has the effect that the item being queued is neveractually queued, and any further actions depending on it will notproceed.The following warning is observed while the fnic driver is loaded:kernel: WARNING: CPU: 11 PID: 0 at ../kernel/workqueue.c:1524 __queue_work+0x373/0x410kernel:  <IRQ>kernel:  queue_work_on+0x3a/0x50kernel:  fnic_wq_copy_cmpl_handler+0x54a/0x730 [fnic 62fbff0c42e7fb825c60a55cde2fb91facb2ed24]kernel:  fnic_isr_msix_wq_copy+0x2d/0x60 [fnic 62fbff0c42e7fb825c60a55cde2fb91facb2ed24]kernel:  __handle_irq_event_percpu+0x36/0x1a0kernel:  handle_irq_event_percpu+0x30/0x70kernel:  handle_irq_event+0x34/0x60kernel:  handle_edge_irq+0x7e/0x1a0kernel:  __common_interrupt+0x3b/0xb0kernel:  common_interrupt+0x58/0xa0kernel:  </IRQ>It has been observed that this may break the rediscovery of FibreChannel devices after a temporary fabric failure.This patch fixes it by moving the work queue initialization out ofan if block in fnic_probe()."|October 21, 2024; 4:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50025
+CVE-2024-50026|"In the Linux kernel, the following vulnerability has been resolved:scsi: wd33c93: Don't use stale scsi_pointer valueA regression was introduced with commit dbb2da557a6a (""scsi: wd33c93:Move the SCSI pointer to private command data"") which results in an oopsin wd33c93_intr(). That commit added the scsi_pointer variable andinitialized it from hostdata->connected. However, during selection,hostdata->connected is not yet valid. Fix this by getting the currentscsi_pointer from hostdata->selecting."|October 21, 2024; 4:15:15 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50026
+CVE-2024-50027|In the Linux kernel, the following vulnerability has been resolved:thermal: core: Free tzp copy along with the thermal zoneThe object pointed to by tz->tzp may still be accessed after beingfreed in thermal_zone_device_unregister(), so move the freeing of itto the point after the removal completion has been completed at whichit cannot be accessed any more.|October 21, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50027
+CVE-2024-50028|In the Linux kernel, the following vulnerability has been resolved:thermal: core: Reference count the zone in thermal_zone_get_by_id()There are places in the thermal netlink code where nothing preventsthe thermal zone object from going away while being accessed after ithas been returned by thermal_zone_get_by_id().To address this, make thermal_zone_get_by_id() get a reference on thethermal zone device object to be returned with the help of get_device(),under thermal_list_lock, and adjust all of its callers to this changewith the help of the cleanup.h infrastructure.|October 21, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50028
+CVE-2024-50029|In the Linux kernel, the following vulnerability has been resolved:Bluetooth: hci_conn: Fix UAF in hci_enhanced_setup_syncThis checks if the ACL connection remains valid as it could be destroyedwhile hci_enhanced_setup_sync is pending on cmd_sync leading to thefollowing trace:BUG: KASAN: slab-use-after-free in hci_enhanced_setup_sync+0x91b/0xa60Read of size 1 at addr ffff888002328ffd by task kworker/u5:2/37CPU: 0 UID: 0 PID: 37 Comm: kworker/u5:2 Not tainted 6.11.0-rc6-01300-g810be445d8d6 #7099Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS 1.16.3-2.fc40 04/01/2014Workqueue: hci0 hci_cmd_sync_workCall Trace: <TASK> dump_stack_lvl+0x5d/0x80 ? hci_enhanced_setup_sync+0x91b/0xa60 print_report+0x152/0x4c0 ? hci_enhanced_setup_sync+0x91b/0xa60 ? __virt_addr_valid+0x1fa/0x420 ? hci_enhanced_setup_sync+0x91b/0xa60 kasan_report+0xda/0x1b0 ? hci_enhanced_setup_sync+0x91b/0xa60 hci_enhanced_setup_sync+0x91b/0xa60 ? __pfx_hci_enhanced_setup_sync+0x10/0x10 ? __pfx___mutex_lock+0x10/0x10 hci_cmd_sync_work+0x1c2/0x330 process_one_work+0x7d9/0x1360 ? __pfx_lock_acquire+0x10/0x10 ? __pfx_process_one_work+0x10/0x10 ? assign_work+0x167/0x240 worker_thread+0x5b7/0xf60 ? __kthread_parkme+0xac/0x1c0 ? __pfx_worker_thread+0x10/0x10 ? __pfx_worker_thread+0x10/0x10 kthread+0x293/0x360 ? __pfx_kthread+0x10/0x10 ret_from_fork+0x2f/0x70 ? __pfx_kthread+0x10/0x10 ret_from_fork_asm+0x1a/0x30 </TASK>Allocated by task 34: kasan_save_stack+0x30/0x50 kasan_save_track+0x14/0x30 __kasan_kmalloc+0x8f/0xa0 __hci_conn_add+0x187/0x17d0 hci_connect_sco+0x2e1/0xb90 sco_sock_connect+0x2a2/0xb80 __sys_connect+0x227/0x2a0 __x64_sys_connect+0x6d/0xb0 do_syscall_64+0x71/0x140 entry_SYSCALL_64_after_hwframe+0x76/0x7eFreed by task 37: kasan_save_stack+0x30/0x50 kasan_save_track+0x14/0x30 kasan_save_free_info+0x3b/0x60 __kasan_slab_free+0x101/0x160 kfree+0xd0/0x250 device_release+0x9a/0x210 kobject_put+0x151/0x280 hci_conn_del+0x448/0xbf0 hci_abort_conn_sync+0x46f/0x980 hci_cmd_sync_work+0x1c2/0x330 process_one_work+0x7d9/0x1360 worker_thread+0x5b7/0xf60 kthread+0x293/0x360 ret_from_fork+0x2f/0x70 ret_from_fork_asm+0x1a/0x30|October 21, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50029
 CVE-2024-5003|The WP Stacker WordPress plugin through 1.8.5 does not have CSRF check in some places, and is missing sanitisation as well as escaping, which could allow attackers to make logged in admin add Stored XSS payloads via a CSRF attack|June 07, 2024; 2:15:12 AM -0400|"V4.0:(not available)
 
 
@@ -99196,6 +99583,231 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-5003
+CVE-2024-50030|In the Linux kernel, the following vulnerability has been resolved:drm/xe/ct: prevent UAF in send_recv()Ensure we serialize with completion side to prevent UAF with fence goingout of scope on the stack, since we have no clue if it will fire afterthe timeout before we can erase from the xa. Also we have some dependentloads and stores for which we need the correct ordering, and we lack theneeded barriers. Fix this by grabbing the ct->lock after the wait, whichis also held by the completion side.v2 (Badal): - Also print done after acquiring the lock and seeing timeout.(cherry picked from commit 52789ce35c55ccd30c4b67b9cc5b2af55e0122ea)|October 21, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50030
+CVE-2024-50031|In the Linux kernel, the following vulnerability has been resolved:drm/v3d: Stop the active perfmon before being destroyedWhen running `kmscube` with one or more performance monitors enabledvia `GALLIUM_HUD`, the following kernel panic can occur:[   55.008324] Unable to handle kernel paging request at virtual address 00000000052004a4[   55.008368] Mem abort info:[   55.008377]   ESR = 0x0000000096000005[   55.008387]   EC = 0x25: DABT (current EL), IL = 32 bits[   55.008402]   SET = 0, FnV = 0[   55.008412]   EA = 0, S1PTW = 0[   55.008421]   FSC = 0x05: level 1 translation fault[   55.008434] Data abort info:[   55.008442]   ISV = 0, ISS = 0x00000005, ISS2 = 0x00000000[   55.008455]   CM = 0, WnR = 0, TnD = 0, TagAccess = 0[   55.008467]   GCS = 0, Overlay = 0, DirtyBit = 0, Xs = 0[   55.008481] user pgtable: 4k pages, 39-bit VAs, pgdp=00000001046c6000[   55.008497] [00000000052004a4] pgd=0000000000000000, p4d=0000000000000000, pud=0000000000000000[   55.008525] Internal error: Oops: 0000000096000005 [#1] PREEMPT SMP[   55.008542] Modules linked in: rfcomm [...] vc4 v3d snd_soc_hdmi_codec drm_display_helpergpu_sched drm_shmem_helper cec drm_dma_helper drm_kms_helper i2c_brcmstbdrm drm_panel_orientation_quirks snd_soc_core snd_compress snd_pcm_dmaengine snd_pcm snd_timer snd backlight[   55.008799] CPU: 2 PID: 166 Comm: v3d_bin Tainted: G         C         6.6.47+rpt-rpi-v8 #1  Debian 1:6.6.47-1+rpt1[   55.008824] Hardware name: Raspberry Pi 4 Model B Rev 1.5 (DT)[   55.008838] pstate: 20000005 (nzCv daif -PAN -UAO -TCO -DIT -SSBS BTYPE=--)[   55.008855] pc : __mutex_lock.constprop.0+0x90/0x608[   55.008879] lr : __mutex_lock.constprop.0+0x58/0x608[   55.008895] sp : ffffffc080673cf0[   55.008904] x29: ffffffc080673cf0 x28: 0000000000000000 x27: ffffff8106188a28[   55.008926] x26: ffffff8101e78040 x25: ffffff8101baa6c0 x24: ffffffd9d989f148[   55.008947] x23: ffffffda1c2a4008 x22: 0000000000000002 x21: ffffffc080673d38[   55.008968] x20: ffffff8101238000 x19: ffffff8104f83188 x18: 0000000000000000[   55.008988] x17: 0000000000000000 x16: ffffffda1bd04d18 x15: 00000055bb08bc90[   55.009715] x14: 0000000000000000 x13: 0000000000000000 x12: ffffffda1bd4cbb0[   55.010433] x11: 00000000fa83b2da x10: 0000000000001a40 x9 : ffffffda1bd04d04[   55.011162] x8 : ffffff8102097b80 x7 : 0000000000000000 x6 : 00000000030a5857[   55.011880] x5 : 00ffffffffffffff x4 : 0300000005200470 x3 : 0300000005200470[   55.012598] x2 : ffffff8101238000 x1 : 0000000000000021 x0 : 0300000005200470[   55.013292] Call trace:[   55.013959]  __mutex_lock.constprop.0+0x90/0x608[   55.014646]  __mutex_lock_slowpath+0x1c/0x30[   55.015317]  mutex_lock+0x50/0x68[   55.015961]  v3d_perfmon_stop+0x40/0xe0 [v3d][   55.016627]  v3d_bin_job_run+0x10c/0x2d8 [v3d][   55.017282]  drm_sched_main+0x178/0x3f8 [gpu_sched][   55.017921]  kthread+0x11c/0x128[   55.018554]  ret_from_fork+0x10/0x20[   55.019168] Code: f9400260 f1001c1f 54001ea9 927df000 (b9403401)[   55.019776] ---[ end trace 0000000000000000 ]---[   55.020411] note: v3d_bin[166] exited with preempt_count 1This issue arises because, upon closing the file descriptor (which happenswhen we interrupt `kmscube`), the active performance monitor is notstopped. Although all perfmons are destroyed in `v3d_perfmon_close_file()`,the active performance monitor's pointer (`v3d->active_perfmon`) is stillretained.If `kmscube` is run again, the driver will attempt to stop the activeperformance monitor using the stale pointer in `v3d->active_perfmon`.However, this pointer is no longer valid because the previous process hasalready terminated, and all performance monitors associated with it havebeen destroyed and freed.To fix this, when the active performance monitor belongs to a givenprocess, explicitly stop it before destroying and freeing it.|October 21, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50031
+CVE-2024-50032|In the Linux kernel, the following vulnerability has been resolved:rcu/nocb: Fix rcuog wake-up from offline softirqAfter a CPU has set itself offline and before it eventually callsrcutree_report_cpu_dead(), there are still opportunities for callbacksto be enqueued, for example from a softirq. When that happens on NOCB,the rcuog wake-up is deferred through an IPI to an online CPU in ordernot to call into the scheduler and risk arming the RT-bandwidth afterhrtimers have been migrated out and disabled.But performing a synchronized IPI from a softirq is buggy as reported inthe following scenario:        WARNING: CPU: 1 PID: 26 at kernel/smp.c:633 smp_call_function_single        Modules linked in: rcutorture torture        CPU: 1 UID: 0 PID: 26 Comm: migration/1 Not tainted 6.11.0-rc1-00012-g9139f93209d1 #1        Stopper: multi_cpu_stop+0x0/0x320 <- __stop_cpus+0xd0/0x120        RIP: 0010:smp_call_function_single        <IRQ>        swake_up_one_online        __call_rcu_nocb_wake        __call_rcu_common        ? rcu_torture_one_read        call_timer_fn        __run_timers        run_timer_softirq        handle_softirqs        irq_exit_rcu        ? tick_handle_periodic        sysvec_apic_timer_interrupt        </IRQ>Fix this with forcing deferred rcuog wake up through the NOCB timer whenthe CPU is offline. The actual wake up will happen fromrcutree_report_cpu_dead().|October 21, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50032
+CVE-2024-50033|In the Linux kernel, the following vulnerability has been resolved:slip: make slhc_remember() more robust against malicious packetssyzbot found that slhc_remember() was missing checks againstmalicious packets [1].slhc_remember() only checked the size of the packet was at least 20,which is not good enough.We need to make sure the packet includes the IPv4 and TCP headerthat are supposed to be carried.Add iph and th pointers to make the code more readable.[1]BUG: KMSAN: uninit-value in slhc_remember+0x2e8/0x7b0 drivers/net/slip/slhc.c:666  slhc_remember+0x2e8/0x7b0 drivers/net/slip/slhc.c:666  ppp_receive_nonmp_frame+0xe45/0x35e0 drivers/net/ppp/ppp_generic.c:2455  ppp_receive_frame drivers/net/ppp/ppp_generic.c:2372 [inline]  ppp_do_recv+0x65f/0x40d0 drivers/net/ppp/ppp_generic.c:2212  ppp_input+0x7dc/0xe60 drivers/net/ppp/ppp_generic.c:2327  pppoe_rcv_core+0x1d3/0x720 drivers/net/ppp/pppoe.c:379  sk_backlog_rcv+0x13b/0x420 include/net/sock.h:1113  __release_sock+0x1da/0x330 net/core/sock.c:3072  release_sock+0x6b/0x250 net/core/sock.c:3626  pppoe_sendmsg+0x2b8/0xb90 drivers/net/ppp/pppoe.c:903  sock_sendmsg_nosec net/socket.c:729 [inline]  __sock_sendmsg+0x30f/0x380 net/socket.c:744  ____sys_sendmsg+0x903/0xb60 net/socket.c:2602  ___sys_sendmsg+0x28d/0x3c0 net/socket.c:2656  __sys_sendmmsg+0x3c1/0x960 net/socket.c:2742  __do_sys_sendmmsg net/socket.c:2771 [inline]  __se_sys_sendmmsg net/socket.c:2768 [inline]  __x64_sys_sendmmsg+0xbc/0x120 net/socket.c:2768  x64_sys_call+0xb6e/0x3ba0 arch/x86/include/generated/asm/syscalls_64.h:308  do_syscall_x64 arch/x86/entry/common.c:52 [inline]  do_syscall_64+0xcd/0x1e0 arch/x86/entry/common.c:83 entry_SYSCALL_64_after_hwframe+0x77/0x7fUninit was created at:  slab_post_alloc_hook mm/slub.c:4091 [inline]  slab_alloc_node mm/slub.c:4134 [inline]  kmem_cache_alloc_node_noprof+0x6bf/0xb80 mm/slub.c:4186  kmalloc_reserve+0x13d/0x4a0 net/core/skbuff.c:587  __alloc_skb+0x363/0x7b0 net/core/skbuff.c:678  alloc_skb include/linux/skbuff.h:1322 [inline]  sock_wmalloc+0xfe/0x1a0 net/core/sock.c:2732  pppoe_sendmsg+0x3a7/0xb90 drivers/net/ppp/pppoe.c:867  sock_sendmsg_nosec net/socket.c:729 [inline]  __sock_sendmsg+0x30f/0x380 net/socket.c:744  ____sys_sendmsg+0x903/0xb60 net/socket.c:2602  ___sys_sendmsg+0x28d/0x3c0 net/socket.c:2656  __sys_sendmmsg+0x3c1/0x960 net/socket.c:2742  __do_sys_sendmmsg net/socket.c:2771 [inline]  __se_sys_sendmmsg net/socket.c:2768 [inline]  __x64_sys_sendmmsg+0xbc/0x120 net/socket.c:2768  x64_sys_call+0xb6e/0x3ba0 arch/x86/include/generated/asm/syscalls_64.h:308  do_syscall_x64 arch/x86/entry/common.c:52 [inline]  do_syscall_64+0xcd/0x1e0 arch/x86/entry/common.c:83 entry_SYSCALL_64_after_hwframe+0x77/0x7fCPU: 0 UID: 0 PID: 5460 Comm: syz.2.33 Not tainted 6.12.0-rc2-syzkaller-00006-g87d6aab2389e #0Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 09/13/2024|October 21, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50033
+CVE-2024-50034|In the Linux kernel, the following vulnerability has been resolved:net/smc: fix lacks of icsk_syn_mss with IPPROTO_SMCEric report a panic on IPPROTO_SMC, and give the factsthat when INET_PROTOSW_ICSK was set, icsk->icsk_sync_mss must be set too.Bug: Unable to handle kernel NULL pointer dereference at virtual address0000000000000000Mem abort info:ESR = 0x0000000086000005EC = 0x21: IABT (current EL), IL = 32 bitsSET = 0, FnV = 0EA = 0, S1PTW = 0FSC = 0x05: level 1 translation faultuser pgtable: 4k pages, 48-bit VAs, pgdp=00000001195d1000[0000000000000000] pgd=0800000109c46003, p4d=0800000109c46003,pud=0000000000000000Internal error: Oops: 0000000086000005 [#1] PREEMPT SMPModules linked in:CPU: 1 UID: 0 PID: 8037 Comm: syz.3.265 Not tainted6.11.0-rc7-syzkaller-g5f5673607153 #0Hardware name: Google Google Compute Engine/Google Compute Engine,BIOS Google 08/06/2024pstate: 80400005 (Nzcv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)pc : 0x0lr : cipso_v4_sock_setattr+0x2a8/0x3c0 net/ipv4/cipso_ipv4.c:1910sp : ffff80009b887a90x29: ffff80009b887aa0 x28: ffff80008db94050 x27: 0000000000000000x26: 1fffe0001aa6f5b3 x25: dfff800000000000 x24: ffff0000db75da00x23: 0000000000000000 x22: ffff0000d8b78518 x21: 0000000000000000x20: ffff0000d537ad80 x19: ffff0000d8b78000 x18: 1fffe000366d79eex17: ffff8000800614a8 x16: ffff800080569b84 x15: 0000000000000001x14: 000000008b336894 x13: 00000000cd96feaa x12: 0000000000000003x11: 0000000000040000 x10: 00000000000020a3 x9 : 1fffe0001b16f0f1x8 : 0000000000000000 x7 : 0000000000000000 x6 : 000000000000003fx5 : 0000000000000040 x4 : 0000000000000001 x3 : 0000000000000000x2 : 0000000000000002 x1 : 0000000000000000 x0 : ffff0000d8b78000Call trace:0x0netlbl_sock_setattr+0x2e4/0x338 net/netlabel/netlabel_kapi.c:1000smack_netlbl_add+0xa4/0x154 security/smack/smack_lsm.c:2593smack_socket_post_create+0xa8/0x14c security/smack/smack_lsm.c:2973security_socket_post_create+0x94/0xd4 security/security.c:4425__sock_create+0x4c8/0x884 net/socket.c:1587sock_create net/socket.c:1622 [inline]__sys_socket_create net/socket.c:1659 [inline]__sys_socket+0x134/0x340 net/socket.c:1706__do_sys_socket net/socket.c:1720 [inline]__se_sys_socket net/socket.c:1718 [inline]__arm64_sys_socket+0x7c/0x94 net/socket.c:1718__invoke_syscall arch/arm64/kernel/syscall.c:35 [inline]invoke_syscall+0x98/0x2b8 arch/arm64/kernel/syscall.c:49el0_svc_common+0x130/0x23c arch/arm64/kernel/syscall.c:132do_el0_svc+0x48/0x58 arch/arm64/kernel/syscall.c:151el0_svc+0x54/0x168 arch/arm64/kernel/entry-common.c:712el0t_64_sync_handler+0x84/0xfc arch/arm64/kernel/entry-common.c:730el0t_64_sync+0x190/0x194 arch/arm64/kernel/entry.S:598Code: ???????? ???????? ???????? ???????? (????????)---[ end trace 0000000000000000 ]---This patch add a toy implementation that performs a simple return toprevent such panic. This is because MSS can be set in sock_create_kernor smc_setsockopt, similar to how it's done in AF_SMC. However, forAF_SMC, there is currently no way to synchronize MSS within__sys_connect_file. This toy implementation lays the groundwork for usto support such feature for IPPROTO_SMC in the future.|October 21, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50034
+CVE-2024-50035|In the Linux kernel, the following vulnerability has been resolved:ppp: fix ppp_async_encode() illegal accesssyzbot reported an issue in ppp_async_encode() [1]In this case, pppoe_sendmsg() is called with a zero size.Then ppp_async_encode() is called with an empty skb.BUG: KMSAN: uninit-value in ppp_async_encode drivers/net/ppp/ppp_async.c:545 [inline] BUG: KMSAN: uninit-value in ppp_async_push+0xb4f/0x2660 drivers/net/ppp/ppp_async.c:675  ppp_async_encode drivers/net/ppp/ppp_async.c:545 [inline]  ppp_async_push+0xb4f/0x2660 drivers/net/ppp/ppp_async.c:675  ppp_async_send+0x130/0x1b0 drivers/net/ppp/ppp_async.c:634  ppp_channel_bridge_input drivers/net/ppp/ppp_generic.c:2280 [inline]  ppp_input+0x1f1/0xe60 drivers/net/ppp/ppp_generic.c:2304  pppoe_rcv_core+0x1d3/0x720 drivers/net/ppp/pppoe.c:379  sk_backlog_rcv+0x13b/0x420 include/net/sock.h:1113  __release_sock+0x1da/0x330 net/core/sock.c:3072  release_sock+0x6b/0x250 net/core/sock.c:3626  pppoe_sendmsg+0x2b8/0xb90 drivers/net/ppp/pppoe.c:903  sock_sendmsg_nosec net/socket.c:729 [inline]  __sock_sendmsg+0x30f/0x380 net/socket.c:744  ____sys_sendmsg+0x903/0xb60 net/socket.c:2602  ___sys_sendmsg+0x28d/0x3c0 net/socket.c:2656  __sys_sendmmsg+0x3c1/0x960 net/socket.c:2742  __do_sys_sendmmsg net/socket.c:2771 [inline]  __se_sys_sendmmsg net/socket.c:2768 [inline]  __x64_sys_sendmmsg+0xbc/0x120 net/socket.c:2768  x64_sys_call+0xb6e/0x3ba0 arch/x86/include/generated/asm/syscalls_64.h:308  do_syscall_x64 arch/x86/entry/common.c:52 [inline]  do_syscall_64+0xcd/0x1e0 arch/x86/entry/common.c:83 entry_SYSCALL_64_after_hwframe+0x77/0x7fUninit was created at:  slab_post_alloc_hook mm/slub.c:4092 [inline]  slab_alloc_node mm/slub.c:4135 [inline]  kmem_cache_alloc_node_noprof+0x6bf/0xb80 mm/slub.c:4187  kmalloc_reserve+0x13d/0x4a0 net/core/skbuff.c:587  __alloc_skb+0x363/0x7b0 net/core/skbuff.c:678  alloc_skb include/linux/skbuff.h:1322 [inline]  sock_wmalloc+0xfe/0x1a0 net/core/sock.c:2732  pppoe_sendmsg+0x3a7/0xb90 drivers/net/ppp/pppoe.c:867  sock_sendmsg_nosec net/socket.c:729 [inline]  __sock_sendmsg+0x30f/0x380 net/socket.c:744  ____sys_sendmsg+0x903/0xb60 net/socket.c:2602  ___sys_sendmsg+0x28d/0x3c0 net/socket.c:2656  __sys_sendmmsg+0x3c1/0x960 net/socket.c:2742  __do_sys_sendmmsg net/socket.c:2771 [inline]  __se_sys_sendmmsg net/socket.c:2768 [inline]  __x64_sys_sendmmsg+0xbc/0x120 net/socket.c:2768  x64_sys_call+0xb6e/0x3ba0 arch/x86/include/generated/asm/syscalls_64.h:308  do_syscall_x64 arch/x86/entry/common.c:52 [inline]  do_syscall_64+0xcd/0x1e0 arch/x86/entry/common.c:83 entry_SYSCALL_64_after_hwframe+0x77/0x7fCPU: 1 UID: 0 PID: 5411 Comm: syz.1.14 Not tainted 6.12.0-rc1-syzkaller-00165-g360c1f1f24c6 #0Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 09/13/2024|October 21, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50035
+CVE-2024-50036|In the Linux kernel, the following vulnerability has been resolved:net: do not delay dst_entries_add() in dst_release()dst_entries_add() uses per-cpu data that might be freed at netnsdismantle from ip6_route_net_exit() calling dst_entries_destroy()Before ip6_route_net_exit() can be called, we release allthe dsts associated with this netns, via calls to dst_release(),which waits an rcu grace period before calling dst_destroy()dst_entries_add() use in dst_destroy() is racy, becausedst_entries_destroy() could have been called already.Decrementing the number of dsts must happen sooner.Notes:1) in CONFIG_XFRM case, dst_destroy() can call   dst_release_immediate(child), this might also cause UAF   if the child does not have DST_NOCOUNT set.   IPSEC maintainers might take a look and see how to address this.2) There is also discussion about removing this count of dst,   which might happen in future kernels.|October 21, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50036
+CVE-2024-50037|"In the Linux kernel, the following vulnerability has been resolved:drm/fbdev-dma: Only cleanup deferred I/O if necessaryCommit 5a498d4d06d6 (""drm/fbdev-dma: Only install deferred I/O ifnecessary"") initializes deferred I/O only if it is used.drm_fbdev_dma_fb_destroy() however calls fb_deferred_io_cleanup()unconditionally with struct fb_info.fbdefio == NULL. KASAN with theout-of-tree Apple silicon display driver posts following warning from__flush_work() of a random struct work_struct instead of the expectedNULL pointer derefs.[   22.053799] ------------[ cut here ]------------[   22.054832] WARNING: CPU: 2 PID: 1 at kernel/workqueue.c:4177 __flush_work+0x4d8/0x580[   22.056597] Modules linked in: uhid bnep uinput nls_ascii ip6_tables ip_tables i2c_dev loop fuse dm_multipath nfnetlink zram hid_magicmouse btrfs xor xor_neon brcmfmac_wcc raid6_pq hci_bcm4377 bluetooth brcmfmac hid_apple brcmutil nvmem_spmi_mfd simple_mfd_spmi dockchannel_hid cfg80211 joydev regmap_spmi nvme_apple ecdh_generic ecc macsmc_hid rfkill dwc3 appledrm snd_soc_macaudio macsmc_power nvme_core apple_isp phy_apple_atc apple_sart apple_rtkit_helper apple_dockchannel tps6598x macsmc_hwmon snd_soc_cs42l84 videobuf2_v4l2 spmi_apple_controller nvmem_apple_efuses videobuf2_dma_sg apple_z2 videobuf2_memops spi_nor panel_summit videobuf2_common asahi videodev pwm_apple apple_dcp snd_soc_apple_mca apple_admac spi_apple clk_apple_nco i2c_pasemi_platform snd_pcm_dmaengine mc i2c_pasemi_core mux_core ofpart adpdrm drm_dma_helper apple_dart apple_soc_cpufreq leds_pwm phram[   22.073768] CPU: 2 UID: 0 PID: 1 Comm: systemd-shutdow Not tainted 6.11.2-asahi+ #asahi-dev[   22.075612] Hardware name: Apple MacBook Pro (13-inch, M2, 2022) (DT)[   22.077032] pstate: 01400005 (nzcv daif +PAN -UAO -TCO +DIT -SSBS BTYPE=--)[   22.078567] pc : __flush_work+0x4d8/0x580[   22.079471] lr : __flush_work+0x54/0x580[   22.080345] sp : ffffc000836ef820[   22.081089] x29: ffffc000836ef880 x28: 0000000000000000 x27: ffff80002ddb7128[   22.082678] x26: dfffc00000000000 x25: 1ffff000096f0c57 x24: ffffc00082d3e358[   22.084263] x23: ffff80004b7862b8 x22: dfffc00000000000 x21: ffff80005aa1d470[   22.085855] x20: ffff80004b786000 x19: ffff80004b7862a0 x18: 0000000000000000[   22.087439] x17: 0000000000000000 x16: 0000000000000000 x15: 0000000000000005[   22.089030] x14: 1ffff800106ddf0a x13: 0000000000000000 x12: 0000000000000000[   22.090618] x11: ffffb800106ddf0f x10: dfffc00000000000 x9 : 1ffff800106ddf0e[   22.092206] x8 : 0000000000000000 x7 : aaaaaaaaaaaaaaaa x6 : 0000000000000001[   22.093790] x5 : ffffc000836ef728 x4 : 0000000000000000 x3 : 0000000000000020[   22.095368] x2 : 0000000000000008 x1 : 00000000000000aa x0 : 0000000000000000[   22.096955] Call trace:[   22.097505]  __flush_work+0x4d8/0x580[   22.098330]  flush_delayed_work+0x80/0xb8[   22.099231]  fb_deferred_io_cleanup+0x3c/0x130[   22.100217]  drm_fbdev_dma_fb_destroy+0x6c/0xe0 [drm_dma_helper][   22.101559]  unregister_framebuffer+0x210/0x2f0[   22.102575]  drm_fb_helper_unregister_info+0x48/0x60[   22.103683]  drm_fbdev_dma_client_unregister+0x4c/0x80 [drm_dma_helper][   22.105147]  drm_client_dev_unregister+0x1cc/0x230[   22.106217]  drm_dev_unregister+0x58/0x570[   22.107125]  apple_drm_unbind+0x50/0x98 [appledrm][   22.108199]  component_del+0x1f8/0x3a8[   22.109042]  dcp_platform_shutdown+0x24/0x38 [apple_dcp][   22.110357]  platform_shutdown+0x70/0x90[   22.111219]  device_shutdown+0x368/0x4d8[   22.112095]  kernel_restart+0x6c/0x1d0[   22.112946]  __arm64_sys_reboot+0x1c8/0x328[   22.113868]  invoke_syscall+0x78/0x1a8[   22.114703]  do_el0_svc+0x124/0x1a0[   22.115498]  el0_svc+0x3c/0xe0[   22.116181]  el0t_64_sync_handler+0x70/0xc0[   22.117110]  el0t_64_sync+0x190/0x198[   22.117931] ---[ end trace 0000000000000000 ]---"|October 21, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50037
+CVE-2024-50038|In the Linux kernel, the following vulnerability has been resolved:netfilter: xtables: avoid NFPROTO_UNSPEC where neededsyzbot managed to call xt_cluster match via ebtables: WARNING: CPU: 0 PID: 11 at net/netfilter/xt_cluster.c:72 xt_cluster_mt+0x196/0x780 [..] ebt_do_table+0x174b/0x2a40Module registers to NFPROTO_UNSPEC, but it assumes ipv4/ipv6 packetprocessing.  As this is only useful to restrict locally terminatingTCP/UDP traffic, register this for ipv4 and ipv6 family only.Pablo points out that this is a general issue, direct users of theset/getsockopt interface can call into targets/matches that were onlyintended for use with ip(6)tables.Check all UNSPEC matches and targets for similar issues:- matches and targets are fine except if they assume skb_network_header()  is valid -- this is only true when called from inet layer: ip(6) stack  pulls the ip/ipv6 header into linear data area.- targets that return XT_CONTINUE or other xtables verdicts must be  restricted too, they are incompatbile with the ebtables traverser, e.g.  EBT_CONTINUE is a completely different value than XT_CONTINUE.Most matches/targets are changed to register for NFPROTO_IPV4/IPV6, asthey are provided for use by ip(6)tables.The MARK target is also used by arptables, so register for NFPROTO_ARP too.While at it, bail out if connbytes fails to enable the correspondingconntrack family.This change passes the selftests in iptables.git.|October 21, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50038
+CVE-2024-50039|In the Linux kernel, the following vulnerability has been resolved:net/sched: accept TCA_STAB only for root qdiscMost qdiscs maintain their backlog using qdisc_pkt_len(skb)on the assumption it is invariant between the enqueue()and dequeue() handlers.Unfortunately syzbot can crash a host rather easily usinga TBF + SFQ combination, with an STAB on SFQ [1]We can't support TCA_STAB on arbitrary level, this wouldrequire to maintain per-qdisc storage.[1][   88.796496] BUG: kernel NULL pointer dereference, address: 0000000000000000[   88.798611] #PF: supervisor read access in kernel mode[   88.799014] #PF: error_code(0x0000) - not-present page[   88.799506] PGD 0 P4D 0[   88.799829] Oops: Oops: 0000 [#1] SMP NOPTI[   88.800569] CPU: 14 UID: 0 PID: 2053 Comm: b371744477 Not tainted 6.12.0-rc1-virtme #1117[   88.801107] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014[   88.801779] RIP: 0010:sfq_dequeue (net/sched/sch_sfq.c:272 net/sched/sch_sfq.c:499) sch_sfq[ 88.802544] Code: 0f b7 50 12 48 8d 04 d5 00 00 00 00 48 89 d6 48 29 d0 48 8b 91 c0 01 00 00 48 c1 e0 03 48 01 c2 66 83 7a 1a 00 7e c0 48 8b 3a <4c> 8b 07 4c 89 02 49 89 50 08 48 c7 47 08 00 00 00 00 48 c7 07 00All code========   0:	0f b7 50 12          	movzwl 0x12(%rax),%edx   4:	48 8d 04 d5 00 00 00 	lea    0x0(,%rdx,8),%rax   b:	00   c:	48 89 d6             	mov    %rdx,%rsi   f:	48 29 d0             	sub    %rdx,%rax  12:	48 8b 91 c0 01 00 00 	mov    0x1c0(%rcx),%rdx  19:	48 c1 e0 03          	shl    $0x3,%rax  1d:	48 01 c2             	add    %rax,%rdx  20:	66 83 7a 1a 00       	cmpw   $0x0,0x1a(%rdx)  25:	7e c0                	jle    0xffffffffffffffe7  27:	48 8b 3a             	mov    (%rdx),%rdi  2a:*	4c 8b 07             	mov    (%rdi),%r8		<-- trapping instruction  2d:	4c 89 02             	mov    %r8,(%rdx)  30:	49 89 50 08          	mov    %rdx,0x8(%r8)  34:	48 c7 47 08 00 00 00 	movq   $0x0,0x8(%rdi)  3b:	00  3c:	48                   	rex.W  3d:	c7                   	.byte 0xc7  3e:	07                   	(bad)	...Code starting with the faulting instruction===========================================   0:	4c 8b 07             	mov    (%rdi),%r8   3:	4c 89 02             	mov    %r8,(%rdx)   6:	49 89 50 08          	mov    %rdx,0x8(%r8)   a:	48 c7 47 08 00 00 00 	movq   $0x0,0x8(%rdi)  11:	00  12:	48                   	rex.W  13:	c7                   	.byte 0xc7  14:	07                   	(bad)	...[   88.803721] RSP: 0018:ffff9a1f892b7d58 EFLAGS: 00000206[   88.804032] RAX: 0000000000000000 RBX: ffff9a1f8420c800 RCX: ffff9a1f8420c800[   88.804560] RDX: ffff9a1f81bc1440 RSI: 0000000000000000 RDI: 0000000000000000[   88.805056] RBP: ffffffffc04bb0e0 R08: 0000000000000001 R09: 00000000ff7f9a1f[   88.805473] R10: 000000000001001b R11: 0000000000009a1f R12: 0000000000000140[   88.806194] R13: 0000000000000001 R14: ffff9a1f886df400 R15: ffff9a1f886df4ac[   88.806734] FS:  00007f445601a740(0000) GS:ffff9a2e7fd80000(0000) knlGS:0000000000000000[   88.807225] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033[   88.807672] CR2: 0000000000000000 CR3: 000000050cc46000 CR4: 00000000000006f0[   88.808165] Call Trace:[   88.808459]  <TASK>[   88.808710] ? __die (arch/x86/kernel/dumpstack.c:421 arch/x86/kernel/dumpstack.c:434)[   88.809261] ? page_fault_oops (arch/x86/mm/fault.c:715)[   88.809561] ? exc_page_fault (./arch/x86/include/asm/irqflags.h:26 ./arch/x86/include/asm/irqflags.h:87 ./arch/x86/include/asm/irqflags.h:147 arch/x86/mm/fault.c:1489 arch/x86/mm/fault.c:1539)[   88.809806] ? asm_exc_page_fault (./arch/x86/include/asm/idtentry.h:623)[   88.810074] ? sfq_dequeue (net/sched/sch_sfq.c:272 net/sched/sch_sfq.c:499) sch_sfq[   88.810411] sfq_reset (net/sched/sch_sfq.c:525) sch_sfq[   88.810671] qdisc_reset (./include/linux/skbuff.h:2135 ./include/linux/skbuff.h:2441 ./include/linux/skbuff.h:3304 ./include/linux/skbuff.h:3310 net/sched/sch_g---truncated---|October 21, 2024; 4:15:16 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50039
+CVE-2024-50040|"In the Linux kernel, the following vulnerability has been resolved:igb: Do not bring the device up after non-fatal errorCommit 004d25060c78 (""igb: Fix igb_down hung on surprise removal"")changed igb_io_error_detected() to ignore non-fatal pcie errors in orderto avoid hung task that can happen when igb_down() is called multipletimes. This caused an issue when processing transient non-fatal errors.igb_io_resume(), which is called after igb_io_error_detected(), assumesthat device is brought down by igb_io_error_detected() if the interfaceis up. This resulted in panic with stacktrace below.[ T3256] igb 0000:09:00.0 haeth0: igb: haeth0 NIC Link is Down[  T292] pcieport 0000:00:1c.5: AER: Uncorrected (Non-Fatal) error received: 0000:09:00.0[  T292] igb 0000:09:00.0: PCIe Bus Error: severity=Uncorrected (Non-Fatal), type=Transaction Layer, (Requester ID)[  T292] igb 0000:09:00.0:   device [8086:1537] error status/mask=00004000/00000000[  T292] igb 0000:09:00.0:    [14] CmpltTO [  200.105524,009][  T292] igb 0000:09:00.0: AER:   TLP Header: 00000000 00000000 00000000 00000000[  T292] pcieport 0000:00:1c.5: AER: broadcast error_detected message[  T292] igb 0000:09:00.0: Non-correctable non-fatal error reported.[  T292] pcieport 0000:00:1c.5: AER: broadcast mmio_enabled message[  T292] pcieport 0000:00:1c.5: AER: broadcast resume message[  T292] ------------[ cut here ]------------[  T292] kernel BUG at net/core/dev.c:6539![  T292] invalid opcode: 0000 [#1] PREEMPT SMP[  T292] RIP: 0010:napi_enable+0x37/0x40[  T292] Call Trace:[  T292]  <TASK>[  T292]  ? die+0x33/0x90[  T292]  ? do_trap+0xdc/0x110[  T292]  ? napi_enable+0x37/0x40[  T292]  ? do_error_trap+0x70/0xb0[  T292]  ? napi_enable+0x37/0x40[  T292]  ? napi_enable+0x37/0x40[  T292]  ? exc_invalid_op+0x4e/0x70[  T292]  ? napi_enable+0x37/0x40[  T292]  ? asm_exc_invalid_op+0x16/0x20[  T292]  ? napi_enable+0x37/0x40[  T292]  igb_up+0x41/0x150[  T292]  igb_io_resume+0x25/0x70[  T292]  report_resume+0x54/0x70[  T292]  ? report_frozen_detected+0x20/0x20[  T292]  pci_walk_bus+0x6c/0x90[  T292]  ? aer_print_port_info+0xa0/0xa0[  T292]  pcie_do_recovery+0x22f/0x380[  T292]  aer_process_err_devices+0x110/0x160[  T292]  aer_isr+0x1c1/0x1e0[  T292]  ? disable_irq_nosync+0x10/0x10[  T292]  irq_thread_fn+0x1a/0x60[  T292]  irq_thread+0xe3/0x1a0[  T292]  ? irq_set_affinity_notifier+0x120/0x120[  T292]  ? irq_affinity_notify+0x100/0x100[  T292]  kthread+0xe2/0x110[  T292]  ? kthread_complete_and_exit+0x20/0x20[  T292]  ret_from_fork+0x2d/0x50[  T292]  ? kthread_complete_and_exit+0x20/0x20[  T292]  ret_from_fork_asm+0x11/0x20[  T292]  </TASK>To fix this issue igb_io_resume() checks if the interface is running andthe device is not down this means igb_io_error_detected() did not bringthe device down and there is no need to bring it up."|October 21, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50040
+CVE-2024-50041|In the Linux kernel, the following vulnerability has been resolved:i40e: Fix macvlan leak by synchronizing access to mac_filter_hashThis patch addresses a macvlan leak issue in the i40e driver caused byconcurrent access to vsi->mac_filter_hash. The leak occurs when multiplethreads attempt to modify the mac_filter_hash simultaneously, leading toinconsistent state and potential memory leaks.To fix this, we now wrap the calls to i40e_del_mac_filter() and zeroingvf->default_lan_addr.addr with spin_lock/unlock_bh(&vsi->mac_filter_hash_lock),ensuring atomic operations and preventing concurrent access.Additionally, we add lockdep_assert_held(&vsi->mac_filter_hash_lock) ini40e_add_mac_filter() to help catch similar issues in the future.Reproduction steps:1. Spawn VFs and configure port vlan on them.2. Trigger concurrent macvlan operations (e.g., adding and deleting	portvlan and/or mac filters).3. Observe the potential memory leak and inconsistent state in the	mac_filter_hash.This synchronization ensures the integrity of the mac_filter_hash and preventsthe described leak.|October 21, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50041
+CVE-2024-50042|In the Linux kernel, the following vulnerability has been resolved:ice: Fix increasing MSI-X on VFIncreasing MSI-X value on a VF leads to invalid memory operations. Thisis caused by not reallocating some arrays.Reproducer:  modprobe ice  echo 0 > /sys/bus/pci/devices/$PF_PCI/sriov_drivers_autoprobe  echo 1 > /sys/bus/pci/devices/$PF_PCI/sriov_numvfs  echo 17 > /sys/bus/pci/devices/$VF0_PCI/sriov_vf_msix_countDefault MSI-X is 16, so 17 and above triggers this issue.KASAN reports:  BUG: KASAN: slab-out-of-bounds in ice_vsi_alloc_ring_stats+0x38d/0x4b0 [ice]  Read of size 8 at addr ffff8888b937d180 by task bash/28433  (...)  Call Trace:   (...)   ? ice_vsi_alloc_ring_stats+0x38d/0x4b0 [ice]   kasan_report+0xed/0x120   ? ice_vsi_alloc_ring_stats+0x38d/0x4b0 [ice]   ice_vsi_alloc_ring_stats+0x38d/0x4b0 [ice]   ice_vsi_cfg_def+0x3360/0x4770 [ice]   ? mutex_unlock+0x83/0xd0   ? __pfx_ice_vsi_cfg_def+0x10/0x10 [ice]   ? __pfx_ice_remove_vsi_lkup_fltr+0x10/0x10 [ice]   ice_vsi_cfg+0x7f/0x3b0 [ice]   ice_vf_reconfig_vsi+0x114/0x210 [ice]   ice_sriov_set_msix_vec_count+0x3d0/0x960 [ice]   sriov_vf_msix_count_store+0x21c/0x300   (...)  Allocated by task 28201:   (...)   ice_vsi_cfg_def+0x1c8e/0x4770 [ice]   ice_vsi_cfg+0x7f/0x3b0 [ice]   ice_vsi_setup+0x179/0xa30 [ice]   ice_sriov_configure+0xcaa/0x1520 [ice]   sriov_numvfs_store+0x212/0x390   (...)To fix it, use ice_vsi_rebuild() instead of ice_vf_reconfig_vsi(). Thiscauses the required arrays to be reallocated taking the new queue countinto account (ice_vsi_realloc_stat_arrays()). Set req_txq and req_rxqbefore ice_vsi_rebuild(), so that realloc uses the newly set queuecount.Additionally, ice_vsi_rebuild() does not remove VSI filters(ice_fltr_remove_all()), so ice_vf_init_host_cfg() is no longernecessary.|October 21, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50042
+CVE-2024-50043|In the Linux kernel, the following vulnerability has been resolved:nfsd: fix possible badness in FREE_STATEIDWhen multiple FREE_STATEIDs are sent for the same delegation stateid,it can lead to a possible either use-after-free or counter refcountunderflow errors.In nfsd4_free_stateid() under the client lock we find a delegationstateid, however the code drops the lock before calling nfs4_put_stid(),that allows another FREE_STATE to find the stateid again. The first onewill proceed to then free the stateid which leads to eitheruse-after-free or decrementing already zeroed counter.|October 21, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50043
+CVE-2024-50044|In the Linux kernel, the following vulnerability has been resolved:Bluetooth: RFCOMM: FIX possible deadlock in rfcomm_sk_state_changerfcomm_sk_state_change attempts to use sock_lock so it must never becalled with it locked but rfcomm_sock_ioctl always attempt to lock itcausing the following trace:======================================================WARNING: possible circular locking dependency detected6.8.0-syzkaller-08951-gfe46a7dd189e #0 Not tainted------------------------------------------------------syz-executor386/5093 is trying to acquire lock:ffff88807c396258 (sk_lock-AF_BLUETOOTH-BTPROTO_RFCOMM){+.+.}-{0:0}, at: lock_sock include/net/sock.h:1671 [inline]ffff88807c396258 (sk_lock-AF_BLUETOOTH-BTPROTO_RFCOMM){+.+.}-{0:0}, at: rfcomm_sk_state_change+0x5b/0x310 net/bluetooth/rfcomm/sock.c:73but task is already holding lock:ffff88807badfd28 (&d->lock){+.+.}-{3:3}, at: __rfcomm_dlc_close+0x226/0x6a0 net/bluetooth/rfcomm/core.c:491|October 21, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50044
+CVE-2024-50045|In the Linux kernel, the following vulnerability has been resolved:netfilter: br_netfilter: fix panic with metadata_dst skbFix a kernel panic in the br_netfilter module when sending untaggedtraffic via a VxLAN device.This happens during the check for fragmentation in br_nf_dev_queue_xmit.It is dependent on:1) the br_netfilter module being loaded;2) net.bridge.bridge-nf-call-iptables set to 1;3) a bridge with a VxLAN (single-vxlan-device) netdevice as a bridge port;4) untagged frames with size higher than the VxLAN MTU forwarded/floodedWhen forwarding the untagged packet to the VxLAN bridge port, beforethe netfilter hooks are called, br_handle_egress_vlan_tunnel is called andchanges the skb_dst to the tunnel dst. The tunnel_dst is a metadata typeof dst, i.e., skb_valid_dst(skb) is false, and metadata->dst.dev is NULL.Then in the br_netfilter hooks, in br_nf_dev_queue_xmit, there's a checkfor frames that needs to be fragmented: frames with higher MTU than theVxLAN device end up calling br_nf_ip_fragment, which in turns callip_skb_dst_mtu.The ip_dst_mtu tries to use the skb_dst(skb) as if it was a valid dstwith valid dst->dev, thus the crash.This case was never supported in the first place, so drop the packetinstead.PING 10.0.0.2 (10.0.0.2) from 0.0.0.0 h1-eth0: 2000(2028) bytes of data.[  176.291791] Unable to handle kernel NULL pointer dereference atvirtual address 0000000000000110[  176.292101] Mem abort info:[  176.292184]   ESR = 0x0000000096000004[  176.292322]   EC = 0x25: DABT (current EL), IL = 32 bits[  176.292530]   SET = 0, FnV = 0[  176.292709]   EA = 0, S1PTW = 0[  176.292862]   FSC = 0x04: level 0 translation fault[  176.293013] Data abort info:[  176.293104]   ISV = 0, ISS = 0x00000004, ISS2 = 0x00000000[  176.293488]   CM = 0, WnR = 0, TnD = 0, TagAccess = 0[  176.293787]   GCS = 0, Overlay = 0, DirtyBit = 0, Xs = 0[  176.293995] user pgtable: 4k pages, 48-bit VAs, pgdp=0000000043ef5000[  176.294166] [0000000000000110] pgd=0000000000000000,p4d=0000000000000000[  176.294827] Internal error: Oops: 0000000096000004 [#1] PREEMPT SMP[  176.295252] Modules linked in: vxlan ip6_udp_tunnel udp_tunnel vethbr_netfilter bridge stp llc ipv6 crct10dif_ce[  176.295923] CPU: 0 PID: 188 Comm: ping Not tainted6.8.0-rc3-g5b3fbd61b9d1 #2[  176.296314] Hardware name: linux,dummy-virt (DT)[  176.296535] pstate: 80000005 (Nzcv daif -PAN -UAO -TCO -DIT -SSBSBTYPE=--)[  176.296808] pc : br_nf_dev_queue_xmit+0x390/0x4ec [br_netfilter][  176.297382] lr : br_nf_dev_queue_xmit+0x2ac/0x4ec [br_netfilter][  176.297636] sp : ffff800080003630[  176.297743] x29: ffff800080003630 x28: 0000000000000008 x27:ffff6828c49ad9f8[  176.298093] x26: ffff6828c49ad000 x25: 0000000000000000 x24:00000000000003e8[  176.298430] x23: 0000000000000000 x22: ffff6828c4960b40 x21:ffff6828c3b16d28[  176.298652] x20: ffff6828c3167048 x19: ffff6828c3b16d00 x18:0000000000000014[  176.298926] x17: ffffb0476322f000 x16: ffffb7e164023730 x15:0000000095744632[  176.299296] x14: ffff6828c3f1c880 x13: 0000000000000002 x12:ffffb7e137926a70[  176.299574] x11: 0000000000000001 x10: ffff6828c3f1c898 x9 :0000000000000000[  176.300049] x8 : ffff6828c49bf070 x7 : 0008460f18d5f20e x6 :f20e0100bebafeca[  176.300302] x5 : ffff6828c7f918fe x4 : ffff6828c49bf070 x3 :0000000000000000[  176.300586] x2 : 0000000000000000 x1 : ffff6828c3c7ad00 x0 :ffff6828c7f918f0[  176.300889] Call trace:[  176.301123]  br_nf_dev_queue_xmit+0x390/0x4ec [br_netfilter][  176.301411]  br_nf_post_routing+0x2a8/0x3e4 [br_netfilter][  176.301703]  nf_hook_slow+0x48/0x124[  176.302060]  br_forward_finish+0xc8/0xe8 [bridge][  176.302371]  br_nf_hook_thresh+0x124/0x134 [br_netfilter][  176.302605]  br_nf_forward_finish+0x118/0x22c [br_netfilter][  176.302824]  br_nf_forward_ip.part.0+0x264/0x290 [br_netfilter][  176.303136]  br_nf_forward+0x2b8/0x4e0 [br_netfilter][  176.303359]  nf_hook_slow+0x48/0x124[  176.303---truncated---|October 21, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50045
+CVE-2024-50046|In the Linux kernel, the following vulnerability has been resolved:NFSv4: Prevent NULL-pointer dereference in nfs42_complete_copies()On the node of an NFS client, some files saved in the mountpoint of theNFS server were copied to another location of the same NFS server.Accidentally, the nfs42_complete_copies() got a NULL-pointer dereferencecrash with the following syslog:[232064.838881] NFSv4: state recovery failed for open file nfs/pvc-12b5200d-cd0f-46a3-b9f0-af8f4fe0ef64.qcow2, error = -116[232064.839360] NFSv4: state recovery failed for open file nfs/pvc-12b5200d-cd0f-46a3-b9f0-af8f4fe0ef64.qcow2, error = -116[232066.588183] Unable to handle kernel NULL pointer dereference at virtual address 0000000000000058[232066.588586] Mem abort info:[232066.588701]   ESR = 0x0000000096000007[232066.588862]   EC = 0x25: DABT (current EL), IL = 32 bits[232066.589084]   SET = 0, FnV = 0[232066.589216]   EA = 0, S1PTW = 0[232066.589340]   FSC = 0x07: level 3 translation fault[232066.589559] Data abort info:[232066.589683]   ISV = 0, ISS = 0x00000007[232066.589842]   CM = 0, WnR = 0[232066.589967] user pgtable: 64k pages, 48-bit VAs, pgdp=00002000956ff400[232066.590231] [0000000000000058] pgd=08001100ae100003, p4d=08001100ae100003, pud=08001100ae100003, pmd=08001100b3c00003, pte=0000000000000000[232066.590757] Internal error: Oops: 96000007 [#1] SMP[232066.590958] Modules linked in: rpcsec_gss_krb5 auth_rpcgss nfsv4 dns_resolver nfs lockd grace fscache netfs ocfs2_dlmfs ocfs2_stack_o2cb ocfs2_dlm vhost_net vhost vhost_iotlb tap tun ipt_rpfilter xt_multiport ip_set_hash_ip ip_set_hash_net xfrm_interface xfrm6_tunnel tunnel4 tunnel6 esp4 ah4 wireguard libcurve25519_generic veth xt_addrtype xt_set nf_conntrack_netlink ip_set_hash_ipportnet ip_set_hash_ipportip ip_set_bitmap_port ip_set_hash_ipport dummy ip_set ip_vs_sh ip_vs_wrr ip_vs_rr ip_vs iptable_filter sch_ingress nfnetlink_cttimeout vport_gre ip_gre ip_tunnel gre vport_geneve geneve vport_vxlan vxlan ip6_udp_tunnel udp_tunnel openvswitch nf_conncount dm_round_robin dm_service_time dm_multipath xt_nat xt_MASQUERADE nft_chain_nat nf_nat xt_mark xt_conntrack xt_comment nft_compat nft_counter nf_tables nfnetlink ocfs2 ocfs2_nodemanager ocfs2_stackglue iscsi_tcp libiscsi_tcp libiscsi scsi_transport_iscsi ipmi_ssif nbd overlay 8021q garp mrp bonding tls rfkill sunrpc ext4 mbcache jbd2[232066.591052]  vfat fat cas_cache cas_disk ses enclosure scsi_transport_sas sg acpi_ipmi ipmi_si ipmi_devintf ipmi_msghandler ip_tables vfio_pci vfio_pci_core vfio_virqfd vfio_iommu_type1 vfio dm_mirror dm_region_hash dm_log dm_mod nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 br_netfilter bridge stp llc fuse xfs libcrc32c ast drm_vram_helper qla2xxx drm_kms_helper syscopyarea crct10dif_ce sysfillrect ghash_ce sysimgblt sha2_ce fb_sys_fops cec sha256_arm64 sha1_ce drm_ttm_helper ttm nvme_fc igb sbsa_gwdt nvme_fabrics drm nvme_core i2c_algo_bit i40e scsi_transport_fc megaraid_sas aes_neon_bs[232066.596953] CPU: 6 PID: 4124696 Comm: 10.253.166.125- Kdump: loaded Not tainted 5.15.131-9.cl9_ocfs2.aarch64 #1[232066.597356] Hardware name: Great Wall .\x93\x8e...RF6260 V5/GWMSSE2GL1T, BIOS T656FBE_V3.0.18 2024-01-06[232066.597721] pstate: 20400009 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)[232066.598034] pc : nfs4_reclaim_open_state+0x220/0x800 [nfsv4][232066.598327] lr : nfs4_reclaim_open_state+0x12c/0x800 [nfsv4][232066.598595] sp : ffff8000f568fc70[232066.598731] x29: ffff8000f568fc70 x28: 0000000000001000 x27: ffff21003db33000[232066.599030] x26: ffff800005521ae0 x25: ffff0100f98fa3f0 x24: 0000000000000001[232066.599319] x23: ffff800009920008 x22: ffff21003db33040 x21: ffff21003db33050[232066.599628] x20: ffff410172fe9e40 x19: ffff410172fe9e00 x18: 0000000000000000[232066.599914] x17: 0000000000000000 x16: 0000000000000004 x15: 0000000000000000[232066.600195] x14: 0000000000000000 x13: ffff800008e685a8 x12: 00000000eac0c6e6[232066.600498] x11: 00000000000000---truncated---|October 21, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50046
+CVE-2024-50047|In the Linux kernel, the following vulnerability has been resolved:smb: client: fix UAF in async decryptionDoing an async decryption (large read) crashes with aslab-use-after-free way down in the crypto API.Reproducer:    # mount.cifs -o ...,seal,esize=1 //srv/share /mnt    # dd if=/mnt/largefile of=/dev/null    ...    [  194.196391] ==================================================================    [  194.196844] BUG: KASAN: slab-use-after-free in gf128mul_4k_lle+0xc1/0x110    [  194.197269] Read of size 8 at addr ffff888112bd0448 by task kworker/u77:2/899    [  194.197707]    [  194.197818] CPU: 12 UID: 0 PID: 899 Comm: kworker/u77:2 Not tainted 6.11.0-lku-00028-gfca3ca14a17a-dirty #43    [  194.198400] Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS rel-1.16.2-3-gd478f380-prebuilt.qemu.org 04/01/2014    [  194.199046] Workqueue: smb3decryptd smb2_decrypt_offload [cifs]    [  194.200032] Call Trace:    [  194.200191]  <TASK>    [  194.200327]  dump_stack_lvl+0x4e/0x70    [  194.200558]  ? gf128mul_4k_lle+0xc1/0x110    [  194.200809]  print_report+0x174/0x505    [  194.201040]  ? __pfx__raw_spin_lock_irqsave+0x10/0x10    [  194.201352]  ? srso_return_thunk+0x5/0x5f    [  194.201604]  ? __virt_addr_valid+0xdf/0x1c0    [  194.201868]  ? gf128mul_4k_lle+0xc1/0x110    [  194.202128]  kasan_report+0xc8/0x150    [  194.202361]  ? gf128mul_4k_lle+0xc1/0x110    [  194.202616]  gf128mul_4k_lle+0xc1/0x110    [  194.202863]  ghash_update+0x184/0x210    [  194.203103]  shash_ahash_update+0x184/0x2a0    [  194.203377]  ? __pfx_shash_ahash_update+0x10/0x10    [  194.203651]  ? srso_return_thunk+0x5/0x5f    [  194.203877]  ? crypto_gcm_init_common+0x1ba/0x340    [  194.204142]  gcm_hash_assoc_remain_continue+0x10a/0x140    [  194.204434]  crypt_message+0xec1/0x10a0 [cifs]    [  194.206489]  ? __pfx_crypt_message+0x10/0x10 [cifs]    [  194.208507]  ? srso_return_thunk+0x5/0x5f    [  194.209205]  ? srso_return_thunk+0x5/0x5f    [  194.209925]  ? srso_return_thunk+0x5/0x5f    [  194.210443]  ? srso_return_thunk+0x5/0x5f    [  194.211037]  decrypt_raw_data+0x15f/0x250 [cifs]    [  194.212906]  ? __pfx_decrypt_raw_data+0x10/0x10 [cifs]    [  194.214670]  ? srso_return_thunk+0x5/0x5f    [  194.215193]  smb2_decrypt_offload+0x12a/0x6c0 [cifs]This is because TFM is being used in parallel.Fix this by allocating a new AEAD TFM for async decryption, but keepthe existing one for synchronous READ cases (similar to what is donein smb3_calc_signature()).Also remove the calls to aead_request_set_callback() andcrypto_wait_req() since it's always going to be a synchronous operation.|October 21, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50047
+CVE-2024-50048|"In the Linux kernel, the following vulnerability has been resolved:fbcon: Fix a NULL pointer dereference issue in fbcon_putcssyzbot has found a NULL pointer dereference bug in fbcon.Here is the simplified C reproducer:struct param {	uint8_t type;	struct tiocl_selection ts;};int main(){	struct fb_con2fbmap con2fb;	struct param param;	int fd = open(""/dev/fb1"", 0, 0);	con2fb.console = 0x19;	con2fb.framebuffer = 0;	ioctl(fd, FBIOPUT_CON2FBMAP, &con2fb);	param.type = 2;	param.ts.xs = 0; param.ts.ys = 0;	param.ts.xe = 0; param.ts.ye = 0;	param.ts.sel_mode = 0;	int fd1 = open(""/dev/tty1"", O_RDWR, 0);	ioctl(fd1, TIOCLINUX, &param);	con2fb.console = 1;	con2fb.framebuffer = 0;	ioctl(fd, FBIOPUT_CON2FBMAP, &con2fb);	return 0;}After calling ioctl(fd1, TIOCLINUX, &param), the subsequent ioctl(fd, FBIOPUT_CON2FBMAP, &con2fb)causes the kernel to follow a different execution path: set_con2fb_map  -> con2fb_init_display   -> fbcon_set_disp    -> redraw_screen     -> hide_cursor      -> clear_selection       -> highlight        -> invert_screen         -> do_update_region          -> fbcon_putcs           -> ops->putcsSince ops->putcs is a NULL pointer, this leads to a kernel panic.To prevent this, we need to call set_blitting_type() within set_con2fb_map()to properly initialize ops->putcs."|October 21, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50048
+CVE-2024-50049|In the Linux kernel, the following vulnerability has been resolved:drm/amd/display: Check null pointer before dereferencing se[WHAT & HOW]se is null checked previously in the same function, indicatingit might be null; therefore, it must be checked when used again.This fixes 1 FORWARD_NULL issue reported by Coverity.|October 21, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50049
+CVE-2024-50055|In the Linux kernel, the following vulnerability has been resolved:driver core: bus: Fix double free in driver API bus_register()For bus_register(), any error which happens after kset_register() willcause that @priv are freed twice, fixed by setting @priv with NULL afterthe first free.|October 21, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50055
+CVE-2024-50056|In the Linux kernel, the following vulnerability has been resolved:usb: gadget: uvc: Fix ERR_PTR dereference in uvc_v4l2.cFix potential dereferencing of ERR_PTR() in find_format_by_pix()and uvc_v4l2_enum_format().Fix the following smatch errors:drivers/usb/gadget/function/uvc_v4l2.c:124 find_format_by_pix()error: 'fmtdesc' dereferencing possible ERR_PTR()drivers/usb/gadget/function/uvc_v4l2.c:392 uvc_v4l2_enum_format()error: 'fmtdesc' dereferencing possible ERR_PTR()Also, fix similar issue in uvc_v4l2_try_format() for potentialdereferencing of ERR_PTR().|October 21, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50056
+CVE-2024-50057|In the Linux kernel, the following vulnerability has been resolved:usb: typec: tipd: Free IRQ only if it was requested beforeIn polling mode, if no IRQ was requested there is no need to free it.Call devm_free_irq() only if client->irq is set. This fixes the warningcaused by the tps6598x module removal:WARNING: CPU: 2 PID: 333 at kernel/irq/devres.c:144 devm_free_irq+0x80/0x8c......Call trace:  devm_free_irq+0x80/0x8c  tps6598x_remove+0x28/0x88 [tps6598x]  i2c_device_remove+0x2c/0x9c  device_remove+0x4c/0x80  device_release_driver_internal+0x1cc/0x228  driver_detach+0x50/0x98  bus_remove_driver+0x6c/0xbc  driver_unregister+0x30/0x60  i2c_del_driver+0x54/0x64  tps6598x_i2c_driver_exit+0x18/0xc3c [tps6598x]  __arm64_sys_delete_module+0x184/0x264  invoke_syscall+0x48/0x110  el0_svc_common.constprop.0+0xc8/0xe8  do_el0_svc+0x20/0x2c  el0_svc+0x28/0x98  el0t_64_sync_handler+0x13c/0x158  el0t_64_sync+0x190/0x194|October 21, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50057
+CVE-2024-50058|"In the Linux kernel, the following vulnerability has been resolved:serial: protect uart_port_dtr_rts() in uart_shutdown() tooCommit af224ca2df29 (serial: core: Prevent unsafe uart port access, part3) added few uport == NULL checks. It added one to uart_shutdown(), sothe commit assumes, uport can be NULL in there. But right after thatprotection, there is an unprotected ""uart_port_dtr_rts(uport, false);""call. That is invoked only if HUPCL is set, so I assume that is thereason why we do not see lots of these reports.Or it cannot be NULL at this point at all for some reason :P.Until the above is investigated, stay on the safe side and move thisdereference to the if too.I got this inconsistency from Coverity under CID 1585130. Thanks."|October 21, 2024; 4:15:17 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50058
+CVE-2024-50059|"In the Linux kernel, the following vulnerability has been resolved:ntb: ntb_hw_switchtec: Fix use after free vulnerability in switchtec_ntb_remove due to race conditionIn the switchtec_ntb_add function, it can call switchtec_ntb_init_sndevfunction, then &sndev->check_link_status_work is bound withcheck_link_status_work. switchtec_ntb_link_notification may be calledto start the work.If we remove the module which will call switchtec_ntb_remove to makecleanup, it will free sndev through kfree(sndev), while the workmentioned above will be used. The sequence of operations that may leadto a UAF bug is as follows:CPU0                                 CPU1                        | check_link_status_workswitchtec_ntb_remove    |kfree(sndev);           |                        | if (sndev->link_force_down)                        | // use sndevFix it by ensuring that the work is canceled before proceeding withthe cleanup in switchtec_ntb_remove."|October 21, 2024; 4:15:18 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50059
 CVE-2024-5006|The Boostify Header Footer Builder for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘size’ parameter in all versions up to, and including, 1.3.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|June 05, 2024; 4:15:09 AM -0400|"V4.0:(not available)
 
 
@@ -99207,6 +99819,60 @@ V3.1:
 
 
 V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-5006&vector=AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N&version=3.1&source=Wordfence)"|https://nvd.nist.gov/vuln/detail/CVE-2024-5006
+CVE-2024-50060|In the Linux kernel, the following vulnerability has been resolved:io_uring: check if we need to reschedule during overflow flushIn terms of normal application usage, this list will always be empty.And if an application does overflow a bit, it'll have a few entries.However, nothing obviously prevents syzbot from running a test casethat generates a ton of overflow entries, and then flushing them cantake quite a while.Check for needing to reschedule while flushing, and drop our locks anddo so if necessary. There's no state to maintain here as overflowsalways prune from head-of-list, hence it's fine to drop and reacquirethe locks at the end of the loop.|October 21, 2024; 4:15:18 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50060
+CVE-2024-50061|"In the Linux kernel, the following vulnerability has been resolved:i3c: master: cdns: Fix use after free vulnerability in cdns_i3c_master Driver Due to Race ConditionIn the cdns_i3c_master_probe function, &master->hj_work is bound withcdns_i3c_master_hj. And cdns_i3c_master_interrupt can callcnds_i3c_master_demux_ibis function to start the work.If we remove the module which will call cdns_i3c_master_remove tomake cleanup, it will free master->base through i3c_master_unregisterwhile the work mentioned above will be used. The sequence of operationsthat may lead to a UAF bug is as follows:CPU0                                      CPU1                                     | cdns_i3c_master_hjcdns_i3c_master_remove               |i3c_master_unregister(&master->base) |device_unregister(&master->dev)      |device_release                       |//free master->base                  |                                     | i3c_master_do_daa(&master->base)                                     | //use master->baseFix it by ensuring that the work is canceled before proceeding withthe cleanup in cdns_i3c_master_remove."|October 21, 2024; 4:15:18 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50061
+CVE-2024-50062|In the Linux kernel, the following vulnerability has been resolved:RDMA/rtrs-srv: Avoid null pointer deref during path establishmentFor RTRS path establishment, RTRS client initiates and completes con_numof connections. After establishing all its connections, the informationis exchanged between the client and server through the info_req message.During this exchange, it is essential that all connections have beenestablished, and the state of the RTRS srv path is CONNECTED.So add these sanity checks, to make sure we detect and abort process inerror scenarios to avoid null pointer deref.|October 21, 2024; 4:15:18 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50062
+CVE-2024-50063|In the Linux kernel, the following vulnerability has been resolved:bpf: Prevent tail call between progs attached to different hooksbpf progs can be attached to kernel functions, and the attached functionscan take different parameters or return different return values. Ifprog attached to one kernel function tail calls prog attached to anotherkernel function, the ctx access or return value verification could bebypassed.For example, if prog1 is attached to func1 which takes only 1 parameterand prog2 is attached to func2 which takes two parameters. Since verifierassumes the bpf ctx passed to prog2 is constructed based on func2'sprototype, verifier allows prog2 to access the second parameter fromthe bpf ctx passed to it. The problem is that verifier does not preventprog1 from passing its bpf ctx to prog2 via tail call. In this case,the bpf ctx passed to prog2 is constructed from func1 instead of func2,that is, the assumption for ctx access verification is bypassed.Another example, if BPF LSM prog1 is attached to hook file_alloc_security,and BPF LSM prog2 is attached to hook bpf_lsm_audit_rule_known. Verifierknows the return value rules for these two hooks, e.g. it is legal forbpf_lsm_audit_rule_known to return positive number 1, and it is illegalfor file_alloc_security to return positive number. So verifier allowsprog2 to return positive number 1, but does not allow prog1 to returnpositive number. The problem is that verifier does not prevent prog1from calling prog2 via tail call. In this case, prog2's return value 1will be used as the return value for prog1's hook file_alloc_security.That is, the return value rule is bypassed.This patch adds restriction for tail call to prevent such bypasses.|October 21, 2024; 4:15:18 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50063
+CVE-2024-50064|In the Linux kernel, the following vulnerability has been resolved:zram: free secondary algorithms namesWe need to kfree() secondary algorithms names when reset zram device thathad multi-streams, otherwise we leak memory.[senozhatsky@chromium.org: kfree(NULL) is legal]  Link: https://lkml.kernel.org/r/20240917013021.868769-1-senozhatsky@chromium.org|October 21, 2024; 4:15:18 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50064
+CVE-2024-50065|"In the Linux kernel, the following vulnerability has been resolved:ntfs3: Change to non-blocking allocation in ntfs_d_hashd_hash is done while under ""rcu-walk"" and should not sleep.__get_name() allocates using GFP_KERNEL, having the possibilityto sleep when under memory pressure. Change the allocation toGFP_NOWAIT."|October 21, 2024; 4:15:18 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-50065
 CVE-2024-5008|In WhatsUp Gold versions released before 2023.1.3, an authenticated user with certain permissions can upload an arbitrary file and obtain RCE using Apm.UI.Areas.APM.Controllers.Api.Applications.AppProfileImportController.|June 25, 2024; 4:15:13 PM -0400|"V4.0:(not available)
 
 
@@ -122643,6 +123309,15 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-8900
+CVE-2024-8901|The  AWS ALB Route Directive Adapter For Istio repo https://github.com/awslabs/aws-alb-route-directive-adapter-for-istio/tree/master  provides an OIDC authentication mechanism that was integrated into the open source Kubeflow project. The adapter uses JWT for authentication, but lacks proper signer and issuer validation. In uncommon deployments of ALB, wherein endpoints are exposed to internet traffic, an actor can provide a JWT signed by an untrusted entity in order to spoof OIDC-federated sessions and successfully bypass authentication.|October 21, 2024; 8:15:03 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2024-8901
 CVE-2024-8902|The Elementor Addon Elements plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.13.8 via the render_column function in modules/data-table/widgets/data-table.php. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract sensitive private, pending, and draft template data.|October 12, 2024; 6:15:03 AM -0400|"V4.0:(not available)
 
 
