@@ -42785,6 +42785,24 @@ V3.x:(not available)
 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-52916
+CVE-2023-52918|In the Linux kernel, the following vulnerability has been resolved:media: pci: cx23885: check cx23885_vdev_init() returncx23885_vdev_init() can return a NULL pointer, but that pointeris used in the next line without a check.Add a NULL pointer check and go to the error unwind if it is NULL.|October 22, 2024; 4:15:02 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-52918
+CVE-2023-52919|In the Linux kernel, the following vulnerability has been resolved:nfc: nci: fix possible NULL pointer dereference in send_acknowledge()Handle memory allocation failure from nci_skb_alloc() (callingalloc_skb()) to avoid possible NULL pointer dereference.|October 22, 2024; 4:15:02 AM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-52919
 CVE-2023-5292|The Advanced Custom Fields: Extended plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'acfe_form' shortcode in versions up to, and including, 0.8.9.3 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.|October 20, 2023; 4:15:13 AM -0400|V3.1: 5.4 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-5292&vector=AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-5292
 CVE-2023-5293|A vulnerability, which was classified as critical, was found in ECshop 4.1.5. Affected is an unknown function of the file /admin/leancloud.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-240924.|September 29, 2023; 5:15:10 PM -0400|V3.1: 6.5 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-5293&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-5293
 CVE-2023-5294|A vulnerability has been found in ECshop 4.1.1 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /admin/order.php. The manipulation of the argument goods_id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-240925 was assigned to this vulnerability.|September 29, 2023; 6:15:12 PM -0400|V3.1: 8.8 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-5294&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-5294

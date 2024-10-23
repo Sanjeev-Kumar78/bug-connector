@@ -5756,6 +5756,24 @@ CVE-2022-23856|An issue was discovered in Saviynt Enterprise Identity Cloud (EIC
 CVE-2022-23857|model/criteria/criteria.go in Navidrome before 0.47.5 is vulnerable to SQL injection attacks when processing crafted Smart Playlists. An authenticated user could abuse this to extract arbitrary data from the database, including the user table (which contains sensitive information such as the users' encrypted passwords).|January 23, 2022; 9:15:06 PM -0500|V3.1: 6.5 MEDIUM      V2.0: 4.0 MEDIUM (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-23857&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2022-23857
 CVE-2022-23858|A flaw was found in the REST API. An improperly handled REST API call could allow any logged user to elevate privileges up to the system account. This affects StarWind Command Center build 6003 v2.|January 23, 2022; 10:15:09 PM -0500|V3.1: 8.8 HIGH      V2.0: 9.0 HIGH (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-23858&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2022-23858
 CVE-2022-2386|The Crowdsignal Dashboard WordPress plugin before 3.0.8 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting|August 08, 2022; 10:15:09 AM -0400|V3.1: 6.1 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-2386&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2022-2386
+CVE-2022-23861|Multiple Stored Cross-Site Scripting vulnerabilities were discovered in Y Soft SAFEQ 6 Build 53. Multiple fields in the YSoft SafeQ web application can be used to inject malicious inputs that, due to a lack of output sanitization, result in the execution of arbitrary JS code. These fields can be leveraged to perform XSS attacks on legitimate users accessing the SafeQ web interface.|October 22, 2024; 12:15:04 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-23861
+CVE-2022-23862|"A Local Privilege Escalation issue was discovered in Y Soft SAFEQ 6 Build 53. The SafeQ JMX service running on port 9696 is vulnerable to JMX MLet attacks. Because the service did not enforce authentication and was running under the ""NT Authority\System"" user, an attacker is able to use the vulnerability to execute arbitrary code and elevate to the system user."|October 22, 2024; 12:15:05 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2022-23862
 CVE-2022-23863|Zoho ManageEngine Desktop Central before 10.1.2137.10 allows an authenticated user to change any user's login password.|January 28, 2022; 11:15:08 AM -0500|V3.1: 6.5 MEDIUM      V2.0: 4.0 MEDIUM (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-23863&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2022-23863
 CVE-2022-23865|"Nyron 1.0 is affected by a SQL injection vulnerability through Nyron/Library/Catalog/winlibsrch.aspx. To exploit this vulnerability, an attacker must inject '""> on the thes1 parameter."|April 15, 2022; 12:15:07 PM -0400|V3.1: 9.8 CRITICAL      V2.0: 7.5 HIGH (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-23865&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2022-23865
 CVE-2022-23868|RuoYi v4.7.2 contains a CSV injection vulnerability through ruoyi-admin when a victim opens .xlsx log file.|March 30, 2022; 7:15:07 AM -0400|V3.1: 7.8 HIGH      V2.0: 6.8 MEDIUM (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-23868&vector=AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2022-23868
