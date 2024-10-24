@@ -34946,6 +34946,17 @@ CVE-2023-50305|IBM Engineering Requirements Management DOORS 9.7.2.7 does not re
 CVE-2023-50306|IBM Common Licensing 9.0 could allow a local user to enumerate usernames due to an observable response discrepancy.  IBM X-Force ID:  273337.|February 20, 2024; 9:15:08 AM -0500|V3.x:(not available) V2.0:(not available)  (None)|https://nvd.nist.gov/vuln/detail/CVE-2023-50306
 CVE-2023-50308|IBM Db2 for Linux, UNIX and Windows (includes DB2 Connect Server) 11.5 under certain circumstances could allow an authenticated user to the database to cause a denial of service when a statement is run on columnar tables.  IBM X-Force ID:  273393.|January 22, 2024; 2:15:09 PM -0500|V3.1: 6.5 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-50308&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-50308
 CVE-2023-5031|A vulnerability was found in OpenRapid RapidCMS 1.3.1. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /admin/article/article-add.php. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-239875.|September 17, 2023; 10:15:51 PM -0400|V3.1: 6.5 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-5031&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-5031
+CVE-2023-50310|IBM CICS Transaction Gateway for Multiplatforms 9.2 and 9.3 transmits or stores authentication credentials, but it uses an insecure method that is susceptible to unauthorized interception and/or retrieval.|October 23, 2024; 7:15:12 AM -0400|"V4.0:(not available)
+
+
+
+V3.1:
+4.9 MEDIUM
+
+
+
+
+V2.0:(not available) (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-50310&vector=AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N&version=3.1&source=IBM%20Corporation)"|https://nvd.nist.gov/vuln/detail/CVE-2023-50310
 CVE-2023-50311|IBM CICS Transaction Gateway for Multiplatforms 9.2 and 9.3 transmits or stores authentication credentials, but it uses an insecure method that is susceptible to unauthorized interception and/or retrieval.  IBM X-Force ID:  273612.|March 31, 2024; 8:15:49 AM -0400|"V3.x:(not available) 
 
 V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-50311
@@ -35003,6 +35014,15 @@ CVE-2023-50349|Sametime is impacted by a Cross Site Request Forgery (CSRF) vulne
 CVE-2023-5035|A vulnerability has been identified in PT-G503 Series firmware versions prior to v5.2, where the Secure attribute for sensitive cookies in HTTPS sessions is not set, which could cause the cookie to be transmitted in plaintext over an HTTP session. The vulnerability may lead to security risks, potentially exposing user session data to unauthorized access and manipulation.|November 02, 2023; 1:15:11 PM -0400|V3.1: 5.3 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-5035&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-5035
 CVE-2023-50350|HCL DRYiCE MyXalytics is impacted by the use of a broken cryptographic algorithm for encryption, potentially giving an attacker ability to decrypt sensitive information. |January 02, 2024; 9:15:44 PM -0500|V3.1: 7.5 HIGHV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-50350&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-50350
 CVE-2023-50351|HCL DRYiCE MyXalytics is impacted by the use of an insecure key rotation mechanism which can allow an attacker to compromise the confidentiality or integrity of data.|January 02, 2024; 9:15:44 PM -0500|V3.1: 9.1 CRITICALV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-50351&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N&version=3.1&source=NIST)|https://nvd.nist.gov/vuln/detail/CVE-2023-50351
+CVE-2023-50355|HCL Sametime is impacted by the error messages containing sensitive information.  An attacker can use this information to launch another, more focused attack.|October 23, 2024; 7:15:12 PM -0400|"V4.0:(not available)
+
+
+
+V3.x:(not available)
+
+
+
+V2.0:(not available) (None)"|https://nvd.nist.gov/vuln/detail/CVE-2023-50355
 CVE-2023-50356|SSL connections to some LDAP servers are vulnerable to a man-in-the-middle attack due to improper certificate validation in AREAL Topkapi Vision (Server). This allows a remote unauthenticated attacker to gather sensitive information and prevent valid users from login.|January 31, 2024; 6:15:07 AM -0500|V3.1: 6.5 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-50356&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:L&version=3.1&source=CERT%20VDE)|https://nvd.nist.gov/vuln/detail/CVE-2023-50356
 CVE-2023-50357|A cross site scripting vulnerability in the AREAL SAS Websrv1 ASP website allows a remote low-privileged attacker to gain escalated privileges of other non-admin users.|January 31, 2024; 6:15:08 AM -0500|V3.1: 5.4 MEDIUMV2.0:(not available)  (https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-50357&vector=AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=CERT%20VDE)|https://nvd.nist.gov/vuln/detail/CVE-2023-50357
 CVE-2023-50358|"An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute commands via a network.
